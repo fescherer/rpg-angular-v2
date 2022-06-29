@@ -10,9 +10,6 @@ export class AppComponent {
 
   changeTheme(): void {
     let theme = document.documentElement.getAttribute('data-theme');
-    document.documentElement.setAttribute(
-      'data-theme',
-      theme === 'dark' ? 'light' : 'dark'
-    );
+    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'light' : 'dark');
   }
 }
