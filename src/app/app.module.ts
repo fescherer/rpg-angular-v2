@@ -10,12 +10,4 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-  changeTheme(): void {
-    let theme = document.documentElement.getAttribute('data-theme');
-    document.documentElement.setAttribute(
-      'data-theme',
-      theme === 'dark' ? 'light' : 'dark'
-    );
-  }
-}
+export class AppModule {}
