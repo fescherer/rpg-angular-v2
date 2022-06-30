@@ -5,9 +5,13 @@ import { HeaderComponent } from './header/header.component';
 import { PlayerTraitsComponent } from './player-traits/player-traits.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+const comps = [FooterComponent, HeaderComponent, PlayerTraitsComponent];
+
+const notExported = [];
+
 @NgModule({
-  declarations: [FooterComponent, HeaderComponent, PlayerTraitsComponent],
+  declarations: [...comps],
   imports: [CommonModule],
-  exports: [FooterComponent, HeaderComponent, FormsModule, ReactiveFormsModule, PlayerTraitsComponent],
+  exports: [...comps],
 })
 export class ComponentsModule {}
