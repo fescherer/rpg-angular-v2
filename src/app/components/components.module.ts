@@ -11,7 +11,7 @@ const notExported = [];
 
 @NgModule({
   declarations: [...comps],
-  imports: [CommonModule],
+  imports: [CommonModule, ReactiveFormsModule, FormsModule],
   exports: [...comps],
 })
 export class ComponentsModule {}
