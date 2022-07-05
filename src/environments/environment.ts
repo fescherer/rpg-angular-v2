@@ -4,6 +4,14 @@
 
 export const environment = {
   production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyCJyMAtIBsRQApkzw61JaVnoz8u2tijAn0',
+    authDomain: 'rpg-2-53227.firebaseapp.com',
+    projectId: 'rpg-2-53227',
+    storageBucket: 'rpg-2-53227.appspot.com',
+    messagingSenderId: '393611842949',
+    appId: '1:393611842949:web:db420042ce542e190360ec',
+  },
 };
 
 /*
