@@ -40,3 +40,17 @@
     outline: 1px solid red;
   }
 }
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 0.25rem;
+  border-radius: 50%;
+  span {
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+  }
+}
