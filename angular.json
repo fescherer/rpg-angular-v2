@@ -109,6 +109,16 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "rpg-angular-v2:build:production",
+            "firebaseProject": "rpg-2-53227",
+            "firebaseHostingSite": "rpg-2-53227"
+          }
         }
       }
     }

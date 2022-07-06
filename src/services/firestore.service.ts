@@ -1,15 +1,13 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from 'angular/fire/firestore';
-import { pageInterface } from '../interfaces/pageInterface';
 import { rejects } from 'assert';
-import { SnackBarService } from './snack-bar.service';
-import { map } from 'rxjs/operators';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FirestoreService {
-  constructor(private angularFire: AngularFirestore, private snackBar: SnackBarService) {}
+  constructor(private angularFire: AngularFirestore, private toastr: ToastrService) {}
 
   createCharacterSheet(data: pageInterface) {
     return new Promise<pageInterface>((resolve, reject) => {
@@ -19,11 +17,11 @@ export class FirestoreService {
         .set(data)
         .then(
           (res) => {
-            this.snackBar.showSuccessSnackBar('Ficha criada');
+            this.toastr.success('Ficha criada', 'Parabéns!');
           },
           (err) => {
             rejects(err);
-            this.snackBar.showErrorSnackBar('Erro na criação da ficha');
+            this.toastr.success('Erro na criação da ficha', 'Algo deu errado!');
           },
         );
     });
@@ -36,18 +34,18 @@ export class FirestoreService {
       .update(page)
       .then(
         (res) => {
-          this.snackBar.showSuccessSnackBar('A ficha foi atualizada');
+          this.toastr.success('Ficha atualizada', 'Parabéns!');
         },
         (err) => {
           rejects(err);
-          this.snackBar.showErrorSnackBar('A ficha não foi atualizada');
+          this.toastr.success('Erro na atualização da ficha', 'Algo deu errado!');
         },
       );
   }
 
   deleteCharacterSheet(data: pageInterface) {
     this.angularFire.doc(`page/${data.id}`).delete();
-    this.snackBar.showSuccessSnackBar('Tchau ficha');
+    this.toastr.success('Até a próxima', 'Tchau ficha!');
   }
 
   getCharacterSheetList(page?: pageInterface) {

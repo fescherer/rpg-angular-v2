@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rpg-2-53227": {
+      "hosting": {
+        "rpg-angular-v2": [
+          "rpg-2-53227"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rpg-2-53227"
+  }
+}
