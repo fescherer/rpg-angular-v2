@@ -4,7 +4,7 @@
 
 Falta de estabilidade - Pessoa fica meio biruta, e não tem mais mana
 
-
+```
 FOR - (luta- armas e ataques corpo a corpo | fazer ações que demandem a força do personagem)
 DES - (ranged- armas de fogo | iniciativa | )
 INT - (sabedoria | lembrar de algo)
@@ -13,8 +13,8 @@ POD - (anjo | perder ou ganhar estabilidade)
 PER - (perceber algo)
 MED - (cura)
 OUTROS - ()
-
-
+```
+```
 attr: [
   {
     id: 1,
@@ -58,7 +58,7 @@ angel: [
   }
 
 ]
-
+```
 
 
 # Regras:
@@ -72,13 +72,13 @@ Combate:
   Porém só irá funcionar se o valor tirado for maior que o valor do atacante
 
   Contra ataque: 
-    Critíco: Não toma dano;
+    Critíco: Não toma dano e pode dar ataque;
     Sucesso: Toma dano normal mas pode dar um ataque;
     Falha: Toma o dano normal + 1/3;
     
   Esquiva:
-    Critíco: Não toma dano;
-    Sucesso: Toma metade do dano;
+    Critíco: Não toma dano +3parry;
+    Sucesso: Não toma dano;
     Falha: Toma dano normal;
     
   Ataque grave = Ataque que tira mais da metade da vida máxima;
@@ -127,8 +127,14 @@ Combate:
     
     
  ### Ideia: Pontos de parry: a cada tipo de ação (defesa, esquiva e contra ataque) modificam seus pontos de parry
- - Os pontos de parry são resetados todo novo combate;
- - Defesa faz ganhar +3 pontos de parry (Mas precisa ser feita antes do atacante atacar e deve ser gasto a ação do jogador);
+ Pontos de parry (D12) Max 12
+ Monstros sempre começam com um certo nível de parry;
+ Para o jogador conseguir fazer a ação de parry é necessário que ele jogue um D12 e ganhe do nível de parry do monstro (Monstros com mais vida têm menos parry, monstros mais rápidos têm menos parry);
+ 
+ 
+ 
+ - Os pontos de parry são resetados todo novo combate, porém dependendo do equipamento, o jogador pode mudar isso;
+ - Defesa faz ganhar +1 pontos de parry e mais defesa (Mas precisa ser feita antes do atacante atacar e deve ser gasto a ação do jogador);
  - Esquiva (Não gasta ponto de parry):
     Sucesso: Esquiva do ataque e + 1 ponto de parry;
     Extremo: Esquiva do ataque e ganha +3 pontos de parry; 
