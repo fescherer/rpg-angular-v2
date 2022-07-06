@@ -30,6 +30,7 @@ attr: [
 
 player: {
   name: string,
+  defencePoints: number,
   currentLife: number,
   totalLife: number,
   currentStability: number,
@@ -59,6 +60,83 @@ angel: [
 ]
 
 
+
+# Regras:
+Combate:
+  O combate é feito em turnos que devem durar entre 6 a 10 segundos dentro da história;
+  Durante o turno o jogador tem a possibilidade de: 
+    Uma ação de movimento(Se deslocar proporcionalmente a situação e ao tempo do turno);
+    Uma ação principal, podendo ser ataque ou não
+    
+  Ao receber um ataque, o jogador tem a possibilidade de esquivar ou contra-atacar
+  Porém só irá funcionar se o valor tirado for maior que o valor do atacante
+
+  Contra ataque: 
+    Critíco: Não toma dano;
+    Sucesso: Toma dano normal mas pode dar um ataque;
+    Falha: Toma o dano normal + 1/3;
+    
+  Esquiva:
+    Critíco: Não toma dano;
+    Sucesso: Toma metade do dano;
+    Falha: Toma dano normal;
+    
+  Ataque grave = Ataque que tira mais da metade da vida máxima;
+  Ao estar com ataque grave deve ser feito um teste de constituição;
+  a cada rodada até tirar critíco e acordar (com mínimo de 2 rodadas desacordado);
+  
+  Broken(Vida zerada ou até -3): Ao estar com esse efeito, o jogador deve ser tratado fora de combate;
+  A cada rodada ele deve fazer um teste de Poder para ver se continua vivo;
+  
+  
+  Testes a serem feitos: 
+    Iniciativa: Dado D12 + modificador;
+    Armas corpo a corpo: Teste de Força;
+    Armas à distância: Teste de Destreza;
+    Esquiva: Teste de Atletismo;
+    Contra Ataque: Teste de Bravura;
+    
+  Tudo arredonda para baixo;
+  CADA TURNO = 3 SEGUNDOS;
+  Teste de compra: carisma;
+  Medicina: Primeira hora +5 de vida + d4. Para cada hora a mais gasta no tratamento +3;
+  
+  Distâncias:
+    MUITO CURTO: 0 - 1 metro;
+    CURTO: 1 - 5 metros;
+    MÉDIO: 5 - 10 metros;
+    LONGO: 10 - 30 metros;
+    MUITO LONGO: 30 - 60 metros;
+    
+ Dados para teste: dois D10, sendo um a dezena);
+ Teste normal -> Jogador precisa tirar menos que seu o valor máximo;
+ Teste dificil -> Jogador precisa tirar menos que o valor da terça parte;
+ Desastre -> tirar 100, 99, 98, 97, 96, 95;
+ Extremo -> tirar 1, 2, 3, 4, 5;
+ 
+ 
+ Forçar um teste: Pode jogar de novo, mas se errar, vai ter consequência maior;
+ Vantagem: Jogador pode jogar novamente o dado de porcentagem e pegar o melhor valor;
+ Desvantagem: Jogador precisa jogar novamente o dado de porcentagem e pegar o pior valor;
+ 
+ 
+ Sangrando: Você foi cortado ou machucado por algo. Será perdido 1 de vida a cada rodada até ser tratado;
+ Assustado: Você viu algo que não devia. Seu psicológico e sentidos estão afetados. Seu poder é dividido na metade;
+ Desmaiado: Você está desacordado. Não há ações disponíveis até que passe em um teste de constituição;
+ Morrendo: Você precisa fazer um teste de constituição a cada rodada até ser curado;
+    
+    
+ ### Ideia: Pontos de parry: a cada tipo de ação (defesa, esquiva e contra ataque) modificam seus pontos de parry
+ - Os pontos de parry são resetados todo novo combate;
+ - Defesa faz ganhar +3 pontos de parry (Mas precisa ser feita antes do atacante atacar e deve ser gasto a ação do jogador);
+ - Esquiva (Não gasta ponto de parry):
+    Sucesso: Esquiva do ataque e + 1 ponto de parry;
+    Extremo: Esquiva do ataque e ganha +3 pontos de parry; 
+    Falha: Toma o dano normal;
+ - Contra ataque (Para cada ponto de parry gasto +chance de contra atacar);
+    Sucesso: Toma o dano mas consegue atacar
+    Extremo: Não toma dano e consegue atacar
+    Falha: Toma o dano normal;
 
 # RpgAngularV2
 
