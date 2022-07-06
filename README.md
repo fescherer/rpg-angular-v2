@@ -2,6 +2,64 @@
     ng build --output-path docs --base-href=https://ofelipescherer.github.io/rpg-angular-v2/    
 
 
+Falta de estabilidade - Pessoa fica meio biruta, e não tem mais mana
+
+
+FOR - (luta- armas e ataques corpo a corpo | fazer ações que demandem a força do personagem)
+DES - (ranged- armas de fogo | iniciativa | )
+INT - (sabedoria | lembrar de algo)
+CON - (teste de defesa | aguentar )
+POD - (anjo | perder ou ganhar estabilidade)
+PER - (perceber algo)
+MED - (cura)
+OUTROS - ()
+
+
+attr: [
+  {
+    id: 1,
+    name: 'Força',
+    totalValue: 89,
+  },
+  {
+    id: 2,
+    name: 'Destreza',
+    totalValue: 76,
+  },
+]
+
+player: {
+  name: string,
+  currentLife: number,
+  totalLife: number,
+  currentStability: number,
+  totalStability: number,
+  faLevel: 'A' | 'B' | 'C' | 'D',
+  
+}
+
+angel: [
+  {
+    id: 1,
+    name: 'Azazel',
+    title: 'Angel of War',
+    description: 'a description of',
+    poem: 'the poem',
+    image: '',
+    
+    powers: [
+      {
+        title: string,
+        cost: string,
+        description: string
+      }
+    ]
+  }
+
+]
+
+
+
 # RpgAngularV2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
