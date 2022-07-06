@@ -36,6 +36,7 @@ player: {
   currentStability: number,
   totalStability: number,
   faLevel: 'A' | 'B' | 'C' | 'D',
+  origin: string (ProtoCity Districts) + rest of the empires
   
 }
 
@@ -60,6 +61,29 @@ angel: [
 ]
 ```
 
+Ideia de boss: Um boss que é bom falhar (Segunda temporada), vai ser relacionado com o poder- anjo que controla outros anjos sei la;
+
+Ideia de boss: Lindsey (Boss em que os jogadores precisam fazer ela se lembrar de quem é);
+
+Ideia de boss: Um boss baseado na defesa, ou seja, os jogadores precisam ficar atacando ele toda hora;
+Ideia de boss: Um boss baseado em não atacar ele, para ganhar, os jogadores precisam deixar de atacar por 4 turnos;
+
+Ideia de boss: Um boss que inverte os atributos aleatoriamente
+
+Ideia de boss: Um boss que é impossivel de matar, então eles precisam ir stealth, ai criar uma mecanica para isso
+
+
+Mecânicas Resumo: --Vantagens/Desvantagens/Forçar; --Efeitos(Morrendo/Ataque Grave); --Parry/Esquiva/Contra-ataque; --Defesa?; --Medicina
+
+
+# Itens:
+
+ - Amuletos de pedras peciosas (Ver o pinterest); Cada amuleto vai dar um bonus (Ex. Colares, anéis, pulseiras, braceletes)(Pode dar mais parry, mais defesa, mais dano, chances de dar vantagens, changes de gastar menos estabilidade, iniciativa melhor, bonus de atributo (Até fora de combate));
+ - Kit de primeiro socorros: Da vantagem no teste de medicina;
+ - Betabloqueadores (Reduz a chance de perder estabilidade durante a sessão);
+ - Spark -> Efeito exclusivo para cada jogador; mas em geral vai aumentar vida ou estabilidade;
+ 
+
 
 # Regras:
 Combate:
@@ -81,12 +105,7 @@ Combate:
     Sucesso: Não toma dano;
     Falha: Toma dano normal;
     
-  Ataque grave = Ataque que tira mais da metade da vida máxima;
-  Ao estar com ataque grave deve ser feito um teste de constituição;
-  a cada rodada até tirar critíco e acordar (com mínimo de 2 rodadas desacordado);
-  
-  Broken(Vida zerada ou até -3): Ao estar com esse efeito, o jogador deve ser tratado fora de combate;
-  A cada rodada ele deve fazer um teste de Poder para ver se continua vivo;
+
   
   
   Testes a serem feitos: 
@@ -122,17 +141,23 @@ Combate:
  
  Sangrando: Você foi cortado ou machucado por algo. Será perdido 1 de vida a cada rodada até ser tratado;
  Assustado: Você viu algo que não devia. Seu psicológico e sentidos estão afetados. Seu poder é dividido na metade;
+ 
+ Efeitos (colocar do lado da vida, ou mudar a cor da barra de vida):
  Desmaiado: Você está desacordado. Não há ações disponíveis até que passe em um teste de constituição;
  Morrendo: Você precisa fazer um teste de constituição a cada rodada até ser curado;
+   Ataque grave = Ataque que tira mais da metade da vida máxima;
+  Ao estar com ataque grave deve ser feito um teste de constituição;
+  a cada rodada até tirar critíco e acordar (com mínimo de 2 rodadas desacordado);
+  
+  Broken(Vida zerada ou até -3): Ao estar com esse efeito, o jogador deve ser tratado fora de combate;
+  A cada rodada ele deve fazer um teste de Poder para ver se continua vivo;
     
     
  ### Ideia: Pontos de parry: a cada tipo de ação (defesa, esquiva e contra ataque) modificam seus pontos de parry
  Pontos de parry (D12) Max 12
  Monstros sempre começam com um certo nível de parry;
  Para o jogador conseguir fazer a ação de parry é necessário que ele jogue um D12 e ganhe do nível de parry do monstro (Monstros com mais vida têm menos parry, monstros mais rápidos têm menos parry);
- 
- 
- 
+  
  - Os pontos de parry são resetados todo novo combate, porém dependendo do equipamento, o jogador pode mudar isso;
  - Defesa faz ganhar +1 pontos de parry e mais defesa (Mas precisa ser feita antes do atacante atacar e deve ser gasto a ação do jogador);
  - Esquiva (Não gasta ponto de parry):
@@ -143,6 +168,11 @@ Combate:
     Sucesso: Toma o dano mas consegue atacar
     Extremo: Não toma dano e consegue atacar
     Falha: Toma o dano normal;
+    
+    
+ ### Ideia: Concentração: Tipo mira, mas para tudo
+ Concentração seria em combate, gastar um turno de ação para ganhar parry
+
 
 # RpgAngularV2
 
