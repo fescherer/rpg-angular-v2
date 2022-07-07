@@ -1,6 +1,15 @@
 # BUILD  
     ng build --output-path docs --base-href=https://ofelipescherer.github.io/rpg-angular-v2/    
 
+Armas:
+
+| Class  | Type  | Damage |  Aimed | Special |
+| :---: | :---: | :---:| :---: | :--: |
+| C | Corpo a corpo lento | 8 + D4 | +3 de dano | Ganha vantagem de teste de acerto (Teste de força) |
+| C | Corpo a corpo rápido | 2D4 + 3D2 | +3 de dano | Ganha vantagem de teste de acerto (Teste de força) |
+| C | Pistola | 2 + 1D12 | Aumenta o threshold em 2 | Tirar Baixo + 6 |
+| C | Feature | 1D12 | Debuff de baixo some e fica só o alto | Tirar Alto + 6, baixo 0 |
+| C | Feature | 6D2 | Metade dos dados é sempre 2 | Sem threshold |
 
 Falta de estabilidade - Pessoa fica meio biruta, e não tem mais mana
 
@@ -37,6 +46,7 @@ player: {
   totalStability: number,
   faLevel: 'A' | 'B' | 'C' | 'D',
   origin: string (ProtoCity Districts) + rest of the empires
+  sparkEffect: string,
   
 }
 
@@ -72,6 +82,31 @@ Ideia de boss: Um boss que inverte os atributos aleatoriamente
 
 Ideia de boss: Um boss que é impossivel de matar, então eles precisam ir stealth, ai criar uma mecanica para isso
 
+Ideia de boss: Varios simbolos pelo chão, os jogadores devem ir e ativar cada simbolo, e a cada um ativado, o boss fica mais fraco;
+
+Ideia de boss: Espelhos, o boss se movimenta pelos espelhos e os jogadores devem quebrar todos eles para poder enfrentar o boss;
+Ideia de boss: Dois gemeos grudados pelas costas, onde apenas um deles é dominante e pode atacar (Usar moedas para ver quem ataca), então os players não vão saber de onde vem o ataque
+
+Ideia de boss: Um boss que toma mais dano de players que estão em fogo ou algo do tipo, colcoar uma dica no inicio da sala para os players terem uma ideia do que fazer;
+
+Ideia de boss: Sand shark do terraria - aparece em qualquer lugar da sala - pode até ser um anjo;
+Ideia de boss: Boss que teria que ser atacado de diversas formas, não podendo ser atacado da mesma forma, assim, os players deveriam usar armas melee, ranged, poderes dos anjos, ou até mesmo algumas coisas do cenário;
+Ideia de boss: esfinge - vai perguntando pros players algumas trivias, charadas fáceis;
+Ideia de boss: Um boss que controla os players por uma rodada - os players que serão controlados podem ser escolhidos por um dado;
+
+Ideia de boss: Um boss dividido (sei la nanitos, ou insetos) que teriam uma pool de vida (Varias vidas, por exemplo, 5, 5, 5, 5) e dai os jogadores deveriam destruir todas essas vidas -porem, se eles demorarem muito, as vidas vão se regenerando;
+
+Ideia de batalha: Batalha de carros, ou motos, barcos etc tipo pirata;
+
+Ideia de boss: Um boss que cada vez que toma dano, teleporta para algum lugar aleatório na sala;
+
+Ideia de boss: Um boss que tem várias cópias de si mesmo, os players precisam jogar dados para ver quantas cópias serão destruídas;
+
+
+
+
+
+
 
 Mecânicas Resumo: --Vantagens/Desvantagens/Forçar; --Efeitos(Morrendo/Ataque Grave); --Parry/Esquiva/Contra-ataque; --Defesa?; --Medicina
 
@@ -87,7 +122,7 @@ Mecânicas Resumo: --Vantagens/Desvantagens/Forçar; --Efeitos(Morrendo/Ataque G
 
 # Regras:
 Combate:
-  O combate é feito em turnos que devem durar entre 6 a 10 segundos dentro da história;
+  O combate é feito em turnos que devem durar entre 3 a 7 segundos dentro da história;
   Durante o turno o jogador tem a possibilidade de: 
     Uma ação de movimento(Se deslocar proporcionalmente a situação e ao tempo do turno);
     Uma ação principal, podendo ser ataque ou não
@@ -169,6 +204,7 @@ Combate:
     Extremo: Não toma dano e consegue atacar
     Falha: Toma o dano normal;
     
+    exzemplo: boss: pontos de parry: 20, ou seja, mesmo se o jhogador tirar 12, ainda não vai conseguir chegar aos 20 pontos, é um boss muito dificil de dar parry
     
  ### Ideia: Concentração: Tipo mira, mas para tudo
  Concentração seria em combate, gastar um turno de ação para ganhar parry
