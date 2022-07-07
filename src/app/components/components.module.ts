@@ -6,13 +6,20 @@ import { PlayerTraitsComponent } from './player-traits/player-traits.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PlayerAttributesComponent } from './player-attributes/player-attributes.component';
 import { PlayerAttributeComponent } from './player-attributes/player-attribute/player-attribute.component';
+import { TextAreaComponentComponent } from './text-area-component/text-area-component.component';
 
-const comps = [FooterComponent, HeaderComponent, PlayerTraitsComponent, PlayerAttributesComponent];
+const comps = [
+  FooterComponent,
+  HeaderComponent,
+  PlayerTraitsComponent,
+  PlayerAttributesComponent,
+  TextAreaComponentComponent,
+];
 
-const notExported = [];
+const notExported = [PlayerAttributeComponent];
 
 @NgModule({
-  declarations: [...comps, PlayerAttributeComponent],
+  declarations: [...comps, ...notExported],
   imports: [CommonModule, ReactiveFormsModule, FormsModule],
   exports: [...comps],
 })
