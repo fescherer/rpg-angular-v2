@@ -10,18 +10,14 @@
 }
 
 .container {
-  border: 1px solid red;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 7px rgba(226, 2, 14, 0.53);
   border-radius: 7px;
-  min-width: 200px;
+  min-width: 150px;
 
   .container-value {
+    color: #ffffff;
     border-radius: 5px 0px 0px 5px;
-    background-color: blue;
-
-    .title {
-    }
-
-    .subtitle {
-    }
+    background-color: #d22730;
   }
 }

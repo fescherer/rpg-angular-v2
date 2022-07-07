@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { IAttributeComponent } from 'src/Interfaces/IAttributes';
 
 @Component({
   selector: 'app-player-attribute',
@@ -6,5 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./player-attribute.component.scss'],
 })
 export class PlayerAttributeComponent {
+  @Input() data!: IAttributeComponent;
+
   constructor() {}
 }
