@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Firestore, collectionData, collection } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -9,11 +9,12 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   title = 'rpg-angular-v2';
-  items: Observable<any[]>;
-  constructor(firestore: AngularFirestore) {
-    this.items = firestore.collection('items').valueChanges();
+  items$: Observable<any[]>;
+  constructor(firestore: Firestore) {
+    const collectiona = collection(firestore, 'items');
+    this.items$ = collectionData(collectiona);
   }
   ngOnInit(): void {
-    console.log(this.items);
+    console.log(this.items$);
   }
 }
