@@ -4,11 +4,47 @@
   border-bottom: 1px solid #f6d319a6;
   border-radius: 0 0 23px 23px;
   background-color: transparent;
-  height: 150px;
+  height: 170px;
   width: 145px;
 }
 
 .container-title {
   border-radius: 23px 23px 0 0;
   background-color: #f6d319a6 !important;
+}
+
+.container-description {
+  font-size: 0.75rem;
+}
+
+.container-damage {
+  justify-self: flex-end;
+}
+
+.description {
+  font-size: 0.63rem;
+}
+
+.sm-font {
+  font-size: 0.8rem;
+}
+
+.img-weapon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.orange {
+  color: #dd561c;
+}
+
+.close {
+  position: absolute;
+  left: 46%;
+  top: -3%;
+  background-color: red;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
 }
