@@ -3,6 +3,7 @@ html[data-theme='light'] {
   --background-color: #f4f4f4;
   --background-accent: #000c66;
   --text-color: #121218;
+  --subtext-color: #00000080;
   --text-accent-color: #ffffff;
   --card-shadow: rgba(0, 0, 0, 25%);
 }
@@ -11,6 +12,7 @@ html[data-theme='dark'] {
   --background-color: #1d1d1d;
   --background-accent: #000630;
   --text-color: #ececec;
+  --subtext-color: #ffffff80;
   --text-accent-color: #f3f3f3;
   --card-shadow: rgba(255, 255, 255, 25%);
 }
@@ -30,6 +32,10 @@ html[data-theme='dark'] {
 
 .text-color {
   color: var(--text-color) !important;
+}
+
+.subtext-color {
+  color: var(--subtext-color) !important;
 }
 
 .text-accent-color {

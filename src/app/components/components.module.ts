@@ -7,6 +7,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PlayerAttributesComponent } from './player-attributes/player-attributes.component';
 import { PlayerAttributeComponent } from './player-attributes/player-attribute/player-attribute.component';
 import { TextAreaComponentComponent } from './text-area-component/text-area-component.component';
+import { WeaponsListComponent } from './weapons-list/weapons-list.component';
+import { WeaponCardComponent } from './weapons-list/weapon-card/weapon-card.component';
 
 const comps = [
   FooterComponent,
@@ -14,9 +16,10 @@ const comps = [
   PlayerTraitsComponent,
   PlayerAttributesComponent,
   TextAreaComponentComponent,
+  WeaponsListComponent,
 ];
 
-const notExported = [PlayerAttributeComponent];
+const notExported = [PlayerAttributeComponent, WeaponCardComponent];
 
 @NgModule({
   declarations: [...comps, ...notExported],
