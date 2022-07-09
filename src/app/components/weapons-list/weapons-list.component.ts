@@ -1,28 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { UtilService } from 'src/services/util.service';
 
 @Component({
   selector: 'app-weapons-list',
   templateUrl: './weapons-list.component.html',
   styleUrls: ['./weapons-list.component.scss'],
 })
-export class WeaponsListComponent {
-  data = [
-    {
-      type: 'machineGun',
-      class: 'A',
-      name: 'Espada Plasmática',
-      description: 'lorem loremloremloremlor emloremloremloremloremloremloremloremloremloremloremloremlorem',
-      damage: 'D6',
-      aimed: 'Metade dos dados é sempre 2',
-    },
-    {
-      type: 'machineGun',
-      class: 'A',
-      name: 'Espada Plasmática',
-      description: 'lorem loremloremloremlor emloremloremloremloremloremloremloremloremloremloremloremlorem',
-      damage: 'D6',
-      aimed: 'Metade dos dados é sempre 2',
-    },
-  ];
-  constructor() {}
+export class WeaponsListComponent implements OnInit {
+  data: any;
+  constructor(private utilService: UtilService) {}
+
+  ngOnInit(): void {
+    this.data = this.utilService.weaponsList;
+    console.log(this.data);
+  }
 }

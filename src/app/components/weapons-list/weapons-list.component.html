@@ -6,6 +6,6 @@
     </button>
   </div>
   <div class="flex flex-wrap mt05 justify-around">
-    <app-weapon-card *ngFor="let card of data"></app-weapon-card>
+    <app-weapon-card *ngFor="let card of data" [data]="card"></app-weapon-card>
   </div>
 </div>

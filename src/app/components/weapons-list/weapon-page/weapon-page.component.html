@@ -11,40 +11,47 @@
     <div class="">
       <label for="url">URL da imagem do equipamento: </label>
       <div class="search-container mt025">
-        <input id="url" formControlName="url" type="text" class="w-100" placeholder="Nome" />
+        <input id="url" formControlName="url" type="text" class="w-100" placeholder="URL da imagem" />
       </div>
     </div>
 
     <div class="">
       <label for="description">Descrição do equipamento: </label>
       <div class="search-container mt025">
-        <input id="description" formControlName="description" type="text" class="w-100" placeholder="Nome" />
+        <input
+          id="description"
+          formControlName="description"
+          type="text"
+          class="w-100"
+          placeholder="Descrição"
+        />
       </div>
     </div>
 
-    <div class="flex justify-between">
+    <div class="flex align-center justify-between">
       <label for="description">Tipo do equipamento: </label>
-      <select name="languages" id="lang">
+      <select name="weaponType" formControlName="type">
         <option value="melee-light">Melee Leve</option>
         <option value="melee-heavy">Melee Pesada</option>
         <option value="pistol">Pistola</option>
         <option value="shotgun">Fuzil</option>
-        <option value="mnachine-gun">Metralhadora</option>
+        <option value="machine-gun">Metralhadora</option>
       </select>
     </div>
 
-    <div class="flex justify-between">
+    <div class="flex align-center justify-between">
       <label for="damage">Classe do equipamento: </label>
-      <select name="languages" id="lang">
+      <select name="weaponClass" formControlName="class">
         <option value="d">+D</option>
         <option value="c">+C</option>
         <option value="b">+B</option>
         <option value="a">+A</option>
       </select>
     </div>
-  </form>
 
-  <div>
-    <span>test</span>
-  </div>
+    <div class="flex justify-end gap1">
+      <button class="btn-back" routerLink="..">Voltar</button>
+      <button type="submit" (click)="add()" class="btn-add">Adicionar</button>
+    </div>
+  </form>
 </div>

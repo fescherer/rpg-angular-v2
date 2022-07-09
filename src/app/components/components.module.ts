@@ -11,6 +11,7 @@ import { WeaponsListComponent } from './weapons-list/weapons-list.component';
 import { WeaponCardComponent } from './weapons-list/weapon-card/weapon-card.component';
 import { WeaponPageComponent } from './weapons-list/weapon-page/weapon-page.component';
 import { RouterModule } from '@angular/router';
+import { ShareModule } from 'src/share/share.module';
 
 const comps = [
   FooterComponent,
@@ -25,7 +26,7 @@ const notExported = [PlayerAttributeComponent, WeaponCardComponent];
 
 @NgModule({
   declarations: [...comps, ...notExported, WeaponPageComponent],
-  imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule],
+  imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule, ShareModule],
   exports: [...comps],
 })
 export class ComponentsModule {}

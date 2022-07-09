@@ -1,25 +1,32 @@
 <div class="relative">
   <button class="close" (click)="closeCard()">X</button>
   <div class="container-title subtext-color font-size-text justify-around flex p025 pt05">
-    <span>Metralhadora</span>
-    <span>+A</span>
+    <span>{{ data?.type || '' | weaponType }}</span>
+    <span>{{ data?.class || '' | weaponClass }}</span>
   </div>
   <div class="flex flex-column h-100 card p05">
     <div class="flex align-center gap05 container-description">
       <img src="../../../../assets/github.png" alt="github" class="img-weapon" />
-      <span class="title">Espada Plasmática</span>
+      <span class="title">{{ data?.name || '' }}</span>
     </div>
-    <span class="description flex flex-fill mt05">description</span>
+    <span class="description flex flex-fill mt05">{{ data?.description || '' }}</span>
 
     <div class="flex flex-column gap025 container-damage mt1">
       <div class="flex align-center gap05">
         <span class="material-symbols-outlined orange"> local_fire_department </span>
-        <span>D6</span>
+        <span>{{ data?.type || '' | weaponDamage: data?.class || '' }}</span>
       </div>
 
       <div class="flex align-center gap05">
         <span class="material-symbols-outlined"> sports_mma </span>
-        <span class="sm-font subtext-color">+Metade dos dados é sempre 2</span>
+        <span class="sm-font subtext-color">{{ data?.type || '' | weaponDamageAimed: data?.class || '' }}</span>
+      </div>
+
+      <div class="flex align-center gap05">
+        <span class="material-symbols-outlined"> sports_mma </span>
+        <span class="sm-font subtext-color">{{
+          data?.type || '' | weaponDamageSpecial: data?.class || ''
+        }}</span>
       </div>
     </div>
   </div>
