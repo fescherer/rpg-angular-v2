@@ -9,6 +9,8 @@ import { PlayerAttributeComponent } from './player-attributes/player-attribute/p
 import { TextAreaComponentComponent } from './text-area-component/text-area-component.component';
 import { WeaponsListComponent } from './weapons-list/weapons-list.component';
 import { WeaponCardComponent } from './weapons-list/weapon-card/weapon-card.component';
+import { WeaponPageComponent } from './weapons-list/weapon-page/weapon-page.component';
+import { RouterModule } from '@angular/router';
 
 const comps = [
   FooterComponent,
@@ -22,8 +24,8 @@ const comps = [
 const notExported = [PlayerAttributeComponent, WeaponCardComponent];
 
 @NgModule({
-  declarations: [...comps, ...notExported],
-  imports: [CommonModule, ReactiveFormsModule, FormsModule],
+  declarations: [...comps, ...notExported, WeaponPageComponent],
+  imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule],
   exports: [...comps],
 })
 export class ComponentsModule {}

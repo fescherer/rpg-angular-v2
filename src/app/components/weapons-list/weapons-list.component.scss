@@ -1,0 +1,12 @@
+.button-add {
+  color: #ffffff;
+  background-color: #004e00c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #0a330ac7;
+  }
+}

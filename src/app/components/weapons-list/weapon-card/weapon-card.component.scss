@@ -41,10 +41,19 @@
 
 .close {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
   left: 46%;
   top: -3%;
-  background-color: red;
+  background-color: rgba(209, 0, 0, 0.753);
+  color: #ffffffcb;
   border-radius: 50%;
   width: 15px;
   height: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(173, 0, 0, 0.836);
+  }
 }
