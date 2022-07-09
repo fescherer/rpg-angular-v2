@@ -1,3 +1,50 @@
-<div class="">
-  <span>asdasdasd</span>
+<div class="flex flex-column container m-auto min-h-80">
+  <h2 class="font-size-title">Criação de equipamento:</h2>
+  <form [formGroup]="weaponForm" class="flex flex-column gap1 flex-fill mt1 font-size-sm">
+    <div class="">
+      <label for="name">Nome do equipamento: </label>
+      <div class="search-container mt025">
+        <input id="name" formControlName="name" type="text" class="w-100" placeholder="Nome" />
+      </div>
+    </div>
+
+    <div class="">
+      <label for="url">URL da imagem do equipamento: </label>
+      <div class="search-container mt025">
+        <input id="url" formControlName="url" type="text" class="w-100" placeholder="Nome" />
+      </div>
+    </div>
+
+    <div class="">
+      <label for="description">Descrição do equipamento: </label>
+      <div class="search-container mt025">
+        <input id="description" formControlName="description" type="text" class="w-100" placeholder="Nome" />
+      </div>
+    </div>
+
+    <div class="flex justify-between">
+      <label for="description">Tipo do equipamento: </label>
+      <select name="languages" id="lang">
+        <option value="melee-light">Melee Leve</option>
+        <option value="melee-heavy">Melee Pesada</option>
+        <option value="pistol">Pistola</option>
+        <option value="shotgun">Fuzil</option>
+        <option value="mnachine-gun">Metralhadora</option>
+      </select>
+    </div>
+
+    <div class="flex justify-between">
+      <label for="damage">Classe do equipamento: </label>
+      <select name="languages" id="lang">
+        <option value="d">+D</option>
+        <option value="c">+C</option>
+        <option value="b">+B</option>
+        <option value="a">+A</option>
+      </select>
+    </div>
+  </form>
+
+  <div>
+    <span>test</span>
+  </div>
 </div>

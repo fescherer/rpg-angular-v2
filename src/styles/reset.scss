@@ -140,3 +140,9 @@ input[type='reset'] {
   cursor: pointer;
   outline: inherit;
 }
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
