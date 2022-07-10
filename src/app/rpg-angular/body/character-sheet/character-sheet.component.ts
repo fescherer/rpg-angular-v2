@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirestoreService } from 'src/services/firestore.service';
 
 @Component({
   selector: 'app-character-sheet',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./character-sheet.component.scss'],
 })
 export class CharacterSheetComponent {
-  constructor() {}
+  constructor(private firestoreService: FirestoreService) {}
 
   scrollTo(element: any): void {
     (document.getElementById(element) as HTMLElement).scrollIntoView({
@@ -14,5 +15,9 @@ export class CharacterSheetComponent {
       block: 'start',
       inline: 'nearest',
     });
+  }
+
+  updateCH(): void {
+    this.firestoreService.create();
   }
 }
