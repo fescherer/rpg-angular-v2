@@ -1,0 +1,31 @@
+@import '../../../../styles/theme.scss';
+
+.bookmarks {
+  cursor: pointer;
+  position: fixed;
+
+  color: var(--text-accent-color);
+  left: -10px;
+
+  &:hover {
+    left: 0;
+  }
+
+  .material-symbols-outlined {
+    display: inline-block;
+    padding: 0.25rem 0;
+    background-color: var(--background-accent);
+    &:hover {
+      padding-left: 0.75rem;
+      left: 15px;
+    }
+  }
+
+  .border-radius-top {
+    border-radius: 0 5px 0 0;
+  }
+
+  .border-radius-bottom {
+    border-radius: 0 0 5px 0;
+  }
+}

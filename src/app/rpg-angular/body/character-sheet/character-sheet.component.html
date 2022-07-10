@@ -1,6 +1,38 @@
-<span>Ficha: Código da ficha</span>
-<app-player-traits></app-player-traits>
-<app-player-attributes></app-player-attributes>
-<app-weapons-list></app-weapons-list>
-<app-text-area-component type="history"></app-text-area-component>
-<app-text-area-component type="annotations"></app-text-area-component>
+<div class="flex relative">
+  <div class="bookmarks flex-column mt1 flex">
+    <div>
+      <a (click)="scrollTo('playerTraits')" class="material-symbols-outlined border-radius-top"> star </a>
+    </div>
+    <div>
+      <a (click)="scrollTo('playerTraits')" class="material-symbols-outlined"> description </a>
+    </div>
+    <div>
+      <a (click)="scrollTo('playerTraits')" class="material-symbols-outlined"> backpack </a>
+    </div>
+    <div>
+      <a (click)="scrollTo('annotations')" class="material-symbols-outlined border-radius-bottom">
+        sports_martial_arts
+      </a>
+    </div>
+  </div>
+
+  <div class="flex flex-column align-end pl2">
+    <div class="mb1 flex flex-wrap gap1">
+      <button class="btn-danger">Deletar</button>
+      <button class="btn-back">Atualizar</button>
+      <button class="btn-add">Salvar</button>
+    </div>
+    <div>
+      <span>Ficha: Código da ficha</span>
+
+      <app-player-traits id="playerTraits"></app-player-traits>
+
+      <app-player-attributes></app-player-attributes>
+      <app-weapons-list></app-weapons-list>
+      <app-text-area-component type="history"></app-text-area-component>
+      <div id="annotations">
+        <app-text-area-component type="annotations"></app-text-area-component>
+      </div>
+    </div>
+  </div>
+</div>

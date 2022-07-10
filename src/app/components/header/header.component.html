@@ -1,8 +1,29 @@
 <nav class="accent-container">
   <div class="max-size p05 flex flex-column">
-    <h1 class="font-size-title">What Happened in that Day</h1>
+    <div class="flex justify-between">
+      <div>
+        <h1 class="font-size-title">What Happened in that Day</h1>
 
-    <span class="font-size-text mt05">Code: mockado</span>
-    <button (click)="changeTheme()">Troca</button>
+        <span class="font-size-text mt05">Code: mockado</span>
+      </div>
+
+      <div class="flex gap05 align-center">
+        <button (click)="changeTheme()">
+          <span *ngIf="theme === 'dark'" class="material-symbols-outlined"> dark_mode </span>
+
+          <span *ngIf="theme === 'light'" class="material-symbols-outlined"> light_mode </span>
+        </button>
+        <span style="font-size: 30px; cursor: pointer" (click)="openNav2()">&#9776;</span>
+        <div class="overlay" id="overlay" (click)="closeNav2()"></div>
+        <div id="mySidenav" class="sidenav background-accent">
+          <span class="material-symbols-outlined btn-close" (click)="closeNav2()"> close </span>
+          <a href="#" target="_blank">Documento de Regras</a>
+          <a href="#" target="_blank">Notas</a>
+          <a href="#" target="_blank">Regras de Combate</a>
+          <a href="#" target="_blank">Lista de Equipamentos</a>
+          <a href="#" target="_blank">Regras de Estabilidade</a>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>

@@ -1,0 +1,56 @@
+@import '../../../styles/theme.scss';
+.sidenav {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 2rem 1rem 0;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  width: 50%;
+  z-index: 1;
+  gap: 1rem;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  transition: visibility 0s, opacity 0.5s linear;
+  animation-name: example;
+  animation-duration: 0.5s;
+
+  a {
+    color: var(--text-accent-color);
+    font-size: 12px;
+    text-align: end;
+  }
+
+  .btn-close {
+    color: var(--text-accent-color);
+    height: 1.2rem;
+    width: 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+}
+@keyframes example {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.425);
+  display: none;
+}

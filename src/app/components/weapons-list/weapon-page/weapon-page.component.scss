@@ -44,32 +44,6 @@
   max-width: 500px;
 }
 
-.btn {
-  @extend .background-accent;
-  padding: 0.5rem;
-  border-radius: 5px;
-}
-
-.btn-back {
-  @extend .btn;
-  background-color: transparent;
-  border: 1px solid var(--background-accent);
-
-  &:hover {
-    background-color: rgba(173, 173, 173, 0.644);
-  }
-}
-
-.btn-add {
-  @extend .btn;
-  background-color: green;
-  color: #ffffff;
-
-  &:hover {
-    background-color: rgb(0, 88, 0);
-  }
-}
-
 select {
   background: #fff;
   color: var(--text-color);
