@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Firestore, collectionData, collection } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 
@@ -7,14 +7,11 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'rpg-angular-v2';
   items$: Observable<any[]>;
   constructor(firestore: Firestore) {
     const collectiona = collection(firestore, 'items');
     this.items$ = collectionData(collectiona);
-  }
-  ngOnInit(): void {
-    console.log(this.items$);
   }
 }

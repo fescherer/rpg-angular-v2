@@ -18,6 +18,6 @@ export class CharacterSheetComponent {
   }
 
   updateCH(): void {
-    this.firestoreService.create();
+    // this.firestoreService.create();
   }
 }

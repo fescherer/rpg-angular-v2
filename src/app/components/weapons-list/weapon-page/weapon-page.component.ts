@@ -21,7 +21,6 @@ export class WeaponPageComponent {
 
   add(): void {
     if (this.weaponForm.valid) {
-      console.log(this.weaponForm.value);
       this.utilService.addWeapon(this.weaponForm.value);
       this.router.navigate(['.'], { relativeTo: this.activeRoute.parent });
     }

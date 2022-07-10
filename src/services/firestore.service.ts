@@ -38,8 +38,15 @@ export class FirestoreService {
     await docData(this.doc, { idField: 'dsadsa' });
   }
 
-  async create() {
-    await setDoc(doc(this.collection, 'aaaa'), { id: 'dsadsa' });
+  async create(id: string) {
+    await setDoc(doc(this.collection, id), { id: id })
+      .then(() => {
+        this.toastr.success('Ficha criada', 'Parabéns!');
+      })
+      .catch((err) => {
+        console.log(err);
+        this.toastr.error('Erro na criação da ficha', 'Algo deu errado!');
+      });
   }
 
   async update() {

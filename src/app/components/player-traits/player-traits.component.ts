@@ -16,8 +16,8 @@ export class PlayerTraitsComponent implements OnInit {
   name = new FormControl('');
 
   onFormInit() {
-    this.name.valueChanges.pipe(debounceTime(500), takeUntil(this.unsubscribe$)).subscribe((name) => {
-      console.log(name);
-    });
+    // this.name.valueChanges.pipe(debounceTime(500), takeUntil(this.unsubscribe$)).subscribe((name) => {
+    //   console.log(name);
+    // });
   }
 }

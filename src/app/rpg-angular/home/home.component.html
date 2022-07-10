@@ -1,3 +1,15 @@
-<p>home works!</p>
-
-<button (click)="showSuccess()">click</button>
+<div class="flex flex-column min-h-100">
+  <app-header></app-header>
+  <div class="background-color text-color flex-fill p1">
+    <div class="max-size">
+      <h2>ID da ficha:</h2>
+      <div class="search-container mt1">
+        <input [formControl]="id" type="text" class="w-100" placeholder="ID" />
+      </div>
+      <div class="flex justify-end mt1">
+        <button class="btn-add" (click)="submit()">Entrar</button>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

@@ -12,6 +12,5 @@ export class WeaponsListComponent implements OnInit {
 
   ngOnInit(): void {
     this.data = this.utilService.weaponsList;
-    console.log(this.data);
   }
 }
