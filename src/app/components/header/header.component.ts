@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent {
   theme: string | null = document.documentElement.getAttribute('data-theme') || 'light';
-  constructor() {}
+
+  id!: string;
+  constructor(private router: Router) {
+    this.id = this.router.url.split('/')[2];
+  }
 
   changeTheme(): void {
     let theme = document.documentElement.getAttribute('data-theme');
@@ -16,30 +21,14 @@ export class HeaderComponent {
   }
 
   openNav() {
-    // @ts-ignore
-    document.getElementById('mySidenav').style.width = '250px';
-  }
-
-  openNav2() {
-    // @ts-ignore
-    document.getElementById('mySidenav').style.display = 'flex';
-    // @ts-ignore
-    document.getElementById('mySidenav').style.zIndex = 20;
-    // @ts-ignore
-    document.getElementById('overlay').style.display = 'block';
+    document!.getElementById('mySidenav')!.style.display = 'flex';
+    document!.getElementById('overlay')!.style.display = 'block';
+    document!.getElementById('mySidenav')!.style!.zIndex = '20';
   }
 
   closeNav() {
-    // @ts-ignore
-    document.getElementById('mySidenav').style.width = '0';
-  }
-
-  closeNav2() {
-    // @ts-ignore
-    document.getElementById('mySidenav').style.display = 'none';
-    // @ts-ignore
-    document.getElementById('mySidenav').style.zIndex = 1;
-    // @ts-ignore
-    document.getElementById('overlay').style.display = 'none';
+    document!.getElementById('mySidenav')!.style.display = 'none';
+    document!.getElementById('overlay')!.style.display = 'none';
+    document!.getElementById('mySidenav')!.style!.zIndex = '1';
   }
 }
