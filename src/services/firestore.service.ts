@@ -1,16 +1,59 @@
 import { Injectable } from '@angular/core';
 // import { rejects } from 'assert';
-import { Firestore, collectionData, collection } from '@angular/fire/firestore';
-
+import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/compat/firestore';
 import { ToastrService } from 'ngx-toastr';
+
+import {
+  Firestore,
+  doc,
+  onSnapshot,
+  DocumentReference,
+  docSnapshots,
+  setDoc,
+  CollectionReference,
+  collection,
+  addDoc,
+  docData,
+  updateDoc,
+  deleteDoc,
+} from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FirestoreService {
-  constructor(firestore: Firestore, private toastr: ToastrService) {}
+  doc!: DocumentReference;
+  collection!: CollectionReference;
+  constructor(private firestore: Firestore, private toastr: ToastrService) {
+    this.collection = collection(firestore, 'page');
+    // this.doc = doc(firestore, 'page');
+    // onSnapshot(doc, snap => {
 
-  // createCharacterSheet(data: any) {
+    // });
+
+    // docSnapshots(doc).subscribe(...);
+  }
+
+  async getsheet() {
+    await docData(this.doc, { idField: 'dsadsa' });
+  }
+
+  async create() {
+    await setDoc(doc(this.collection, 'aaaa'), { id: 'dsadsa' });
+  }
+
+  async update() {
+    await updateDoc(doc(this.collection, 'aaaa'), { id: 'felipe scherer gostoso' });
+  }
+
+  async delete() {
+    await deleteDoc(doc(this.collection, 'aaaa'));
+  }
+
+  // async createCharacterSheet(data: any) {
+  //   const docRef = doc(this.firestore, 'cities', 'SF');
+  //   const docSnap = await getDoc(docRef);
+
   //   return new Promise<any>((resolve, reject) => {
   //     this.angularFire
   //       .collection('page')
