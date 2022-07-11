@@ -20,12 +20,12 @@
     <div class="mb1 flex flex-wrap gap1">
       <button class="btn-danger">Deletar</button>
       <button class="btn-back">Atualizar</button>
-      <button class="btn-add" (click)="updateCH()">Salvar</button>
+      <button class="btn-add" (click)="updateCS()">Salvar</button>
     </div>
     <div>
       <span>Ficha: Código da ficha</span>
 
-      <app-player-traits id="playerTraits"></app-player-traits>
+      <app-player-traits id="playerTraits" [data]="service$"></app-player-traits>
 
       <app-player-attributes></app-player-attributes>
       <app-weapons-list></app-weapons-list>

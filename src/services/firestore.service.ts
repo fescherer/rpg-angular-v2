@@ -8,10 +8,13 @@ import {
   setDoc,
   CollectionReference,
   collection,
-  docData,
   updateDoc,
   deleteDoc,
+  getDoc,
+  docData,
+  collectionData,
 } from '@angular/fire/firestore';
+import { ISheet } from 'src/Interfaces/ISheet';
 
 @Injectable({
   providedIn: 'root',
@@ -23,8 +26,8 @@ export class FirestoreService {
     this.collection = collection(firestore, 'page');
   }
 
-  async getsheet() {
-    await docData(this.doc, { idField: 'dsadsa' });
+  async getsheet(id: string) {
+    return docData(doc(this.collection, id));
   }
 
   async create(id: string) {
@@ -38,8 +41,8 @@ export class FirestoreService {
       });
   }
 
-  async update() {
-    await updateDoc(doc(this.collection, 'aaaa'), { id: 'felipe scherer gostoso' })
+  async update(id: string, newSheet: ISheet) {
+    await updateDoc(doc(this.collection, id), { ...newSheet })
       .then(() => {
         this.toastr.success('Ficha atualizada', 'Parabéns!');
       })

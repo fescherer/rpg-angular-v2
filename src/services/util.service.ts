@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { ISheet } from 'src/Interfaces/ISheet';
 import { IWeapon } from 'src/Interfaces/IWeapon';
 
 @Injectable({
@@ -12,6 +13,7 @@ export class UtilService {
 
   completeService() {
     if (this.weaponsList$) this.weaponsList$.complete();
+    if (this.sheet$) this.sheet$.complete();
   }
 
   // get weaponsList(): Observable<IWeapon> {
@@ -38,5 +40,15 @@ export class UtilService {
 
   get weaponsList(): IWeapon[] {
     return this.weaponList;
+  }
+
+  private sheet$ = new BehaviorSubject<ISheet>({ id: '' });
+
+  changeSheet(sheet: ISheet) {
+    this.sheet$.next(sheet);
+  }
+
+  get characterSheet(): Observable<ISheet> {
+    return this.sheet$;
   }
 }

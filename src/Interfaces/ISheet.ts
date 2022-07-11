@@ -1,9 +1,9 @@
 export interface ISheet {
   id: string;
-  player: IPlayer;
-  history: string;
-  annotations: string;
-  attributes: IAttribute[];
+  player?: IPlayer;
+  history?: string;
+  annotations?: string;
+  attributes?: IAttribute[];
 }
 
 export interface IPlayer {
