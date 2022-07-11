@@ -7,8 +7,8 @@ export interface ISheet {
 }
 
 export interface IPlayer {
-  name: string;
-  origin:
+  name?: string;
+  origin?:
     | 'Central Plaza'
     | 'Little Floreasp'
     | 'High Forwib'
@@ -17,12 +17,12 @@ export interface IPlayer {
     | 'Downtown'
     | 'Fewscraps District'
     | 'Midnight Subdistrict';
-  sparkEffect: string;
-  currentLife: number;
-  totalLife: number;
-  currentStability: number;
-  totalStability: number;
-  faLevel: 'A' | 'B' | 'C' | 'D';
+  sparkEffect?: string;
+  currentLife?: number;
+  totalLife?: number;
+  currentStability?: number;
+  totalStability?: number;
+  faLevel?: 'A' | 'B' | 'C' | 'D';
 }
 
 export interface IAttribute {

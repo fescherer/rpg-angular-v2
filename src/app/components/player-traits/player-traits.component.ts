@@ -1,7 +1,6 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { debounceTime, Subject, takeUntil } from 'rxjs';
-import { FirestoreService } from 'src/services/firestore.service';
 import { UtilService } from 'src/services/util.service';
 
 @Component({
@@ -12,6 +11,8 @@ import { UtilService } from 'src/services/util.service';
 export class PlayerTraitsComponent implements OnInit, OnChanges {
   @Input() data: any;
   name = new FormControl('');
+  spark = new FormControl('');
+  origin = new FormControl('protocity');
 
   private unsubscribe$ = new Subject<void>();
 

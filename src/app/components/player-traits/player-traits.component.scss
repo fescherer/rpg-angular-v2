@@ -57,3 +57,11 @@
     height: 10px;
   }
 }
+
+select {
+  background: var(--background-input);
+  color: var(--text-color);
+  border: 1px solid #0e0e0e1f;
+  padding: 4px;
+  border-radius: 3px;
+}
