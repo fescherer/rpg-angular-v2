@@ -27,4 +27,8 @@ export class CharacterSheetComponent implements OnInit {
   updateCS(): void {
     this.firestoreService.update(this.service$.id, { ...this.service$ });
   }
+
+  refresh(): void {
+    location.reload();
+  }
 }
