@@ -35,12 +35,12 @@ export class BodyComponent implements OnInit {
         if (sheet) this.utilService.changeSheet(sheet);
         else {
           this.firestoreService.create(this.id);
-          this.utilService.changeSheet({ id: this.id });
+          this.utilService.changeID(this.id);
         }
       });
   }
 
   loadSheet(): void {
-    this.utilService.characterSheet.subscribe((val) => console.log(val));
+    this.utilService.characterSheet.subscribe((val) => console.log('load', val));
   }
 }

@@ -22,7 +22,6 @@ export interface IPlayer {
   totalLife?: number;
   currentStability?: number;
   totalStability?: number;
-  faLevel?: 'A' | 'B' | 'C' | 'D';
 }
 
 export interface IAttribute {
@@ -33,6 +32,7 @@ export interface IAttribute {
 
 export interface IAngel {
   id: number;
+  faLevel?: 'A' | 'B' | 'C' | 'D';
   name: string;
   title: string;
   description: string;

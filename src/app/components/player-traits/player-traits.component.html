@@ -1,25 +1,28 @@
 <div class="flex flex-column gap05">
   <h2>Personagem:</h2>
-  <div class="flex flex-column gap05">
+  <form class="flex flex-column gap05" [formGroup]="playerForm">
     <div class="search-container mt-2 mb-05">
-      <input [formControl]="name" type="text" class="w-100" placeholder="Nome" />
+      <input formControlName="name" type="text" class="w-100" placeholder="Nome" />
     </div>
 
     <div class="search-container mt-2 mb-05">
-      <input [formControl]="spark" type="text" class="w-100" placeholder="Efeito Spark" />
+      <input formControlName="sparkEffect" type="text" class="w-100" placeholder="Efeito Spark" />
     </div>
-
     <div class="flex align-center justify-between">
       <label for="description">Origem: </label>
-      <select name="weaponType" [formControl]="origin">
-        <option value="protocity">Protocity</option>
-        <option value="melee-heavy">Melee Pesada</option>
-        <option value="pistol">Pistola</option>
-        <option value="shotgun">Fuzil</option>
-        <option value="machine-gun">Metralhadora</option>
+      <select name="origin" formControlName="origin">
+        <option value="" selected disabled hidden>Choose here</option>
+        <option value="central_plaza">Central Plaza</option>
+        <option value="little_floreasp">Little Floreasp</option>
+        <option value="high_forwib">High Forwib</option>
+        <option value="industrial_district">Industrial District</option>
+        <option value="great_hill">Great Hill</option>
+        <option value="downtown">Downtown</option>
+        <option value="fewscraps_district">Fewscraps District</option>
+        <option value="midnight_subdistrict">Midnight Subdistrict</option>
       </select>
     </div>
-  </div>
+  </form>
 
   <div class="flex gap1 align-center justify-between flex-wrap font-size-text">
     <div class="flex gap1 align-center">

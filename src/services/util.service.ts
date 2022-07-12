@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { ISheet } from 'src/Interfaces/ISheet';
+import { IPlayer, ISheet } from 'src/Interfaces/ISheet';
 import { IWeapon } from 'src/Interfaces/IWeapon';
 
 @Injectable({
@@ -42,13 +42,50 @@ export class UtilService {
     return this.weaponList;
   }
 
+  /*******************************************/
+
   private sheet$ = new BehaviorSubject<ISheet>({ id: '' });
 
   changeSheet(sheet: ISheet) {
-    this.sheet$.next(sheet);
+    // this.sheet$.next(sheet);
+    if (sheet?.player) {
+      this.player$.next(sheet.player);
+      this.id$.next(sheet?.id);
+      this.history$.next(sheet?.history as string);
+    }
   }
 
   get characterSheet(): Observable<ISheet> {
     return this.sheet$;
+  }
+
+  private id$ = new BehaviorSubject<string>('');
+
+  changeID(id: string) {
+    this.id$.next(id);
+  }
+
+  get id(): Observable<string> {
+    return this.id$;
+  }
+
+  private player$ = new BehaviorSubject<IPlayer>({ origin: 'Central Plaza' });
+
+  changePlayer(player: IPlayer) {
+    this.player$.next(player);
+  }
+
+  get player(): Observable<IPlayer> {
+    return this.player$;
+  }
+
+  private history$ = new BehaviorSubject<string>('');
+
+  changeHistory(history: string) {
+    this.history$.next(history);
+  }
+
+  get history(): Observable<string> {
+    return this.history$;
   }
 }

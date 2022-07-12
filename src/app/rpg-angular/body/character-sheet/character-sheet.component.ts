@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, Subscription } from 'rxjs';
 import { FirestoreService } from 'src/services/firestore.service';
 import { UtilService } from 'src/services/util.service';
 
@@ -10,10 +9,23 @@ import { UtilService } from 'src/services/util.service';
 })
 export class CharacterSheetComponent implements OnInit {
   service$!: any;
+  player$!: any;
+  id$!: any;
 
   constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
   ngOnInit(): void {
-    this.utilService.characterSheet.subscribe((val) => (this.service$ = val));
+    this.utilService.characterSheet.subscribe((val) => {
+      console.log('Ficha: ', val);
+      this.service$ = val;
+    });
+    this.utilService.player.subscribe((val) => {
+      console.log('Player: ', val);
+      this.player$ = val;
+    });
+    this.utilService.id.subscribe((val) => {
+      console.log('id:', val);
+      this.id$ = val;
+    });
   }
 
   scrollTo(element: any): void {
@@ -25,7 +37,8 @@ export class CharacterSheetComponent implements OnInit {
   }
 
   updateCS(): void {
-    this.firestoreService.update(this.service$.id, { ...this.service$ });
+    console.log(this.player$, this.id$);
+    this.firestoreService.update(this.id$, { id: this.id$, player: this.player$ });
   }
 
   refresh(): void {
