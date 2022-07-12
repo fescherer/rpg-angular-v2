@@ -29,6 +29,9 @@ export interface IAttribute {
   id: number;
   name: 'Força' | 'Destreza' | 'Inteligencia' | 'Constituição' | 'Poder' | 'Percepção' | 'Medicina' | 'Outros';
   totalValue: number;
+  shortName: 'FOR' | 'DES' | 'INT' | 'CON' | 'POD' | 'PER' | 'MED' | 'OUT';
+  info: string;
+  color: string;
 }
 
 export interface IAngel {

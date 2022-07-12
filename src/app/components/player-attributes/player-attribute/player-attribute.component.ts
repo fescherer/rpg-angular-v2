@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IAttributeComponent } from 'src/Interfaces/IAttributes';
+import { IAttribute } from 'src/Interfaces/ISheet';
 
 @Component({
   selector: 'app-player-attribute',
@@ -7,7 +8,7 @@ import { IAttributeComponent } from 'src/Interfaces/IAttributes';
   styleUrls: ['./player-attribute.component.scss'],
 })
 export class PlayerAttributeComponent {
-  @Input() data!: IAttributeComponent;
+  @Input() data!: IAttribute;
 
   constructor() {}
 }

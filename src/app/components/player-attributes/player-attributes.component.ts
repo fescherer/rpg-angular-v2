@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { attributes } from './attributes';
 
 @Component({
   selector: 'app-player-attributes',
@@ -6,5 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./player-attributes.component.scss'],
 })
 export class PlayerAttributesComponent {
+  attributes = attributes;
   constructor() {}
 }
