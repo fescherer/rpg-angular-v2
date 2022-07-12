@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Subject, takeUntil } from 'rxjs';
 import { ISheet } from 'src/Interfaces/ISheet';
@@ -10,7 +10,7 @@ import { UtilService } from 'src/services/util.service';
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.scss'],
 })
-export class BodyComponent implements OnInit {
+export class BodyComponent implements OnInit, OnDestroy {
   id!: string;
 
   private unsubscribe$ = new Subject<void>();
@@ -26,6 +26,11 @@ export class BodyComponent implements OnInit {
   ngOnInit(): void {
     this.loadSheet();
     this.isSheetAlreadyCreated();
+  }
+
+  ngOnDestroy(): void {
+    this.unsubscribe$.next();
+    this.unsubscribe$.complete();
   }
 
   async isSheetAlreadyCreated() {

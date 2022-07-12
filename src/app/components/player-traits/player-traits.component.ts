@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { debounceTime, Subject, take, takeUntil, skip } from 'rxjs';
 import { IPlayer } from 'src/Interfaces/ISheet';
@@ -9,7 +9,7 @@ import { UtilService } from 'src/services/util.service';
   templateUrl: './player-traits.component.html',
   styleUrls: ['./player-traits.component.scss'],
 })
-export class PlayerTraitsComponent implements OnInit {
+export class PlayerTraitsComponent implements OnInit, OnDestroy {
   @Input() data: any;
   playerForm = new FormGroup({
     name: new FormControl('', Validators.required),
@@ -31,6 +31,11 @@ export class PlayerTraitsComponent implements OnInit {
   ngOnInit(): void {
     this.init();
     this.onFormInit();
+  }
+
+  ngOnDestroy(): void {
+    this.unsubscribe$.next();
+    this.unsubscribe$.complete();
   }
 
   onFormInit() {
