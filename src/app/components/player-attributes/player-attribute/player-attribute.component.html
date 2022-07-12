@@ -3,7 +3,9 @@
     class="container-value flex p05 flex-column align-center"
     [ngStyle]="{ 'background-color': '#' + data?.color }"
   >
-    <span class="title font-size-title">{{ data?.totalValue | number: '3.0' }}</span>
+    <span class="title font-size-title" id="demo" (click)="changeValue()">{{
+      data?.totalValue | number: '3.0'
+    }}</span>
     <span class="subtitle font-size-text">000</span>
   </div>
   <div class="relative flex flex-fill justify-center">

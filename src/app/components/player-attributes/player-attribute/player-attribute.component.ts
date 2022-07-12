@@ -11,4 +11,12 @@ export class PlayerAttributeComponent {
   @Input() data!: IAttribute;
 
   constructor() {}
+
+  changeValue() {
+    const value = prompt('Please enter your value in NUMBERS please');
+    if (value != null && parseInt(value)) {
+      console.log('erntrou');
+      document!.getElementById('demo')!.innerHTML = value;
+    }
+  }
 }
