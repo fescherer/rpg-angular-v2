@@ -25,19 +25,51 @@
   </form>
 
   <div class="flex gap1 align-center justify-between flex-wrap font-size-text">
-    <div class="flex gap1 align-center">
-      <span>Vida: </span>
-      <button class="btn-icon"><span class="material-symbols-outlined"> add </span></button>
-      <span>14/14</span>
-      <button class="btn-icon"><span class="material-symbols-outlined"> remove </span></button>
-      <!-- <input [formControl]="name" type="text" class="w-100" placeholder="Vida" /> -->
+    <div class="flex flex-column align-center gap025">
+      <span>Vida</span>
+      <div class="flex gap05 counter-attacks">
+        <button class="btn-icon">
+          <span
+            class="material-symbols-outlined"
+            (click)="this.playerForm?.get('currentLife')?.setValue(this.playerForm?.value?.currentLife! + 1)"
+          >
+            add
+          </span>
+        </button>
+        <span>{{ this.playerForm?.value?.currentLife }}/{{ this.playerForm?.value?.totalLife }}</span>
+        <button class="btn-icon"><span class="material-symbols-outlined"> remove </span></button>
+      </div>
     </div>
-    <div class="flex gap1 align-center">
-      <span>Estabilidade: </span>
-      <button class="btn-icon"><span class="material-symbols-outlined"> add </span></button>
-      <span>14/14</span>
-      <button class="btn-icon"><span class="material-symbols-outlined"> remove </span></button>
-      <!-- <input [formControl]="name" type="text" class="w-100" placeholder="Estabilidade" /> -->
+
+    <div class="flex flex-column align-center gap025">
+      <span>Estabilidade</span>
+      <div class="flex gap05 counter-attacks">
+        <button class="btn-icon"><span class="material-symbols-outlined"> add </span></button>
+        <span>{{ this.playerForm?.value?.currentStability }}/{{ this.playerForm?.value?.totalStability }}</span>
+        <button class="btn-icon"><span class="material-symbols-outlined"> remove </span></button>
+      </div>
+    </div>
+
+    <div class="flex flex-column align-center gap025">
+      <span>Contra-ataque</span>
+      <div class="flex gap05 counter-attacks">
+        <div
+          *ngFor="let counter of counterAttacks; let i = index"
+          [ngClass]="counter ? 'selected' : ''"
+          (click)="changeCounterAttack(i)"
+        ></div>
+      </div>
+    </div>
+
+    <div class="flex flex-column align-center gap025">
+      <span>Defesa</span>
+      <button
+        class="defence-button"
+        [ngClass]="this.playerForm?.value?.defence ? 'activate' : ''"
+        (click)="this.playerForm.get('defence')?.setValue(!this.playerForm?.value?.defence)"
+      >
+        {{ this.playerForm?.value?.defence ? 'Ativada' : 'Desativada' }}
+      </button>
     </div>
   </div>
 </div>

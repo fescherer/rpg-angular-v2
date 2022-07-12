@@ -65,3 +65,45 @@ select {
   padding: 4px;
   border-radius: 3px;
 }
+
+.counter-attacks {
+  div {
+    width: 30px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #ff0000;
+
+    &:hover {
+      background-color: #b10000;
+    }
+  }
+
+  .selected {
+    background-color: #016901;
+
+    &:hover {
+      background-color: #004400;
+    }
+  }
+}
+
+.defence-button {
+  border: 1px solid #0e0e0e1f;
+  border-radius: 5px;
+  padding: 0.25rem 1rem;
+  color: #ffffff;
+  background-color: #ff0000;
+
+  &:hover {
+    background-color: #b10000;
+  }
+}
+
+.activate {
+  background-color: #016901;
+
+  &:hover {
+    background-color: #004400;
+  }
+}

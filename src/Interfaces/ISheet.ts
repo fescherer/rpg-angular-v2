@@ -22,6 +22,7 @@ export interface IPlayer {
   totalLife?: number;
   currentStability?: number;
   totalStability?: number;
+  defence?: boolean;
 }
 
 export interface IAttribute {
