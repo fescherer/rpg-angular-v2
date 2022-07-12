@@ -15,14 +15,14 @@
   Porém só irá funcionar se o valor tirado for maior que o valor do atacante
 
   Contra ataque: 
-    Critíco: Não toma dano e pode dar ataque;
-    Sucesso: Toma dano normal mas pode dar um ataque;
-    Falha: Toma o dano normal + 1/3;
+    Critíco: Não toma dano e pode dar ataque;  
+    Sucesso: Toma dano normal mas pode dar um ataque;  
+    Falha: Toma o dano normal + 1/3;  
     
   Esquiva:
-    Critíco: Não toma dano +3parry;
-    Sucesso: Não toma dano;
-    Falha: Toma dano normal;
+    Critíco: Não toma dano +3parry;  
+    Sucesso: Não toma dano;  
+    Falha: Toma dano normal  
 
   ## Pary
   Pary é uma habilidade que o jogador possui para contra-atacar um inimigo.  
