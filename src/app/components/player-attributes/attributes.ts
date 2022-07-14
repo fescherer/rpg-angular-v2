@@ -1,68 +1,53 @@
-import { IAttribute } from 'src/Interfaces/ISheet';
+import { IAttributes } from 'src/Interfaces/ISheet';
 
-export const attributes: IAttribute[] = [
-  {
-    id: 1,
+export const attributes: IAttributes = {
+  FOR: {
     name: 'Força',
     shortName: 'FOR',
     info: 'FORÇA TOP',
     totalValue: 0,
     color: 'C724B1',
   },
-  {
-    id: 2,
+  DES: {
     name: 'Destreza',
     shortName: 'DES',
     info: 'DES TOP',
     totalValue: 0,
     color: '44D62C',
   },
-  {
-    id: 3,
-    name: 'Inteligencia',
-    shortName: 'INT',
-    info: 'INT TOP',
-    totalValue: 0,
-    color: 'D22730',
-  },
-  {
-    id: 4,
+  CON: {
     name: 'Constituição',
     shortName: 'CON',
     info: 'CON TOP',
     totalValue: 0,
     color: 'E0E722',
   },
-  {
-    id: 5,
+  POD: {
     name: 'Poder',
     shortName: 'POD',
     info: 'POD TOP',
     totalValue: 0,
     color: '4D4DFF',
   },
-  {
-    id: 6,
+  PER: {
     name: 'Percepção',
     shortName: 'PER',
     info: 'PER TOP',
     totalValue: 0,
     color: 'FFAD00',
   },
-  {
-    id: 7,
+  MED: {
     name: 'Medicina',
     shortName: 'MED',
     info: 'MED TOP',
     totalValue: 0,
     color: 'FFAD00',
   },
-  {
-    id: 8,
+  OUT: {
     name: 'Outros',
     shortName: 'OUT',
     info: 'OUT TOP',
     totalValue: 0,
-    color: 'FFAD00',
+    color: 'D22730',
   },
-];
+};

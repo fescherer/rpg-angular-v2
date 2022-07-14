@@ -1,3 +1,9 @@
-<div class="flex flex-wrap gap05 justify-center align-center">
-  <app-player-attribute *ngFor="let attribute of attributes" [data]="attribute"></app-player-attribute>
+<div class="flex flex-wrap gap05 justify-center align-center" *ngIf="attributes">
+  <app-player-attribute [data]="attributes" [type]="'FOR'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'DES'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'CON'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'POD'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'PER'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'MED'"></app-player-attribute>
+  <app-player-attribute [data]="attributes" [type]="'OUT'"></app-player-attribute>
 </div>

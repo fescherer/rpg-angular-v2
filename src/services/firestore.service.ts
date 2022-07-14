@@ -36,18 +36,18 @@ export class FirestoreService {
         this.toastr.success('Ficha criada', 'Parabéns!');
       })
       .catch((err) => {
-        console.log(err);
         this.toastr.error('Erro na criação da ficha', 'Algo deu errado!');
       });
   }
 
   async update(id: string, newSheet: ISheet) {
+    console.log('Ficha salva: ', newSheet);
     await updateDoc(doc(this.collection, id), { ...newSheet })
       .then(() => {
         this.toastr.success('Ficha atualizada', 'Parabéns!');
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
         this.toastr.error('Erro na atualização da ficha', 'Algo deu errado!');
       });
   }
@@ -58,7 +58,7 @@ export class FirestoreService {
         this.toastr.error('Até a próxima', 'Tchau ficha!');
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
         this.toastr.warning('Erro na deleção da ficha', 'Algo deu errado!');
       });
   }

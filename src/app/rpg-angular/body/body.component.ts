@@ -46,6 +46,6 @@ export class BodyComponent implements OnInit, OnDestroy {
   }
 
   loadSheet(): void {
-    this.utilService.characterSheet.subscribe((val) => console.log('load', val));
+    // this.utilService.characterSheet.subscribe((val) => console.log('load', val));
   }
 }

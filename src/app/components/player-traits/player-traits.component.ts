@@ -48,7 +48,6 @@ export class PlayerTraitsComponent implements OnInit, OnDestroy {
     this.utilService.player
       .pipe(takeUntil(this.unsubscribe$), skip(1), take(1))
       .subscribe((player: IPlayer) => {
-        console.log(player);
         this.playerForm.get('name')?.setValue(player?.name as string);
         this.playerForm.get('sparkEffect')?.setValue(player?.sparkEffect as string);
         this.playerForm.get('origin')?.setValue(player?.origin as string);

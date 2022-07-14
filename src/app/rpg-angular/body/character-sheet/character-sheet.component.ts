@@ -11,20 +11,21 @@ export class CharacterSheetComponent implements OnInit {
   service$!: any;
   player$!: any;
   id$!: any;
+  attributes$!: any;
 
   constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
   ngOnInit(): void {
     this.utilService.characterSheet.subscribe((val) => {
-      console.log('Ficha: ', val);
       this.service$ = val;
     });
     this.utilService.player.subscribe((val) => {
-      console.log('Player: ', val);
       this.player$ = val;
     });
     this.utilService.id.subscribe((val) => {
-      console.log('id:', val);
       this.id$ = val;
+    });
+    this.utilService.attributes.subscribe((val) => {
+      this.attributes$ = val;
     });
   }
 
@@ -37,8 +38,11 @@ export class CharacterSheetComponent implements OnInit {
   }
 
   updateCS(): void {
-    console.log(this.player$, this.id$);
-    this.firestoreService.update(this.id$, { id: this.id$, player: this.player$ });
+    this.firestoreService.update(this.id$, {
+      id: this.id$,
+      player: this.player$,
+      attributes: this.attributes$,
+    });
   }
 
   refresh(): void {

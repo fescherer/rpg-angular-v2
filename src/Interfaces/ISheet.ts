@@ -3,7 +3,7 @@ export interface ISheet {
   player?: IPlayer;
   history?: string;
   annotations?: string;
-  attributes?: IAttribute[];
+  attributes?: IAttributes | null;
 }
 
 export interface IPlayer {
@@ -26,12 +26,21 @@ export interface IPlayer {
 }
 
 export interface IAttribute {
-  id: number;
   name: 'Força' | 'Destreza' | 'Inteligencia' | 'Constituição' | 'Poder' | 'Percepção' | 'Medicina' | 'Outros';
   totalValue: number;
-  shortName: 'FOR' | 'DES' | 'INT' | 'CON' | 'POD' | 'PER' | 'MED' | 'OUT';
+  shortName: 'FOR' | 'DES' | 'CON' | 'POD' | 'PER' | 'MED' | 'OUT';
   info: string;
   color: string;
+}
+
+export interface IAttributes {
+  FOR: IAttribute;
+  DES: IAttribute;
+  CON: IAttribute;
+  POD: IAttribute;
+  PER: IAttribute;
+  MED: IAttribute;
+  OUT: IAttribute;
 }
 
 export interface IAngel {

@@ -1,18 +1,18 @@
-<div class="flex align-center container" [ngStyle]="{ 'box-shadow': '2px 2px 7px ' + '#' + data?.color }">
+<div class="flex align-center container" [ngStyle]="{ 'box-shadow': '2px 2px 7px ' + '#' + fullData?.color }">
   <div
     class="container-value flex p05 flex-column align-center"
-    [ngStyle]="{ 'background-color': '#' + data?.color }"
+    [ngStyle]="{ 'background-color': '#' + fullData?.color }"
   >
     <span class="title font-size-title" id="demo" (click)="changeValue()">{{
-      data?.totalValue | number: '3.0'
+      fullData?.totalValue | number: '3.0'
     }}</span>
     <span class="subtitle font-size-text">000</span>
   </div>
   <div class="relative flex flex-fill justify-center">
     <button class="btn-info">
       <span class="material-symbols-outlined"> info </span>
-      <!-- <span>{{ data?.info }}</span> -->
+      <!-- <span>{{ fullData?.info }}</span> -->
     </button>
-    <span>{{ data?.name }}</span>
+    <span>{{ fullData?.name }}</span>
   </div>
 </div>
