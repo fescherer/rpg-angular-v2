@@ -1,5 +1,6 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ToastrService } from 'ngx-toastr';
 import { debounceTime, Subject, take, takeUntil, skip } from 'rxjs';
 import { IPlayer } from 'src/Interfaces/ISheet';
 import { UtilService } from 'src/services/util.service';
@@ -26,7 +27,7 @@ export class PlayerTraitsComponent implements OnInit, OnDestroy {
 
   private unsubscribe$ = new Subject<void>();
 
-  constructor(private utilService: UtilService) {}
+  constructor(private utilService: UtilService, private toastr: ToastrService) {}
 
   ngOnInit(): void {
     this.init();
@@ -61,5 +62,14 @@ export class PlayerTraitsComponent implements OnInit, OnDestroy {
 
   changeCounterAttack(index: number): void {
     this.counterAttacks[index] = !this.counterAttacks[index];
+  }
+
+  changeValue(msg: string, form: string) {
+    const value = prompt(`Please enter your value of ${msg} in NUMBERS please`);
+    if (value != null && parseInt(value) < 99 && parseInt(value) > 0) {
+      this.playerForm.get(form)?.setValue(value as string);
+    } else {
+      this.toastr.error(`Precisa ser um número entre 0 e 99`, 'Inválido');
+    }
   }
 }
