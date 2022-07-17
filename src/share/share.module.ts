@@ -7,10 +7,25 @@ import {
   WeaponDamageSpecial,
   WeaponTypePipe,
 } from './pipes/weapon';
+import { calcExtremePartPipe } from './pipes/attributes';
 
 @NgModule({
-  declarations: [WeaponTypePipe, WeaponClassPipe, WeaponDamage, WeaponDamageAimed, WeaponDamageSpecial],
+  declarations: [
+    WeaponTypePipe,
+    WeaponClassPipe,
+    WeaponDamage,
+    WeaponDamageAimed,
+    WeaponDamageSpecial,
+    calcExtremePartPipe,
+  ],
   imports: [CommonModule],
-  exports: [WeaponTypePipe, WeaponClassPipe, WeaponDamage, WeaponDamageAimed, WeaponDamageSpecial],
+  exports: [
+    WeaponTypePipe,
+    WeaponClassPipe,
+    WeaponDamage,
+    WeaponDamageAimed,
+    WeaponDamageSpecial,
+    calcExtremePartPipe,
+  ],
 })
 export class ShareModule {}
