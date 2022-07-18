@@ -9,9 +9,5 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'rpg-angular-v2';
-  items$: Observable<any[]>;
-  constructor(firestore: Firestore) {
-    const collectiona = collection(firestore, 'items');
-    this.items$ = collectionData(collectiona);
-  }
+  constructor() {}
 }

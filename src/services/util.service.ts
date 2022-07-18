@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { IAttribute, IAttributes, IPlayer, ISheet } from 'src/Interfaces/ISheet';
-import { IWeapon } from 'src/Interfaces/IWeapon';
+import { IAttribute, IAttributes, IPlayer, ISheet, IWeapon } from 'src/Interfaces/ISheet';
 
 @Injectable({
   providedIn: 'root',

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IWeapon } from 'src/Interfaces/IWeapon';
+import { IWeapon } from 'src/Interfaces/ISheet';
 
 @Component({
   selector: 'app-weapon-card',

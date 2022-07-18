@@ -15,6 +15,7 @@ import {
   collectionData,
 } from '@angular/fire/firestore';
 import { ISheet } from 'src/Interfaces/ISheet';
+import { newSheet } from './newSheet';
 
 @Injectable({
   providedIn: 'root',
@@ -31,7 +32,8 @@ export class FirestoreService {
   }
 
   async create(id: string) {
-    await setDoc(doc(this.collection, id), { id: id })
+    const sheet = newSheet;
+    await setDoc(doc(this.collection, id), { ...sheet, id: id })
       .then(() => {
         this.toastr.success('Ficha criada', 'Parabéns!');
       })

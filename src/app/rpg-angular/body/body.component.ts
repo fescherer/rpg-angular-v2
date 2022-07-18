@@ -23,9 +23,8 @@ export class BodyComponent implements OnInit, OnDestroy {
     this.id = this.router.url.split('/')[2];
   }
 
-  ngOnInit(): void {
-    this.loadSheet();
-    this.isSheetAlreadyCreated();
+  async ngOnInit(): Promise<void> {
+    await this.isSheetAlreadyCreated();
   }
 
   ngOnDestroy(): void {
@@ -37,15 +36,12 @@ export class BodyComponent implements OnInit, OnDestroy {
     (await this.firestoreService.getsheet(this.id))
       .pipe(takeUntil(this.unsubscribe$))
       .subscribe((sheet: any) => {
+        console.log(sheet);
         if (sheet) this.utilService.changeSheet(sheet);
         else {
           this.firestoreService.create(this.id);
           this.utilService.changeID(this.id);
         }
       });
-  }
-
-  loadSheet(): void {
-    // this.utilService.characterSheet.subscribe((val) => console.log('load', val));
   }
 }
