@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { Firestore, collectionData, collection } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 
@@ -9,5 +9,11 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'rpg-angular-v2';
+
+  @HostListener('window:beforeunload', ['$event'])
+  beforeunloadHandler(event: any) {
+    console.log(event);
+    return false;
+  }
   constructor() {}
 }
