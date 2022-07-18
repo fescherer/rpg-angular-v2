@@ -2,11 +2,12 @@
   <div
     class="container-value flex p05 flex-column align-center"
     [ngStyle]="{ 'background-color': '#' + fullData?.color }"
+    (click)="changeValue()"
   >
-    <span class="title font-size-title" id="demo" (click)="changeValue()">{{
-      fullData?.totalValue | number: '3.0'
-    }}</span>
-    <span class="subtitle font-size-text">000</span>
+    <span class="title font-size-title">
+      {{ fullData?.totalValue | number: '3.0' }}
+    </span>
+    <span class="subtitle font-size-text">{{ fullData?.totalValue | calcExtreme | number: '3.0' }}</span>
   </div>
   <div class="relative flex flex-fill justify-center">
     <button class="btn-info">

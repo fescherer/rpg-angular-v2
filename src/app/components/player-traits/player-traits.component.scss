@@ -108,3 +108,11 @@ select {
     background-color: #004400;
   }
 }
+
+.pointer {
+  cursor: pointer;
+
+  &:hover {
+    color: rgba(102, 102, 102, 0.726);
+  }
+}
