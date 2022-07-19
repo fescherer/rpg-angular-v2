@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IWeapon } from 'src/Interfaces/ISheet';
+import { IFa, IWeapon } from 'src/Interfaces/ISheet';
 import { FirestoreService } from 'src/services/firestore.service';
 import { UtilService } from 'src/services/util.service';
 
@@ -16,30 +16,18 @@ export class CharacterSheetComponent implements OnInit {
   weapon$!: IWeapon[];
   annotations$!: string;
   history$!: string;
+  fa$!: IFa;
 
   constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
   ngOnInit(): void {
-    this.utilService.characterSheet.subscribe((val) => {
-      this.service$ = val;
-    });
-    this.utilService.player.subscribe((val) => {
-      this.player$ = val;
-    });
-    this.utilService.id.subscribe((val) => {
-      this.id$ = val;
-    });
-    this.utilService.attributes.subscribe((val) => {
-      this.attributes$ = val;
-    });
-    this.utilService.weapon.subscribe((val) => {
-      this.weapon$ = val;
-    });
-    this.utilService.annotations.subscribe((val) => {
-      this.annotations$ = val;
-    });
-    this.utilService.history.subscribe((val) => {
-      this.history$ = val;
-    });
+    this.utilService.characterSheet.subscribe((val) => (this.service$ = val));
+    this.utilService.player.subscribe((val) => (this.player$ = val));
+    this.utilService.id.subscribe((val) => (this.id$ = val));
+    this.utilService.attributes.subscribe((val) => (this.attributes$ = val));
+    this.utilService.weapon.subscribe((val) => (this.weapon$ = val));
+    this.utilService.annotations.subscribe((val) => (this.annotations$ = val));
+    this.utilService.history.subscribe((val) => (this.history$ = val));
+    this.utilService.fa.subscribe((val) => (this.fa$ = val));
   }
 
   scrollTo(element: any): void {
@@ -58,6 +46,7 @@ export class CharacterSheetComponent implements OnInit {
       weapons: this.weapon$,
       history: this.history$,
       annotations: this.annotations$,
+      fa: this.fa$,
     });
   }
 

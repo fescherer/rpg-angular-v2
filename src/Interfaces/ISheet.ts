@@ -5,6 +5,7 @@ export interface ISheet {
   annotations?: string;
   attributes?: IAttributes | null;
   weapons?: IWeapon[];
+  fa?: IFa;
 }
 
 export interface IPlayer {
@@ -45,22 +46,27 @@ export interface IAttributes {
   OUT: IAttribute;
 }
 
-export interface IAngel {
+export interface IFa {
   id: number;
-  faLevel?: 'A' | 'B' | 'C' | 'D';
-  name: string;
-  title: string;
-  description: string;
-  poem: string;
-  image: string;
-  powers: IAngelPowers[];
+  level: number;
 }
 
-export interface IAngelPowers {
-  title: string;
-  cost: string;
-  description: string;
-}
+// export interface IAngel {
+//   id: number;
+//   faLevel?: 'A' | 'B' | 'C' | 'D';
+//   name: string;
+//   title: string;
+//   description: string;
+//   poem: string;
+//   image: string;
+//   powers: IAngelPowers[];
+// }
+
+// export interface IAngelPowers {
+//   title: string;
+//   cost: string;
+//   description: string;
+// }
 
 export interface IWeapon {
   title?: string;

@@ -15,6 +15,10 @@ export const newSheet: ISheet = {
   history: '',
   annotations: '',
   weapons: [],
+  fa: {
+    id: -1,
+    level: 1,
+  },
   attributes: {
     FOR: {
       name: 'Força',

@@ -12,6 +12,7 @@ import { WeaponCardComponent } from './weapons-list/weapon-card/weapon-card.comp
 import { WeaponPageComponent } from './weapons-list/weapon-page/weapon-page.component';
 import { RouterModule } from '@angular/router';
 import { ShareModule } from 'src/share/share.module';
+import { PlayerFaComponent } from './player-fa/player-fa.component';
 
 const comps = [
   FooterComponent,
@@ -20,6 +21,7 @@ const comps = [
   PlayerAttributesComponent,
   TextAreaComponentComponent,
   WeaponsListComponent,
+  PlayerFaComponent,
 ];
 
 const notExported = [PlayerAttributeComponent, WeaponCardComponent];
