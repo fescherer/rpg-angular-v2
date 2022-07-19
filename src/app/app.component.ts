@@ -10,10 +10,10 @@ import { Observable } from 'rxjs';
 export class AppComponent {
   title = 'rpg-angular-v2';
 
-  @HostListener('window:beforeunload', ['$event'])
-  beforeunloadHandler(event: any) {
-    console.log(event);
-    return false;
-  }
+  // @HostListener('window:beforeunload', ['$event'])
+  // beforeunloadHandler(event: any) {
+  //   console.log(event);
+  //   return false;
+  // }
   constructor() {}
 }

@@ -19,27 +19,27 @@ export class UtilService {
   //   return this.weaponsList$;
   // }
 
-  change(weapon: IWeapon) {
-    this.weaponsList$.next(weapon);
-  }
+  // change(weapon: IWeapon) {
+  //   this.weaponsList$.next(weapon);
+  // }
 
-  weaponList: IWeapon[] = [];
-  idCounter: number = this.weaponList.length + 1;
+  // weaponList: IWeapon[] = [];
+  // idCounter: number = this.weaponList.length + 1;
 
-  addWeapon(weapon: IWeapon): void {
-    this.weaponList.push({ id: this.idCounter, ...weapon });
-    this.idCounter += 1;
-  }
+  // addWeapon(weapon: IWeapon): void {
+  //   this.weaponList.push({ id: this.idCounter, ...weapon });
+  //   this.idCounter += 1;
+  // }
 
-  removeWeapon(id: number): void {
-    this.weaponList = this.weaponList.filter(function (weapon: IWeapon) {
-      return weapon?.id !== id;
-    });
-  }
+  // removeWeapon(id: number): void {
+  //   this.weaponList = this.weaponList.filter(function (weapon: IWeapon) {
+  //     return weapon?.id !== id;
+  //   });
+  // }
 
-  get weaponsList(): IWeapon[] {
-    return this.weaponList;
-  }
+  // get weaponsList(): IWeapon[] {
+  //   return this.weaponList;
+  // }
 
   /*******************************************/
 
@@ -52,6 +52,7 @@ export class UtilService {
       this.id$.next(sheet?.id);
       this.attributes$.next(sheet?.attributes);
       this.history$.next(sheet?.history as string);
+      this.weapon$.next(sheet?.weapons as IWeapon[]);
     }
   }
 
@@ -97,5 +98,19 @@ export class UtilService {
 
   get history(): Observable<string> {
     return this.history$;
+  }
+
+  private weapon$ = new BehaviorSubject<IWeapon[]>([]);
+
+  changeWeapon(weapon: IWeapon[]) {
+    this.weapon$.next(weapon);
+  }
+
+  removeWeapon(weapons: IWeapon[]) {
+    this.weapon$.next(weapons);
+  }
+
+  get weapon(): Observable<IWeapon[]> {
+    return this.weapon$;
   }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IWeapon } from 'src/Interfaces/ISheet';
 import { FirestoreService } from 'src/services/firestore.service';
 import { UtilService } from 'src/services/util.service';
 
@@ -12,6 +13,7 @@ export class CharacterSheetComponent implements OnInit {
   player$!: any;
   id$!: any;
   attributes$!: any;
+  weapon$!: IWeapon[];
 
   constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
   ngOnInit(): void {
@@ -26,6 +28,9 @@ export class CharacterSheetComponent implements OnInit {
     });
     this.utilService.attributes.subscribe((val) => {
       this.attributes$ = val;
+    });
+    this.utilService.weapon.subscribe((val) => {
+      this.weapon$ = val;
     });
   }
 
@@ -42,6 +47,7 @@ export class CharacterSheetComponent implements OnInit {
       id: this.id$,
       player: this.player$,
       attributes: this.attributes$,
+      weapons: this.weapon$,
     });
   }
 

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { skip } from 'rxjs';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { skip, Subject, takeUntil } from 'rxjs';
 import { IAttributes } from 'src/Interfaces/ISheet';
 import { UtilService } from 'src/services/util.service';
 import { attributes } from './attributes';
@@ -9,13 +9,21 @@ import { attributes } from './attributes';
   templateUrl: './player-attributes.component.html',
   styleUrls: ['./player-attributes.component.scss'],
 })
-export class PlayerAttributesComponent implements OnInit {
+export class PlayerAttributesComponent implements OnInit, OnDestroy {
   attributes!: IAttributes | null | undefined;
+
+  private unsubscribe$ = new Subject<void>();
   constructor(private utilService: UtilService) {}
+
   ngOnInit(): void {
-    this.utilService?.attributes.pipe(skip(1)).subscribe((val) => {
+    this.utilService?.attributes.pipe(skip(1), takeUntil(this.unsubscribe$)).subscribe((val) => {
       if (!val) this.utilService.changeAttributes(attributes);
       this.attributes = val;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.unsubscribe$.next();
+    this.unsubscribe$.complete();
   }
 }
