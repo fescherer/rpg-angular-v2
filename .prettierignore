@@ -1,0 +1,4 @@
+**/node_modules
+src/styles/helper.scss
+src/rules-readme/*
+src/private-readme/*
