@@ -14,6 +14,8 @@ export class CharacterSheetComponent implements OnInit {
   id$!: any;
   attributes$!: any;
   weapon$!: IWeapon[];
+  annotations$!: string;
+  history$!: string;
 
   constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
   ngOnInit(): void {
@@ -32,6 +34,12 @@ export class CharacterSheetComponent implements OnInit {
     this.utilService.weapon.subscribe((val) => {
       this.weapon$ = val;
     });
+    this.utilService.annotations.subscribe((val) => {
+      this.annotations$ = val;
+    });
+    this.utilService.history.subscribe((val) => {
+      this.history$ = val;
+    });
   }
 
   scrollTo(element: any): void {
@@ -48,6 +56,8 @@ export class CharacterSheetComponent implements OnInit {
       player: this.player$,
       attributes: this.attributes$,
       weapons: this.weapon$,
+      history: this.history$,
+      annotations: this.annotations$,
     });
   }
 

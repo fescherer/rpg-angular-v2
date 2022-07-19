@@ -25,8 +25,6 @@ export class WeaponCardComponent implements OnInit, OnDestroy {
 
   closeCard(): void {
     const newArray = this.weapons.filter((val) => val.name !== this.data.name);
-    console.log('a');
-    console.log(newArray);
-    this.utilService.removeWeapon(newArray);
+    this.utilService.changeWeapon(newArray);
   }
 }

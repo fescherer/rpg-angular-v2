@@ -14,6 +14,7 @@ export const newSheet: ISheet = {
   },
   history: '',
   annotations: '',
+  weapons: [],
   attributes: {
     FOR: {
       name: 'Força',

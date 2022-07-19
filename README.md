@@ -9,5 +9,7 @@
 - Betabloqueadores (Reduz a chance de perder estabilidade durante a sessão);
 - Spark -> Efeito exclusivo para cada jogador; mas em geral vai aumentar vida ou estabilidade;
 
+efeito da spark-> D4 de vida + D4 de estabilidade e mais 5 em todos os atributos (temporarios pelo combate inteiro)
+
 Testes a serem feitos:
 Iniciativa: Dado D12 + modificador;
