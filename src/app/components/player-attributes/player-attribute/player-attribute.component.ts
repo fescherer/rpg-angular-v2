@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { IAttribute, IAttributes } from 'src/Interfaces/ISheet';
+import { IAttributes } from 'src/Interfaces/ISheet';
 
 @Component({
   selector: 'app-player-attribute',
