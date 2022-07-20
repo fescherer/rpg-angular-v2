@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 import { Subject, takeUntil } from 'rxjs';
 import { UtilService } from 'src/services/util.service';
 
@@ -21,7 +22,12 @@ export class WeaponPageComponent implements OnInit, OnDestroy {
 
   private unsubscribe$ = new Subject<void>();
 
-  constructor(private router: Router, private activeRoute: ActivatedRoute, private utilService: UtilService) {}
+  constructor(
+    private router: Router,
+    private activeRoute: ActivatedRoute,
+    private utilService: UtilService,
+    private toastr: ToastrService,
+  ) {}
 
   ngOnInit(): void {
     this.utilService.weapon.pipe(takeUntil(this.unsubscribe$)).subscribe((weapons) => (this.data = weapons));
@@ -36,6 +42,8 @@ export class WeaponPageComponent implements OnInit, OnDestroy {
       this.data.push(this.weaponForm.value);
       this.utilService.changeWeapon(this.data);
       this.router.navigate(['.'], { relativeTo: this.activeRoute.parent });
+    } else {
+      this.toastr.error('Formulário não preenchido corretamente', 'Erro');
     }
   }
 }

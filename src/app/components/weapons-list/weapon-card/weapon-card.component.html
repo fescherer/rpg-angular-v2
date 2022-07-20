@@ -6,7 +6,7 @@
   </div>
   <div class="flex flex-column h-100 card p05">
     <div class="flex align-center gap05 container-description">
-      <img src="../../../../assets/github.png" alt="github" onerror="" class="img-weapon" />
+      <img [src]="data?.url" alt="weapon" appHideMissing class="img-weapon" />
       <span class="title">{{ data?.name || '' }}</span>
     </div>
     <span class="description flex flex-fill mt05">{{ data?.description || '' }}</span>

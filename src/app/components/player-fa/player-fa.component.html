@@ -1,6 +1,6 @@
-<div class="mt1 flex flex-column justify-center">
+<div class="mt1 flex flex-column justify-center" *ngIf="fa.id | faLevel as angel">
   <h2>Anjo Caído:</h2>
-  <div class="card" *ngIf="fa.id | faLevel as angel">
+  <div class="card">
     <div class="flex justify-between">
       <h3>{{ angel?.displayName }}, {{ angel?.title }}</h3>
       <span class="fa-class font-size-title">{{ fa?.level }}</span>
