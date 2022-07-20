@@ -48,7 +48,7 @@ export interface IAttributes {
 
 export interface IFa {
   id: number;
-  level: number;
+  level: 'A' | 'B' | 'C' | 'D';
 }
 
 // export interface IAngel {

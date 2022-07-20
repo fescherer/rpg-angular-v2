@@ -1,1 +1,50 @@
-<p>player-fa works!</p>
+<div class="mt1 flex flex-column justify-center">
+  <h2>Anjo Caído:</h2>
+  <div class="card" *ngIf="fa.id | faLevel as angel">
+    <div class="flex justify-between">
+      <h3>{{ angel?.displayName }}, {{ angel?.title }}</h3>
+      <span class="fa-class font-size-title">{{ fa?.level }}</span>
+    </div>
+    <div class="flex justify-between gap1" *ngIf="!mobile">
+      <div class="flex flex-column w100">
+        <div class="mt1 flex justify-between w100">
+          <h3>{{ isPoemType ? 'Poema' : 'Poderes' }}</h3>
+          <span class="material-symbols-outlined btn-change noselect" (click)="isPoemType = !isPoemType">
+            published_with_changes
+          </span>
+        </div>
+
+        <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
+        <span *ngIf="!isPoemType" class="font-size-text">fefefefefef</span>
+      </div>
+
+      <img
+        [ngClass]="[isFaImgHide ? 'fa-img-hide' : '', true ? angel?.value : '']"
+        (click)="isFaImgHide = !isFaImgHide"
+        class="fa-img"
+        [src]="angel?.image"
+        [alt]="angel?.value"
+      />
+    </div>
+
+    <div class="flex flex-column align-center gap1" *ngIf="mobile">
+      <img
+        [ngClass]="isFaImgHide ? 'fa-img-hide' : ''"
+        (click)="isFaImgHide = !isFaImgHide"
+        class="fa-img"
+        [src]="angel?.image"
+        [alt]="angel?.value"
+      />
+      <div class="flex flex-column w100">
+        <div class="flex justify-between w100">
+          <h3>{{ isPoemType ? 'Poema' : 'Poderes' }}</h3>
+          <span class="material-symbols-outlined btn-change noselect" (click)="isPoemType = !isPoemType">
+            published_with_changes
+          </span>
+        </div>
+        <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
+        <span *ngIf="!isPoemType" class="font-size-text">fefefefefef</span>
+      </div>
+    </div>
+  </div>
+</div>

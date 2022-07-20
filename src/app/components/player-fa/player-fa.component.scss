@@ -1,0 +1,76 @@
+.card {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.fa-img {
+  margin: 1rem;
+  width: 12rem;
+  border-radius: 10px;
+  box-shadow: 5px 6px gray;
+  cursor: pointer;
+  height: 100%;
+  box-shadow: 5px 6px var(--shadow-color);
+}
+
+.fa-img-hide {
+  height: 10px;
+}
+
+.fa-class {
+  margin-right: 0.5rem;
+}
+
+.btn-change {
+  cursor: pointer;
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
+
+.break-line {
+  white-space: pre-line;
+}
+
+.samyaza {
+  //#ff3503
+  //cor->
+  box-shadow: 0 0 20px #412730;
+}
+
+.azazel {
+  box-shadow: 0 0 20px #34413a;
+}
+
+.suphlatus {
+  box-shadow: 0 0 20px #bfac71;
+}
+
+.baraqiel {
+  box-shadow: 0 0 20px #1f1513;
+}
+
+.af {
+  box-shadow: 0 0 20px #610709;
+}
+
+.penemue {
+  box-shadow: 0 0 20px #402337;
+}
+
+.bezaliel {
+  box-shadow: 0 0 20px #b2b986;
+}
+
+.chazaqiel {
+  box-shadow: 0 0 20px #3c332c;
+}
+
+.asbeel {
+  box-shadow: 0 0 20px #bb9a65;
+}
+
+.armaros {
+  box-shadow: 0 0 20px #a56371;
+}

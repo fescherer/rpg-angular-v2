@@ -8,24 +8,23 @@ import {
   WeaponTypePipe,
 } from './pipes/weapon';
 import { calcExtremePartPipe } from './pipes/attributes';
+import { faPipe } from './pipes/fa';
+
+const comps = [
+  WeaponTypePipe,
+  WeaponClassPipe,
+  calcExtremePartPipe,
+  faPipe,
+  WeaponDamageSpecial,
+  WeaponDamageAimed,
+  WeaponDamage,
+];
+
+const notExported = [];
 
 @NgModule({
-  declarations: [
-    WeaponTypePipe,
-    WeaponClassPipe,
-    WeaponDamage,
-    WeaponDamageAimed,
-    WeaponDamageSpecial,
-    calcExtremePartPipe,
-  ],
+  declarations: [...comps],
   imports: [CommonModule],
-  exports: [
-    WeaponTypePipe,
-    WeaponClassPipe,
-    WeaponDamage,
-    WeaponDamageAimed,
-    WeaponDamageSpecial,
-    calcExtremePartPipe,
-  ],
+  exports: [...comps],
 })
 export class ShareModule {}

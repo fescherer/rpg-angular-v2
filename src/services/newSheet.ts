@@ -17,7 +17,7 @@ export const newSheet: ISheet = {
   weapons: [],
   fa: {
     id: -1,
-    level: 1,
+    level: 'D',
   },
   attributes: {
     FOR: {

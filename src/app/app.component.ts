@@ -1,6 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import { Firestore, collectionData, collection } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
+import { MobileService } from 'src/services/mobile.service';
 
 @Component({
   selector: 'app-root',
@@ -15,5 +14,10 @@ export class AppComponent {
   //   console.log(event);
   //   return false;
   // }
-  constructor() {}
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.mobileService.nextIsMobile(window.innerWidth);
+  }
+  constructor(private mobileService: MobileService) {}
 }

@@ -13,7 +13,7 @@ export class UtilService {
   private history$ = new BehaviorSubject<string>('');
   private annotations$ = new BehaviorSubject<string>('');
   private weapon$ = new BehaviorSubject<IWeapon[]>([]);
-  private fa$ = new BehaviorSubject<IFa>({ id: -1, level: 1 });
+  private fa$ = new BehaviorSubject<IFa>({ id: -1, level: 'D' });
 
   constructor() {}
 

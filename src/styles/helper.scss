@@ -124,6 +124,10 @@
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+.w100 {
+  width: 100%;
+}
+
 .z-index-background { z-index: -999 }
 .z-index-foreground { z-index: 5 }
 .z-index-dialog { z-index: 1 }
