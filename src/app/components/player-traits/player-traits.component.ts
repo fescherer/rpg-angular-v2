@@ -16,10 +16,10 @@ export class PlayerTraitsComponent implements OnInit, OnDestroy {
     name: new FormControl('', Validators.required),
     sparkEffect: new FormControl(''),
     origin: new FormControl('', Validators.required),
-    currentLife: new FormControl(1432, Validators.required),
-    totalLife: new FormControl(143, Validators.required),
-    currentStability: new FormControl(14, Validators.required),
-    totalStability: new FormControl(141, Validators.required),
+    currentLife: new FormControl(0, Validators.required),
+    totalLife: new FormControl(0, Validators.required),
+    currentStability: new FormControl(0, Validators.required),
+    totalStability: new FormControl(0, Validators.required),
     defence: new FormControl(false, Validators.required),
   });
 
@@ -71,5 +71,25 @@ export class PlayerTraitsComponent implements OnInit, OnDestroy {
     } else {
       this.toastr.error(`Precisa ser um número entre 0 e 99`, 'Inválido');
     }
+  }
+
+  addLife(): void {
+    // @ts-ignore
+    this.playerForm.get('currentLife')!.setValue((this.playerForm.get('currentLife').value + 1) as number);
+  }
+
+  removeLife(): void {
+    // @ts-ignore
+    this.playerForm.get('currentLife')?.setValue(parseInt(this.playerForm.get('currentLife')?.value) - 1);
+  }
+
+  addStability(): void {
+    // @ts-ignore
+    this.playerForm.get('currentStability')?.setValue(this.playerForm.get('currentStability')?.value + 1);
+  }
+
+  removeStability(): void {
+    // @ts-ignore
+    this.playerForm.get('currentStability')?.setValue(this.playerForm.get('currentStability')?.value - 1);
   }
 }
