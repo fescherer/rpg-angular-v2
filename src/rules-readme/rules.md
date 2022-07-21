@@ -8,7 +8,7 @@ Em certos momentos, o mestre pode pedir ao jogador um teste de atributo. O que s
   
 Forçar teste: Se o jogador estiver muito confiante, ele poderá escolher forçar o teste. Isso significa que ele pode jogar os dados novamente, mas só se descrever uma situação diferente e que promova mais riscos caso falhe;  
 
-Gravar voz: Foi pedido aos jogadores para que eles gravassem uma parte onde o personagem se despede do pessoal e isso poderá ser usado caso alguém venha a falecer;  
+
 
 ### Vantagens vs Desvantagens
 
