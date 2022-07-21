@@ -54,8 +54,8 @@ export class FirestoreService {
       });
   }
 
-  async delete() {
-    await deleteDoc(doc(this.collection, 'aaaa'))
+  async delete(id: string) {
+    await deleteDoc(doc(this.collection, id))
       .then(() => {
         this.toastr.error('Até a próxima', 'Tchau ficha!');
       })

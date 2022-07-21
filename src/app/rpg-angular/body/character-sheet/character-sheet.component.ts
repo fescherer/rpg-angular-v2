@@ -50,6 +50,10 @@ export class CharacterSheetComponent implements OnInit {
     });
   }
 
+  deleteCS() {
+    this.firestoreService.delete(this.id$);
+  }
+
   refresh(): void {
     location.reload();
   }
