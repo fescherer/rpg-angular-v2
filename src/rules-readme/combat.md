@@ -15,6 +15,9 @@
         
         Inspiração: Protect do pokémon;
     
+  ## Iniciativa
+  Ao iniciar um combate, todos os integrantes (inclusive o inimigo) irão tirar um D12, o maior valor começa atacando. Caso haja empate, será feito um D2 para ver a ordem;
+
   ## Esquiva e contra-ataque
   Ao receber um ataque, o jogador tem a possibilidade de esquivar ou contra-atacar
 
