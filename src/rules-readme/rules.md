@@ -3,12 +3,12 @@
 Em certos momentos, o mestre pode pedir ao jogador um teste de atributo. O que significa que o jogador deve jogar um dado D100 e verificar se o número sorteado é menor ou igual ao número de atributo que o jogador possui. Porém dependendo da quantidade, o teste poderá ser:  
 | Extremo | Sucesso  | Falha | Desastre |
 | :---: | :---: | :--: | :--: |
-| Tirar a terça parte do valor do atributo | Tirar menor ou igual ao número do atributo | Tirar mais que o atributo | Tirar 100, 99, 98, 97, 96 | 
+| Tirar a quarta parte do valor do atributo | Tirar menor ou igual ao número do atributo | Tirar mais que o atributo | Tirar 100, 99, 98, 97, 96 | 
 
   
 Forçar teste: Se o jogador estiver muito confiante, ele poderá escolher forçar o teste. Isso significa que ele pode jogar os dados novamente, mas só se descrever uma situação diferente e que promova mais riscos caso falhe;  
 
-Gravar voz: Foi pedido aos jogadores para que eles gravassem uma parte onde o personagem se despede do pessoal e isso poderá ser usado caso alguém venha a falecer;  
+
 
 ### Vantagens vs Desvantagens
 

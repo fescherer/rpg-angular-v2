@@ -6,7 +6,7 @@ Em WHITE, sua estabilidade equivale a mana ou energia
 
 #### Anjos  
 Ela será usada para você poder usar poderes dos anjos.  
-Cada anjo possuí 3 poderes que vão variar no custo de estabilidade para usuá-los.  
+  
 
 #### Evento traumático  
 O mundo de Protocity não é fácil, por isso, durante o jogo diversos eventos farão seus personagens se questionarem sobre diversos assunto que podem inclusive mexer com seu psicológico.  
