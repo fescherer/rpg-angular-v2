@@ -7,7 +7,7 @@ Em certos momentos, o mestre pode pedir ao jogador um teste de atributo. O que s
 
   
 Forçar teste: Se o jogador estiver muito confiante, ele poderá escolher forçar o teste. Isso significa que ele pode jogar os dados novamente, mas só se descrever uma situação diferente e que promova mais riscos caso falhe;  
-
+Teste  de lembrança. As vezes os jogadores tem uma ideia muito boa de algo que possa ter acontecido no "off". Caso um jogador queira e com a permissão do mestre, ele pode requisitar um teste de lembrança (Teste de percepção contra outro jogador) Caso ele ganhe, ele pode adicionar algo em "off". Exemplo. Drometz teve a ideia de falar que viu Joel deixar as cuecas todas jogadas no chão do quarto, então ele pede um teste de lembrança.
 
 
 ### Vantagens vs Desvantagens
