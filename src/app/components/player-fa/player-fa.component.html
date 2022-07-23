@@ -3,7 +3,7 @@
   <div class="card">
     <div class="flex justify-between">
       <h3>{{ angel?.displayName }}, {{ angel?.title }}</h3>
-      <span class="fa-class font-size-title">{{ fa?.level }}</span>
+      <span class="fa-class font-size-title">{{ fa.level }}</span>
     </div>
     <div class="flex justify-between gap1" *ngIf="!mobile">
       <div class="flex flex-column w100">
@@ -15,7 +15,9 @@
         </div>
 
         <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
-        <span *ngIf="!isPoemType" class="font-size-text">fefefefefef</span>
+        <ul *ngIf="!isPoemType" class="font-size-text">
+          <li>{{ angel.powers[0].title }}</li>
+        </ul>
       </div>
 
       <img
@@ -43,7 +45,31 @@
           </span>
         </div>
         <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
-        <span *ngIf="!isPoemType" class="font-size-text">fefefefefef</span>
+        <ul *ngIf="!isPoemType" class="font-size-text flex flex-column gap1">
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 1">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">{{ angel?.powers[0]?.title }}</span>
+              <span class="powers-cost">{{ angel?.powers[0]?.cost }}</span>
+            </div>
+            <span class="powers-desc">{{ angel?.powers[0]?.desc }}</span>
+          </li>
+
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 2">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">{{ angel?.powers[1]?.title }}</span>
+              <span class="powers-cost">{{ angel?.powers[1]?.cost }}</span>
+            </div>
+            <span class="powers-desc">{{ angel?.powers[1]?.desc }}</span>
+          </li>
+
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 3">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">{{ angel?.powers[2]?.title }}</span>
+              <span class="powers-cost">{{ angel?.powers[2]?.cost }}</span>
+            </div>
+            <span class="powers-desc">{{ angel?.powers[2]?.desc }}</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

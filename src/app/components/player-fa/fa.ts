@@ -92,7 +92,7 @@ export const faDataa = [
       },
       {
         title: 'Energização',
-        cost: '2D4 de estabilidade para deixar sua arma com D12 a mais de dano por D4 rodadas',
+        cost: '2D4 de estabilidade para deixar sua arma com 2D6 a mais de dano por D4 rodadas',
         desc: 'Minha arma solta raios e trovões. Você pode energizar uma arma de sua preferência',
       },
       {
@@ -220,7 +220,7 @@ export const faDataa = [
     powers: [
       {
         title: 'Escudo de areia',
-        cost: '6D2',
+        cost: '3D2',
         desc: 'Asbeel protegerá sua rainha a qualquer custo (Inclusive a estabilidade dela). Esse poder pode ser usado quando algum mostro atacar ela e bloqueia 100% do dano que seria sofrido.',
       },
       {

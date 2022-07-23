@@ -2,7 +2,7 @@ PODERES:
 
 Af -> Anjo da Raiva:
 Poder primário -> Projeção astral (Traz uma silhueta roxa da irmã que extende seu alcance);
-Poder no dado -> + Range (Uma a mais do que seria com qualquer arma); Ataque duplo e vida dupla contra um inimigo apenas;
+Poder no dado -> Ataque duplo e vida dupla contra um inimigo apenas;
 vem de frente da pessoa
 
 Asbeel -> Anjo da Ruína:
@@ -23,6 +23,7 @@ forma no ar
 Bezaliel -> Anjo das Sombras:
 Poder primário -> fazer 2 clones da sombra;
 Poder no dado -> Esses clones são como se fosse você, então vocÇe tem tres ações possiveis;
+Poder no dado -> Tentar invocar um inimigo para
 surge do chao
 
 Kokabiel -> Anjo da estrela cadente:

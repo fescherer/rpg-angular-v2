@@ -3,7 +3,7 @@ Happens under our watch - Um livro de capa preta e com detalhes e letras em dour
 
 Outer walls of one's mind - Um livro que tem uma capa azul, com um desenho de um homenzinho preso entre paredes transparentes, o livro é de "ficção" e fala sobre um garoto que havia sido revivido por um amigo de infância depois de um acidente fatal. A ressureição ocorreu utilizando das memórias do protagonista, que voltou a vida sem elas, e então acabou se esquecendo do amigo que o havia trazido de volta
 
-Eppyra (Reino do sul - parecido com soviéticos) Protocity e Ityda ( Reino asiatico)
+Graycity (Reino do leste - Neve, sabem controlar os anjos caidos) Protocity e Suncity (Reino do sul- Reino asiatico)
 Jornada da liberdade - Movimento de saida do estado de Eppyra;
 Incidente do roubo da casa vermelha - Terroristas da Silver Hydra atacaram um posto do governo e roubaram alguns items;
 guerra de anexação - Guerra para tornar o distrito de fewscraps parte de protocity;

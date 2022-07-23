@@ -8,7 +8,7 @@ import {
   WeaponTypePipe,
 } from './pipes/weapon';
 import { calcExtremePartPipe } from './pipes/attributes';
-import { faPipe } from './pipes/fa';
+import { faPipe, faPipeNumber } from './pipes/fa';
 import { HideMissingDirective } from './directives/imgerror';
 
 const comps = [
@@ -20,6 +20,7 @@ const comps = [
   WeaponDamageAimed,
   WeaponDamage,
   HideMissingDirective,
+  faPipeNumber,
 ];
 
 const notExported = [];

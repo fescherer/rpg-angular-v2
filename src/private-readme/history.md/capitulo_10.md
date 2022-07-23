@@ -16,22 +16,22 @@
 
 ---
 
-- [ ] Voltam ao HQ da Silver Hydra;
-- [ ] Os outros Eyes aparecem junto a Leah, Patricio e Isaac
-- [ ] Demon Eye Parabeniza eles, fizeram algo que nunca foi feito;
-- [ ] Promovidos a agentes;
-- [ ] Ganham o anel ;
-- [ ] Dormem;
+- [x] Voltam ao HQ da Silver Hydra;
+- [x] Os outros Eyes aparecem junto a Leah, Patricio e Isaac
+- [x] Demon Eye Parabeniza eles, fizeram algo que nunca foi feito;
+- [x] Promovidos a agentes;
+- [x] Ganham o anel ;
+- [x] Dormem;
 
 ### Cenário 2:
 
-- [ ] Reunião em grupo;
+- [x] Reunião em grupo;
 
 ---
 
-- [ ] Conversam sobre o que estão achando de tudo isso;
-- [ ] Lindsey está na ala médica, pergunta se pode participar da equipe;
-- [ ] Lindsey agradece a todos e se desculpa;
-- [ ] Ela agora vai tomar mais cuidado, mas não vai desistir;
-- [ ] Conversam sobre os anjos de cada um;
-- [ ] Prox missão, ir ao laboratório de uma cientista (Sage);
+- [x] Conversam sobre o que estão achando de tudo isso;
+- [x] Lindsey está na ala médica, pergunta se pode participar da equipe;
+- [x] Lindsey agradece a todos e se desculpa;
+- [x] Ela agora vai tomar mais cuidado, mas não vai desistir;
+- [x] Conversam sobre os anjos de cada um;
+- [x] Prox missão, ir ao laboratório de uma cientista (Sage);
