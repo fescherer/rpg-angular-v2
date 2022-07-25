@@ -18,7 +18,7 @@
 ### Cenário 1:
 
 - [ ] Laboratório da Sage (Dentro)
-- [ ] Foto da Sage
+- [x] Foto da Sage
 - [ ] Livros sobre Elsewhere
 - [ ] Livros sobre God- Slayer
 - [ ] Protótipo do God Slayer
@@ -28,6 +28,7 @@
 - [ ] Explorando o Laboratório de Sage
 - [ ] Foto de Sage
 - [ ] Livros de Elsewhere
+- [ ] Anotações que sage fazia de uma possível máquina que unisse os humanos e se transformassem em um só;
 - [ ] Anotações sobre God Slayer, criação de uma máquina/Homem capaz de matar Deus
 - [ ] História de Raziel, o anjo com o livro com as anotações das conversas de Deus e que após Enoch ler, se transformou em Metatron
 - [ ] Para ler o livro, precisa ser um servo de deus

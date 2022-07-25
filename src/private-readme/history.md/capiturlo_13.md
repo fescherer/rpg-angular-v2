@@ -14,18 +14,8 @@
 
 ### Cenário 1:
 
-- [ ] Corredor de High Forwib para a Igreja Central
-
----
-
-- [ ] No corredor, eles vão contando a situação a Isaac;
-- [ ] Isaac conta que em FewScraps tinha uma barreira técnologica que não deixava nada entrar ou sair;
-- [ ] Deu trabalho mas eles retiraram ela;
-
-### Cenário 2:
-
 - [ ] Clinton Regan
-- [ ] Igreja Central
+- [x] Igreja Central
 - [ ] Maquina suprema (Casulo)
 
 ---
@@ -60,7 +50,7 @@
 - [ ] Jogador vai tentar parar ele, mas Clinton é muito forte e inicia o ritual
 - [ ] Ritual é para chamar Deus para Terra para que eles pudessem matá-lo
 
-### Cenário 3:
+### Cenário 2:
 
 - [ ] Trombetas do apocalipse
 - [ ] Som I only human

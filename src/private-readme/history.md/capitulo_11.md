@@ -9,9 +9,9 @@
 
 ### Cenário 1:
 
-- [ ] Laboratório fora
-- [ ] Arthur Dexter Metálico
-- [ ] Soldados
+- [x] Laboratório fora
+- [x] Arthur Dexter Metálico
+- [x] Soldados
 
 ---
 
@@ -34,7 +34,8 @@
 - [ ] No periodo de jesus, tudo parece ter se acalmado, porque ele ensinou as pessoas a orarem a deus
 - [ ] Por muito tempo a humanidade estava tranquila, com apenas alguns ou outros pequenos eventos (Bruxas idade média)
 - [ ] Por algum motivo tudo mudou em 2050, uma faísca que causou um novo apocalipse, muito maior que era para acabar com a humanidade;
-- [ ] Não sabem porque do apocalipse, mas Hayden decidiu que era hora de parar de brincar com a humanidade;
-- [ ] O objetivo de Hayden não é a guerra com o Suncity (Sul), mas sim, trazer Deus a Terra e matar ele;
+- [ ] Não sabem porque do apocalipse, e sem Hayden nunca estariamos aqui;
+- [ ] Ele é tudo, nosso salvador e que descobriu toda essa ladainha e decidiu que era hora de mudar;
+- [ ] O objetivo de Hayden não é a guerra com o Suncity (Sul), mas sim, trazer Deus a Terra, matar ele e acabar com esse ciclo;
 - [ ] Vão matar ele com a arma suprema- O God Slayer
 - [ ] Eles citam o nome do principal líder da Igreja do Deus Caído - Clinton Regan
