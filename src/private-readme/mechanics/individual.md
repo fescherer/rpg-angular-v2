@@ -17,3 +17,31 @@ Brinco de Onix =
 Pulseira de Safira = 
 
 
+
+
+Elsewhere
+Kenny
+Zoey
+Joel
+Lindsey
+Isaac
+Leah
+Demon
+Lion
+Cobra
+
+Arredores de Protocity
+CCC
+DDD
+
+
+Douglas Landry
+AAAA
+BBBB
+
+Emma
+Ethan
+
+Graycity 1
+Graycity 2
+Graycity 3

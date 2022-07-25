@@ -128,6 +128,10 @@
   width: 100%;
 }
 
+.break-line {
+  white-space: pre-line;
+}
+
 .z-index-background { z-index: -999 }
 .z-index-foreground { z-index: 5 }
 .z-index-dialog { z-index: 1 }

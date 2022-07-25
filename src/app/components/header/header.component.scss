@@ -15,7 +15,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   transition: visibility 0s, opacity 0.5s linear;
-  animation-name: example;
+  animation-name: showHide;
   animation-duration: 0.5s;
 
   a {
@@ -33,7 +33,7 @@
     margin: 1rem 0;
   }
 }
-@keyframes example {
+@keyframes showHide {
   0% {
     width: 0px;
   }

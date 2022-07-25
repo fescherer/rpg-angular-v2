@@ -97,9 +97,4 @@
 
 FIM
 
--------SEGUNDA TEMPORADA-----
-5ª 1º AI (Dor, lamentação) – Nuvem de gafanhotos que só atacam humanos
-6ª 2º AI – Soltou anjos que mataram 1/3 dos homens pôr fogo/ enxofre / fumaça
-7ª 3º AI – Deus aparece e abre os portões do paraíso
 
-não tocou todas para deixar um tempo para a humanidade se redimir

@@ -1,3 +1,6 @@
+[x] Capitulo 1:
+Anjo caído no porão
+
 [x] Cpitulo 3:
 Fim da batalha contra o robo gigante, kenny e zoey discutindo
 

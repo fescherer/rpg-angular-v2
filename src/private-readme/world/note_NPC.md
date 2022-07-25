@@ -38,7 +38,8 @@ Ellie Miller ----> Filha
 
 ## Lendários
 
-Raziel ---> Anjo que deu o conhecimento a humanida (Hayden)
+Hayden ----> Fundador de Protocity
+Raziel ---> Anjo que deu o conhecimento a humanidade (Hayden)
 Enoch ----> Discíplo de Deus e anjo supremo (Metatron)
 
 ## Não conhecidos
