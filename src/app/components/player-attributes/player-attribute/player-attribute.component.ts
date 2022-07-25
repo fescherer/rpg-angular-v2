@@ -20,7 +20,7 @@ export class PlayerAttributeComponent implements OnInit {
 
   changeValue() {
     const value = prompt('Please enter your value in NUMBERS please');
-    if (value != null && parseInt(value) < 85 && parseInt(value) > 40) {
+    if (value != null && parseInt(value) <= 85 && parseInt(value) >= 40) {
       this.fullData!.totalValue = value;
     } else {
       this.toastr.error('Precisa ser um número entre 40 e 85', 'Atributo inválido');

@@ -45,3 +45,8 @@ Ethan
 Graycity 1
 Graycity 2
 Graycity 3
+
+
+
+
+cada d4 para cada level;

@@ -36,3 +36,12 @@ Poder primário -> Healing;
 Poder no dado -> Circulo de healing 5 rodadas heala um D2 de vida para todo mundo que estiver la;
 Poder no dado -> Hela uma pessoa, 3D2 de vida
 surge do ar e se torna um tornado
+
+
+
+
+
++ Anjos- 
+
+Fogo e Gelo;
+Poder de procurar outros anjos;

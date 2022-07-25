@@ -51,6 +51,8 @@
 - [ ] O barman diz que eles precisam achar outras pessoas com respostas, deve haver alguma forma de parar a profecia, por isso os jogadores tem que juntar todos os anjos caídos do mundo;
 - [ ] Barman entrega uma espécie de radio que funciona entre cidades e fala para eles ligarem se precisarem de alguma coisa, ele também vai investigar e trazer duas pessoas do grupo dele caso precise;
 - [ ] Barman diz que talvez a resposta seja lutar e por isso, eles devem avisar a todos os usuários isso;
+- [ ] O poder do anjo do Barman consegue ver onde usuários estão, tipo o poder do cara molhado em charlotte;
+- [ ] Lindsey volta a silver Hydra para avisar e procurar por mais usuários de anjos caídos;
 - [ ] Jogadores vão reunir dois usuários em Suncity
 
 
@@ -65,7 +67,7 @@
 - [ ] Placa de perigo
 - [ ] Diversos tiros chegando a eles quando chegam a fazenda
 - [ ] Dois usuários são irmão e irmã, mas muito novos;
-- [ ] O avô e a mãe cuidam das crianças, os antigos usuários eram a avó e o pai;
+- [ ] O avô e a mãe cuidam das crianças, os antigos usuários eram a avó e o pai; 
 - [ ] Jogadores explicam a situação e eles entregam o rádio para eles, quando a hora chegar eles precisam ir junto;
 
 
