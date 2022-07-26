@@ -14,6 +14,7 @@
       Lindsey é intrometida demais para continuar viva
       Zoey ou Phebe, muitos sabem mais sobre você, do que você mesma
 - [ ] O nome do principal líder da Igreja do Deus Caído - Clinton Regan
+- [ ] Arthur joga elsewhere no chão e joga o livro que está escrito god slayer e assinado por dr. sage
 
 ### Cenário 1:
 
