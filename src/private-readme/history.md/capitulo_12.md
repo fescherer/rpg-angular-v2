@@ -11,7 +11,6 @@
       Nunca foi o objetivo matar Elsewhere
       Joel é necessário para o casulo
       Kenny não era para existir, Antony vacilou com eles
-      Lindsey é intrometida demais para continuar viva
       Zoey ou Phebe, muitos sabem mais sobre você, do que você mesma
 - [ ] O nome do principal líder da Igreja do Deus Caído - Clinton Regan
 - [ ] Arthur joga elsewhere no chão e joga o livro que está escrito god slayer e assinado por dr. sage
@@ -24,13 +23,38 @@
 - [x] Livros sobre Elsewhere
 - [x] Livros sobre God- Slayer
 - [x] Protótipo do God Slayer
+- [x] Raziel Tarot {
+    Raziel anjo ao lado de Deus: https://br.pinterest.com/pin/464855992797487667/
+    Poderes do livro: https://br.pinterest.com/pin/854417360565441851/
+    Raziel roubando o livro: https://br.pinterest.com/pin/525232375297842041/  
+    Raziel entregando o livro a adao e eva:  https://br.pinterest.com/pin/417427459212733078/
+    Julgamento: https://br.pinterest.com/pin/400116748147048535/
+    Morte adão e eva:   https://br.pinterest.com/pin/328270260351953395/
+    Julgamento do raziel:    https://br.pinterest.com/pin/554787247851599563/
+    Enoch: https://br.pinterest.com/pin/867083734479150644/
+    Enoch com a morte: https://br.pinterest.com/pin/340092209364474238/
+}
 
 ---
 
-
 - [ ] Anotações que sage fazia de uma possível máquina que unisse os humanos e se transformassem em um só;
 - [ ] Anotações sobre God Slayer, criação de uma máquina/Homem capaz de matar Deus
+
 - [ ] História de Raziel, o anjo com o livro com as anotações das conversas de Deus e que após Enoch ler, se transformou em Metatron
+
+- [ ] Raziel- Anjo que ficava ao lado de Deus para fazer anotações do que ele falava e por muito muito tempo, Raziel descobriu diversos podres de Deus, coisas que ele não concordava nem um pouco.
+- [ ] Então ele decidiu fazer uma magia no livro que usuava para as anotações- Essa magia daria o poder daquele conhecimento para quem o lesse.
+- [ ] Decidiu roubar aquele livro e entregar aos humanos para que soubessem quem seu verdadeiro Deus era e como ele sabia muito de Deus, conseguiu enganá-lo
+- [ ] Ele entregou o livro a Adão e Eva, os humanos que viviam tranquilamente no paraíso;
+- [ ] Mas então, ao ler o livro, Adão e Eva mudaram, eles entenderam como o mundo funcionava e como Deus agia, a magia que Raziel colocou, os fez entender tudo
+- [ ] E era demais para um humano qualquer, nem adão e nem eva sobreviveram
+- [ ] Raziel foi pego pelos guardas de Deus e julgado a passar o resto de seus dias preso na Terra
+- [ ] Seu livro ao invés de ser destruído, foi selado com uma magia que somente os verdadeiros servos de Deus pudessem le-lo
+- [ ] Depois de anos, uma pessoa leria esse livro- Enoch, o mensageiro de deus que foi até aquele lugar vigiar os Watchers
+- [ ] E mais uma vez, apesar de conseguir o poder que Raziel desejava entregar, aquele livro trouxe o banimento de Enoch e de todos os anjos caídos da cidade para os confins da Terra;
+
+ 
+- [ ] Hayden pretendia usar o livro e acabar com Deus
 - [ ] Para ler o livro, precisa ser um servo de deus
 - [ ] A arma seria um humano/máquina que é capaz de ler o livro de Raziel
 

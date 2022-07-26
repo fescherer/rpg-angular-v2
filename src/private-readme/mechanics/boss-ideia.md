@@ -2,7 +2,7 @@ Ideia de boss: Um boss que é bom falhar (Segunda temporada), vai ser relacionad
 
 Ideia de boss: Lindsey (Boss em que os jogadores precisam fazer ela se lembrar de quem é);
 
-Ideia de boss: Um boss baseado na defesa, ou seja, os jogadores precisam ficar atacando ele toda hora;
+
 Ideia de boss: Um boss baseado em não atacar ele, para ganhar, os jogadores precisam deixar de atacar por 4 turnos;
 
 Ideia de boss: Um boss que inverte os atributos aleatoriamente
@@ -21,7 +21,7 @@ Ideia de boss: Boss que teria que ser atacado de diversas formas, não podendo s
 Ideia de boss: esfinge - vai perguntando pros players algumas trivias, charadas fáceis;
 Ideia de boss: Um boss que controla os players por uma rodada - os players que serão controlados podem ser escolhidos por um dado;
 
-Ideia de boss: Um boss dividido (sei la nanitos, ou insetos) que teriam uma pool de vida (Varias vidas, por exemplo, 5, 5, 5, 5) e dai os jogadores deveriam destruir todas essas vidas -porem, se eles demorarem muito, as vidas vão se regenerando;
+
 
 Ideia de batalha: Batalha de carros, ou motos, barcos etc tipo pirata;
 

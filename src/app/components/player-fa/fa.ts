@@ -226,12 +226,12 @@ export const faDataa = [
       {
         title: '',
         cost: '',
-        desc: '',
+        desc: 'Deixa o chão em areia movediça',
       },
       {
         title: '',
         cost: '',
-        desc: '',
+        desc: 'Teleporte se transformando em areia',
       },
     ],
     image:

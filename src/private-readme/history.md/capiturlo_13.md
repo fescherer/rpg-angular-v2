@@ -44,7 +44,7 @@
       Phebe, você e Leah nos ajudaram bastante nas pesquisas para conseguirmos juntar o casulo a máquinas, obrigado por entender
       Kenny, seu pai Antony, Ow, como ele nos ajudou, se não fosse ele e Sage, provavelmente a humanidade nunca conseguiria fazer isso, nós somos muito gratos
 
-- [ ] TUDO ISSO É POSSÍVEL GRAÇAS AOS HUMANOS, HOJE VOCÊ, CRIADOR, CAIRÁ NÓS SEREMOS LIVRES!!!!!!
+- [ ] TUDO ISSO É POSSÍVEL GRAÇAS AOS HUMANOS, HOJE VOCÊ, CRIADOR, CAIRÁ, E NÓS SEREMOS LIVRES!!!!!!
 - [ ] Jogadores conseguem se libertar
 - [ ] Para ir até Clinton, eles precisam passar por algumas máquinas, cada um pega uma, sobrando apenas um jogador para ir até Clinton
 - [ ] Jogador vai tentar parar ele, mas Clinton é muito forte e inicia o ritual

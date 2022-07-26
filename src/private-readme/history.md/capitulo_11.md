@@ -2,10 +2,10 @@
 
 ### Anteriormente:
 
-- [ ] São promovidos a agentes Silver Hydra
-- [ ] Conversa em grupo
-- [ ] Lindsey arrependida
-- [ ] Conversam sobre os anjos de cada um
+- [x] São promovidos a agentes Silver Hydra
+- [x] Conversa em grupo
+- [x] Lindsey arrependida
+- [x] Conversam sobre os anjos de cada um
 
 ### Cenário 1:
 
@@ -15,7 +15,7 @@
 
 ---
 
-- [ ] Batalha contra Arthur
+- [x] Batalha contra Arthur
 
 ---FRASES DE ARTHUR---
 
@@ -26,7 +26,7 @@
 - [x] Kenny, Kenny... Você não era para existir, Antony porque você passou do limite? Você era era meu heroí, eu vou ter que corrigir o que você fez;
 - [ ] Você Phebee, ou Zoey? Nem sei mais kkkkk Ainda bem que não sou você Eu ficaria louco com essa crise de identidade
 - [ ] Lindsey, se você não fosse tão intrometida, talvez pudesse viver uma vida mais longa;
-- [ ] Cadê o covarde do Demon? Ele só sabe brincar de se esconder;
+- [x] Cadê o covarde do Demon? Ele só sabe brincar de se esconder;
 
 ---
 
@@ -35,7 +35,7 @@
 - [x] Por muito tempo a humanidade estava tranquila, com apenas alguns ou outros pequenos eventos (Bruxas idade média)
 - [x] Por algum motivo tudo mudou em 2050, uma faísca que causou um novo apocalipse, muito maior que era para acabar com a humanidade;
 - [x] Não sabem porque do apocalipse, e sem Hayden nunca estariamos aqui;
-- [xs] Ele é tudo, nosso salvador e que descobriu toda essa ladainha e decidiu que era hora de mudar;
+- [x] Ele é tudo, nosso salvador e que descobriu toda essa ladainha e decidiu que era hora de mudar;
 - [x] O objetivo de Hayden não é a guerra com o Suncity (Sul), mas sim, trazer Deus a Terra, matar ele e acabar com esse ciclo;
 - [x] Vão matar ele com a arma suprema- O God Slayer
 - [x] Eles citam o nome do principal líder da Igreja do Deus Caído - Clinton Regan
