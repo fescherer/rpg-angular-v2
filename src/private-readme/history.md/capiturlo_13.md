@@ -16,7 +16,7 @@
 
 - [ ] Clinton Regan
 - [x] Igreja Central
-- [ ] Maquina suprema (Casulo)
+- [x] Maquina suprema (Casulo)
 
 ---
 

@@ -37,5 +37,5 @@
 - [x] Não sabem porque do apocalipse, e sem Hayden nunca estariamos aqui;
 - [xs] Ele é tudo, nosso salvador e que descobriu toda essa ladainha e decidiu que era hora de mudar;
 - [x] O objetivo de Hayden não é a guerra com o Suncity (Sul), mas sim, trazer Deus a Terra, matar ele e acabar com esse ciclo;
-- [ ] Vão matar ele com a arma suprema- O God Slayer
-- [ ] Eles citam o nome do principal líder da Igreja do Deus Caído - Clinton Regan
+- [x] Vão matar ele com a arma suprema- O God Slayer
+- [x] Eles citam o nome do principal líder da Igreja do Deus Caído - Clinton Regan

@@ -15,20 +15,19 @@
       Zoey ou Phebe, muitos sabem mais sobre você, do que você mesma
 - [ ] O nome do principal líder da Igreja do Deus Caído - Clinton Regan
 - [ ] Arthur joga elsewhere no chão e joga o livro que está escrito god slayer e assinado por dr. sage
-
-### Cenário 1:
-
-- [ ] Laboratório da Sage (Dentro)
-- [x] Foto da Sage
-- [ ] Livros sobre Elsewhere
-- [ ] Livros sobre God- Slayer
-- [ ] Protótipo do God Slayer
-
----
-
 - [ ] Explorando o Laboratório de Sage
 - [ ] Foto de Sage
 - [ ] Livros de Elsewhere
+### Cenário 1:
+
+- [x] Foto da Sage
+- [x] Livros sobre Elsewhere
+- [x] Livros sobre God- Slayer
+- [x] Protótipo do God Slayer
+
+---
+
+
 - [ ] Anotações que sage fazia de uma possível máquina que unisse os humanos e se transformassem em um só;
 - [ ] Anotações sobre God Slayer, criação de uma máquina/Homem capaz de matar Deus
 - [ ] História de Raziel, o anjo com o livro com as anotações das conversas de Deus e que após Enoch ler, se transformou em Metatron
@@ -47,18 +46,18 @@
 - [ ] Eles precisam ir urgente para High Forwib (com motos) porque ta acontecendo uma coisa muito estranha lá
 - [ ] Demon e a tropa vai ir depois, eles estão presos por uma barreira em Few Scraps
 
------------LEVEL UP DE ANJO C PARA B----------------
-
 ### Cenário 2:
 
-- [ ] High Forwib com nuvem preta;
-- [ ] Exercíto de máquinas;
+- [x] High Forwib com nuvem preta;
+- [x] Exercíto de máquinas;
 - [ ] Musica foda de batalha para a entrada dos 3 Eyes
 
 ---
 
 - [ ] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;
 - [ ] Exército de máquinas da Igreja rondando o lugar;
+
+-----------LEVEL UP DE ANJO C PARA B----------------
 
 - [ ] Brigam com algumas máquinas, agora mais fortes eles conseguem levar uma de cada;
 - [ ] São muitas máquinas, não param de vir, momento de arrependimento de todos;
@@ -76,3 +75,4 @@
 - [ ] Patricio ta ajudando também com um mecha;
 
 - [ ] Jogadores junto a Isaac vão até o olho da tempestade;
+
