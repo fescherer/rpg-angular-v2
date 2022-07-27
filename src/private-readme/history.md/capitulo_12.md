@@ -37,38 +37,38 @@
 
 ---
 
-- [ ] Anotações que sage fazia de uma possível máquina que unisse os humanos e se transformassem em um só;
-- [ ] Anotações sobre God Slayer, criação de uma máquina/Homem capaz de matar Deus
+- [x] Anotações que sage fazia de uma possível máquina que unisse os humanos e se transformassem em um só;
+- [x] Anotações sobre God Slayer, criação de uma máquina/Homem capaz de matar Deus
 
-- [ ] História de Raziel, o anjo com o livro com as anotações das conversas de Deus e que após Enoch ler, se transformou em Metatron
+- [x] História de Raziel, o anjo com o livro com as anotações das conversas de Deus e que após Enoch ler, se transformou em Metatron
 
-- [ ] Raziel- Anjo que ficava ao lado de Deus para fazer anotações do que ele falava e por muito muito tempo, Raziel descobriu diversos podres de Deus, coisas que ele não concordava nem um pouco.
-- [ ] Então ele decidiu fazer uma magia no livro que usuava para as anotações- Essa magia daria o poder daquele conhecimento para quem o lesse.
-- [ ] Decidiu roubar aquele livro e entregar aos humanos para que soubessem quem seu verdadeiro Deus era e como ele sabia muito de Deus, conseguiu enganá-lo
-- [ ] Ele entregou o livro a Adão e Eva, os humanos que viviam tranquilamente no paraíso;
-- [ ] Mas então, ao ler o livro, Adão e Eva mudaram, eles entenderam como o mundo funcionava e como Deus agia, a magia que Raziel colocou, os fez entender tudo
-- [ ] E era demais para um humano qualquer, nem adão e nem eva sobreviveram
-- [ ] Raziel foi pego pelos guardas de Deus e julgado a passar o resto de seus dias preso na Terra
-- [ ] Seu livro ao invés de ser destruído, foi selado com uma magia que somente os verdadeiros servos de Deus pudessem le-lo
-- [ ] Depois de anos, uma pessoa leria esse livro- Enoch, o mensageiro de deus que foi até aquele lugar vigiar os Watchers
-- [ ] E mais uma vez, apesar de conseguir o poder que Raziel desejava entregar, aquele livro trouxe o banimento de Enoch e de todos os anjos caídos da cidade para os confins da Terra;
+- [x] Raziel- Anjo que ficava ao lado de Deus para fazer anotações do que ele falava e por muito muito tempo, Raziel descobriu diversos podres de Deus, coisas que ele não concordava nem um pouco.
+- [x] Então ele decidiu fazer uma magia no livro que usuava para as anotações- Essa magia daria o poder daquele conhecimento para quem o lesse.
+- [x] Decidiu roubar aquele livro e entregar aos humanos para que soubessem quem seu verdadeiro Deus era e como ele sabia muito de Deus, conseguiu enganá-lo
+- [x] Ele entregou o livro a Adão e Eva, os humanos que viviam tranquilamente no paraíso;
+- [x] Mas então, ao ler o livro, Adão e Eva mudaram, eles entenderam como o mundo funcionava e como Deus agia, a magia que Raziel colocou, os fez entender tudo
+- [x] E era demais para um humano qualquer, nem adão e nem eva sobreviveram
+- [x] Raziel foi pego pelos guardas de Deus e julgado a passar o resto de seus dias preso na Terra
+- [x] Seu livro ao invés de ser destruído, foi selado com uma magia que somente os verdadeiros servos de Deus pudessem le-lo
+- [x] Depois de anos, uma pessoa leria esse livro- Enoch, o mensageiro de deus que foi até aquele lugar vigiar os Watchers
+- [x] E mais uma vez, apesar de conseguir o poder que Raziel desejava entregar, aquele livro trouxe o banimento de Enoch e de todos os anjos caídos da cidade para os confins da Terra;
 
  
-- [ ] Hayden pretendia usar o livro e acabar com Deus
-- [ ] Para ler o livro, precisa ser um servo de deus
-- [ ] A arma seria um humano/máquina que é capaz de ler o livro de Raziel
+- [x] Hayden pretendia usar o livro e acabar com Deus
+- [x] Para ler o livro, precisa ser um servo de deus
+- [x] A arma seria um humano/máquina que é capaz de ler o livro de Raziel
 
-- [ ] Exgen - Zoey e Leah
-- [ ] Cientista - Sage e Elsewhere
-- [ ] Antony - Kenny
-- [ ] Casulo - Joel
+- [x] Exgen - Zoey e Leah
+- [x] Cientista - Sage e Elsewhere
+- [x] Antony - Kenny
+- [x] Casulo - Joel
 
-- [ ] God Slayer precisa da GRY, uma droga forte o suficiente para mudar seus pensamentos e fazer você acreditar ser um servo de Deus
-- [ ] Fazer que nem Enoch ou Metatron, porém mais forte
+- [x] God Slayer precisa da GRY, uma droga forte o suficiente para mudar seus pensamentos e fazer você acreditar ser um servo de Deus
+- [x] Fazer que nem Enoch ou Metatron, porém mais forte
 
-- [ ] Ligação de Demon Eye
-- [ ] Eles precisam ir urgente para High Forwib (com motos) porque ta acontecendo uma coisa muito estranha lá
-- [ ] Demon e a tropa vai ir depois, eles estão presos por uma barreira em Few Scraps
+- [x] Ligação de Demon Eye
+- [x] Eles precisam ir urgente para High Forwib (com motos) porque ta acontecendo uma coisa muito estranha lá
+- [x] Demon e a tropa vai ir depois, eles estão presos por uma barreira em Few Scraps
 
 ### Cenário 2:
 
@@ -78,8 +78,8 @@
 
 ---
 
-- [ ] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;
-- [ ] Exército de máquinas da Igreja rondando o lugar;
+- [x] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;
+- [x] Exército de máquinas da Igreja rondando o lugar;
 
 -----------LEVEL UP DE ANJO C PARA B----------------
 
