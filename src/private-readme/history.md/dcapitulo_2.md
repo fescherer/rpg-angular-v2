@@ -1,4 +1,4 @@
-# Batalha em High Forwib
+# O passado sombrio
 
 ### Anteriormente:
 
@@ -10,26 +10,28 @@
 ### Cenário 1:
 
 - [ ] Bar pingo'd ouro
+- [ ] Pessoas no bar
 - [ ] Anotações e descobertas
 
 ---
 
 - [ ] Vão ao Pingo'd ouro e começam a ver os resultados que encontraram; 
-- [ ] Quem possui anjo caído é considerado filho de Enoch- Existem outros pelo mundo, mas como Protocity só é um bando de alienado pela Igreja, nunca ligaram para os outros reinos;
-- [ ] Descobrem que Enoch e Raziel foram quem construíram Protocity;
-- [ ] Descobrem que tanto Enoch quanto outros anjos caídos perderam seus poderes e consequentemente voltaram a Terra sem poderes;
-- [ ] Descobrem que os anjos da cidade decidiram se sacrificar para poder ajudar a humanidade, porém Raziel meteu o nariz e cada um começou a depnder de matar seu usuário;
-- [ ] Os dois brigam e Raziel mata Enoch, então ele se torna Hayden e decide mudar o rumo que Protocity estava tomando;
-- [ ] Raziel não concordava com Enoch que só queria usar aquele poder para o bem da humanidade, ele queria ir atrás de Deus novamente;
-- [ ] Um dia Hayden decide se isolar (Mais tarde saberão que ele só estava criogenizado para depois poder viver);
 
-- [ ] Vão pedir uma bebida;
+- [ ] Depois de muita história todo mundo fica confuso;
+
+**** História Raziel e Enoch *****
+
+
+ (Jogadores precisam encontrar quem daquele bar é o usuário)
+- [ ] Vão pedir uma bebida e o barman ouve tudo;
 (Se alguem estiver bebado pode soltar para ele isso, se não ele se intromete e ve)
 
 - [ ] O barman do pingo'd ouro é um usuário de anjo caído, eleé neto de uma das pessoas do grupo do demon eye que se separou e voltou para Suncity;
 - [ ] Ele explica que tem noção que existem outros que nem ele, o anjo foi passado para seu avó e depois para seu mãe e no fim para ele por tradição e medo de que caia em maõs erradas;
+
 - [ ] Quem possui anjo caído é considerado filho de Enoch- Existem outros pelo mundo, mas como Protocity só é um bando de alienado pela Igreja, nunca ligaram para os outros reinos;
 - [ ] Eles descobrem que a escolha do anjo não é 100% aleatória, ela tem muito mais variáveis que eles sabiam, e uma delas é até genética, além disso, no ritual, para escolher um anjo específico é necessário alguns passos a mais
+
 
 - [ ] O barman mostra um diário do seu bisavô, um pouco diferente do do Demon e tem anotações sobre uma possível profecia, onde um dos usuários dos anjos caídos viu que se eles usassem esse poder, Deus iria destruir o mundo
 - [ ] Por isso esse pessoal decidiu passar de filho e se esconder;
@@ -60,6 +62,10 @@
 
 - [ ] Inicio da fazenda- placa de perigo
 - [ ] Fazenda; - inspiração- fazenda harshell's
+- [ ] Familia:
+    Avô
+    Mãe
+    Gemeos
 
 ---
 
@@ -69,5 +75,9 @@
 - [ ] Dois usuários são irmão e irmã, mas muito novos;
 - [ ] O avô e a mãe cuidam das crianças, os antigos usuários eram a avó e o pai; 
 - [ ] Jogadores explicam a situação e eles entregam o rádio para eles, quando a hora chegar eles precisam ir junto;
+- [ ] Ir ao Pingo'd ouro porque eles sabem o que fazer;
 
 
+- [ ] Segunda trombeta toca e diversos anjos com aparecencias bizarras chegam a terra matando humanos com fogo, enxofre e fumaça;
+- [ ] Descobrem que o pessoal da Silver Hydra encontram mais 2 pessoas com anjos caídos nos aredores de Protocity;
+- [ ] Vão ao último reino- Graycity reunir os anjos que faltam;

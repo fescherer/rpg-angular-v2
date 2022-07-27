@@ -77,6 +77,10 @@
 - [x] Musica foda de batalha para a entrada dos 3 Eyes:
     https://www.youtube.com/watch?v=RTRpXnUhPcs
 
+- [x] Mechas Silver Hydra:
+    https://br.pinterest.com/pin/565975878181039653/
+    
+
 ---
 
 - [x] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;

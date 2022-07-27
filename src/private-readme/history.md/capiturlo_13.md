@@ -52,7 +52,10 @@
 
 ### Cenário 2:
 
-- [ ] Trombetas do apocalipse
+- [ ] Trombetas do apocalipse:
+      https://br.pinterest.com/pin/153615037281872879/
+      https://br.pinterest.com/pin/465630048985108481/
+      
 - [x] Som I only human:
       https://www.youtube.com/watch?v=r5yaoMjaAmE
 - [ ] Som das trombetas:
@@ -62,7 +65,8 @@
       https://www.youtube.com/watch?v=uHHMV8hukBI
       
 - [ ] Arcanjo Gabriel:
-
+      Imagens de seraphim
+      https://br.pinterest.com/pin/4081455903428598/
 - [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos:
 
 

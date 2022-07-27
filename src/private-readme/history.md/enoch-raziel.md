@@ -1,0 +1,8 @@
+- [ ] Metatron depois de ser banido junto a outros anjos caídos foram selados na Terra
+- [ ] Com o apocalipse, o selo deles e de Raziel foi quebrado;
+- [ ] Descobrem que Enoch e Raziel foram quem construíram Protocity;
+- [ ] Descobrem que tanto Enoch quanto outros anjos caídos perderam seus poderes e consequentemente voltaram a Terra sem poderes;
+- [ ] Descobrem que os anjos da cidade decidiram se sacrificar para poder ajudar a humanidade, porém Raziel meteu o nariz e cada um começou a depnder de matar seu usuário;
+- [ ] Os dois brigam e Raziel mata Enoch, então ele se torna Hayden e decide mudar o rumo que Protocity estava tomando;
+- [ ] Raziel não concordava com Enoch que só queria usar aquele poder para o bem da humanidade, ele queria ir atrás de Deus novamente;
+- [ ] Um dia Hayden decide se isolar (Mais tarde saberão que ele só estava criogenizado para depois poder viver);

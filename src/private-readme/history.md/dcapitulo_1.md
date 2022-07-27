@@ -1,4 +1,4 @@
-# Batalha em High Forwib
+# O novo mundo
 
 ### Anteriormente:
 
@@ -69,7 +69,7 @@
 
 - [ ] Os jogadores pensam em derrubar os líderes daquele país, mas já se passou muito tempo e querendo ou não, o ditador fez um bom trabalho para criar uma nação de castas e as pessoas que estão embaixo não estão tão embaixo assim;
 - [ ] No fim das contas os jogadores descobrem que aquele país é bem peculiar e não necessáriamente precisam derrubar o ditador;
-- [ ] Acham um velho galpão onde vai ser uma dungeon
+- [ ] Acham um velho galpão onde vai ser uma dungeon onde encontram documentos de um possivel usuário de anjo caído nos becos
 
 
 ### Cenário 3:
