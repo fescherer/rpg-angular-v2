@@ -14,7 +14,7 @@
 
 ### Cenário 1:
 
-- [ ] Clinton Regan
+- [x] Clinton Regan
 - [x] Igreja Central
 - [x] Maquina suprema (Casulo)
 
@@ -53,10 +53,18 @@
 ### Cenário 2:
 
 - [ ] Trombetas do apocalipse
-- [ ] Som I only human
-- [ ] Som das trombetas
-- [ ] Arcanjo Gabriel
-- [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos
+- [x] Som I only human:
+      https://www.youtube.com/watch?v=r5yaoMjaAmE
+- [ ] Som das trombetas:
+      https://www.youtube.com/watch?v=tEtxp7NNvvk
+      https://www.youtube.com/watch?v=aLkqkMJup1U
+      https://www.youtube.com/watch?v=8DSZmmDRQyE
+      https://www.youtube.com/watch?v=uHHMV8hukBI
+      
+- [ ] Arcanjo Gabriel:
+
+- [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos:
+
 
 ---
 

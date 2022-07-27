@@ -2,21 +2,21 @@
 
 ### Anteriormente:
 
-- [ ] Enfrentam Arthur Dexter;
-- [ ] Ciclo de reset que deus faz a humanidade (Dilúvio, pragas, etc)
-- [ ] Jesus acalmou, mas em 2050, ouve o apocalipse
-- [ ] Eles não sabem o porquê dele, mas não ligam também
-- [ ] Descobrem o real objetivo da Igreja- Trazer Deus a terra e matar ele
-- [ ] Arthur fala um pouco sobre cada um:
+- [x] Enfrentam Arthur Dexter;
+- [x] Ciclo de reset que deus faz a humanidade (Dilúvio, pragas, etc)
+- [x] Jesus acalmou, mas em 2050, ouve o apocalipse
+- [x] Eles não sabem o porquê dele, mas não ligam também
+- [x] Descobrem o real objetivo da Igreja- Trazer Deus a terra e matar ele
+- [x] Arthur fala um pouco sobre cada um:
       Nunca foi o objetivo matar Elsewhere
       Joel é necessário para o casulo
       Kenny não era para existir, Antony vacilou com eles
       Zoey ou Phebe, muitos sabem mais sobre você, do que você mesma
-- [ ] O nome do principal líder da Igreja do Deus Caído - Clinton Regan
-- [ ] Arthur joga elsewhere no chão e joga o livro que está escrito god slayer e assinado por dr. sage
-- [ ] Explorando o Laboratório de Sage
-- [ ] Foto de Sage
-- [ ] Livros de Elsewhere
+- [x] O nome do principal líder da Igreja do Deus Caído - Clinton Regan
+- [x] Arthur joga elsewhere no chão e joga o livro que está escrito god slayer e assinado por dr. sage
+- [x] Explorando o Laboratório de Sage
+- [x] Foto de Sage
+- [x] Livros de Elsewhere
 ### Cenário 1:
 
 - [x] Foto da Sage
@@ -74,7 +74,8 @@
 
 - [x] High Forwib com nuvem preta;
 - [x] Exercíto de máquinas;
-- [ ] Musica foda de batalha para a entrada dos 3 Eyes
+- [x] Musica foda de batalha para a entrada dos 3 Eyes:
+    https://www.youtube.com/watch?v=RTRpXnUhPcs
 
 ---
 
