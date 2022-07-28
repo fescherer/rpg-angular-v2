@@ -41,8 +41,8 @@
 ### Cenário 2:
 
 - [ ] Arcanjo Gabriel;
-- [ ] Musica;
-- [ ] 
+- [ ] Musica - Limitless (Quando forem procurar outros usuários);
+- [ ] Musica tensa;
 
 
 ---

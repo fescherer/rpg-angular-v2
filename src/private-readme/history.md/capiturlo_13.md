@@ -68,6 +68,11 @@
       Imagens de seraphim
       https://br.pinterest.com/pin/4081455903428598/
 - [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos:
+- [ ] Protocity dfestruída- Imagem estática
+- [ ] Florestas queimando
+- [ ] Asteroíde;
+- [ ] Rios secando- rios de sangue
+- [ ] Lua quebrando
 
 
 ---

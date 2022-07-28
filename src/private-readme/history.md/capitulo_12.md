@@ -85,6 +85,7 @@
 
 - [x] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;
 - [x] Exército de máquinas da Igreja rondando o lugar;
+- [ ] Mechas Silver Hydra
 
 -----------LEVEL UP DE ANJO C PARA B----------------
 

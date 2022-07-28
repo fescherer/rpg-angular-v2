@@ -21,6 +21,7 @@
 #### Consequências das Trombetas:
 
 - [ ] A lua é quebrada em dois e se torna dois satélites naturais na Terra;
+- [ ] Marés se tornaram mais imprevisíveis porque dois pedaços de lua de tamanhos diferentes puxam elas diferentes;
 - [ ] O mundo tem muito menos horas de sol, principalmente por causa do novo satélite e por causa da nuvem de poeira que o asteroide levantou;
 - [ ] O asteroide caiu longe de tudo, mas mesmo assim, fez com que a temperatura da Terra decaísse, extinguindo diversas espécies de plantas e animais;
 - [ ] Em alguns horários do dia, é necesário o uso de máscaras por conta da poeira e sujeira na atmosfera;
