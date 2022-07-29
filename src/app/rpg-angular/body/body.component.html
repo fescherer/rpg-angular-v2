@@ -1,9 +1,12 @@
 <div class="flex flex-column min-h-100">
   <app-header></app-header>
   <div class="background-color text-color flex-fill">
-    <div class="p1 max-size">
+    <div class="p1 max-size" *ngIf="!saving; else loading">
       <router-outlet></router-outlet>
     </div>
+    <ng-template #loading>
+      <span style="padding: 50%">loading...</span>
+    </ng-template>
   </div>
   <app-footer></app-footer>
 </div>

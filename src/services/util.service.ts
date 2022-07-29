@@ -6,6 +6,7 @@ import { IAttributes, IFa, IPlayer, ISheet, IWeapon } from 'src/Interfaces/IShee
   providedIn: 'root',
 })
 export class UtilService {
+  private saving$ = new BehaviorSubject<boolean>(false);
   private sheet$ = new BehaviorSubject<ISheet>({ id: '' });
   private id$ = new BehaviorSubject<string>('');
   private player$ = new BehaviorSubject<IPlayer>({ origin: 'Central Plaza' });
@@ -45,6 +46,9 @@ export class UtilService {
   get fa(): Observable<IFa> {
     return this.fa$;
   }
+  get saving(): Observable<boolean> {
+    return this.saving$;
+  }
 
   changeSheet(sheet: ISheet) {
     if (sheet?.player) {
@@ -77,5 +81,8 @@ export class UtilService {
   }
   changeFa(fa: IFa) {
     this.fa$.next(fa);
+  }
+  changeSaving(saving: boolean) {
+    this.saving$.next(saving);
   }
 }

@@ -23,7 +23,7 @@ export class HomeComponent {
 
   submit(): void {
     if (this.id.value && this.id.valid) {
-      this.firestoreService.create(this.id.value).then(() => this.router.navigate([`/page/${this.id.value}`]));
+      this.router.navigate([`/page/${this.id.value}`]);
     }
   }
 }

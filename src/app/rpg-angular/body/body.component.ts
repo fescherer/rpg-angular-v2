@@ -11,6 +11,7 @@ import { UtilService } from 'src/services/util.service';
 })
 export class BodyComponent implements OnInit, OnDestroy {
   id!: string;
+  saving: boolean = true;
 
   private unsubscribe$ = new Subject<void>();
 
@@ -24,6 +25,7 @@ export class BodyComponent implements OnInit, OnDestroy {
 
   async ngOnInit(): Promise<void> {
     await this.isSheetAlreadyCreated();
+    this.utilService.saving.pipe(takeUntil(this.unsubscribe$)).subscribe((saving) => (this.saving = saving));
   }
 
   ngOnDestroy(): void {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IFa, IWeapon } from 'src/Interfaces/ISheet';
 import { FirestoreService } from 'src/services/firestore.service';
 import { UtilService } from 'src/services/util.service';
@@ -18,7 +19,11 @@ export class CharacterSheetComponent implements OnInit {
   history$!: string;
   fa$!: IFa;
 
-  constructor(private firestoreService: FirestoreService, private utilService: UtilService) {}
+  constructor(
+    private firestoreService: FirestoreService,
+    private utilService: UtilService,
+    private router: Router,
+  ) {}
   ngOnInit(): void {
     this.utilService.characterSheet.subscribe((val) => (this.service$ = val));
     this.utilService.player.subscribe((val) => (this.player$ = val));
@@ -51,7 +56,11 @@ export class CharacterSheetComponent implements OnInit {
   }
 
   deleteCS() {
-    this.firestoreService.delete(this.id$);
+    const confirm = window.confirm('Você tem certeza?\nPressione OK para apagar a ficha ');
+    if (confirm) {
+      this.router.navigate(['/']);
+      this.firestoreService.delete(this.id$);
+    }
   }
 
   refresh(): void {
