@@ -15,8 +15,30 @@
         </div>
 
         <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
-        <ul *ngIf="!isPoemType" class="font-size-text">
-          <li>{{ angel.powers[0].title }}</li>
+        <ul *ngIf="!isPoemType" class="font-size-text flex flex-column gap1">
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 1">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">Nome: {{ angel?.powers[0]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[0]?.cost }}</span>
+            </div>
+            <span class="powers-desc">Descrição: {{ angel?.powers[0]?.desc }}</span>
+          </li>
+
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 2">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">Nome: {{ angel?.powers[1]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[1]?.cost }}</span>
+            </div>
+            <span class="powers-desc">Descrição: {{ angel?.powers[1]?.desc }}</span>
+          </li>
+
+          <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 3">
+            <div class="flex flex-column gap025">
+              <span class="powers-title">Nome: {{ angel?.powers[2]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[2]?.cost }}</span>
+            </div>
+            <span class="powers-desc">Descrição: {{ angel?.powers[2]?.desc }}</span>
+          </li>
         </ul>
       </div>
 
@@ -44,30 +66,31 @@
             published_with_changes
           </span>
         </div>
+
         <p *ngIf="isPoemType" class="font-size-text break-line">{{ angel?.description }}</p>
         <ul *ngIf="!isPoemType" class="font-size-text flex flex-column gap1">
           <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 1">
             <div class="flex flex-column gap025">
-              <span class="powers-title">{{ angel?.powers[0]?.title }}</span>
-              <span class="powers-cost">{{ angel?.powers[0]?.cost }}</span>
+              <span class="powers-title">Nome: {{ angel?.powers[0]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[0]?.cost }}</span>
             </div>
-            <span class="powers-desc">{{ angel?.powers[0]?.desc }}</span>
+            <span class="powers-desc">Descrição: {{ angel?.powers[0]?.desc }}</span>
           </li>
 
           <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 2">
             <div class="flex flex-column gap025">
-              <span class="powers-title">{{ angel?.powers[1]?.title }}</span>
-              <span class="powers-cost">{{ angel?.powers[1]?.cost }}</span>
+              <span class="powers-title">Nome: {{ angel?.powers[1]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[1]?.cost }}</span>
             </div>
-            <span class="powers-desc">{{ angel?.powers[1]?.desc }}</span>
+            <span class="powers-desc">Descrição: {{ angel?.powers[1]?.desc }}</span>
           </li>
 
           <li class="flex flex-column gap05" *ngIf="(fa.level | faLevelNumber) >= 3">
             <div class="flex flex-column gap025">
-              <span class="powers-title">{{ angel?.powers[2]?.title }}</span>
-              <span class="powers-cost">{{ angel?.powers[2]?.cost }}</span>
+              <span class="powers-title">Nome: {{ angel?.powers[2]?.title }}</span>
+              <span class="powers-cost">Custo: {{ angel?.powers[2]?.cost }}</span>
             </div>
-            <span class="powers-desc">{{ angel?.powers[2]?.desc }}</span>
+            <span class="powers-desc">Descrição: {{ angel?.powers[2]?.desc }}</span>
           </li>
         </ul>
       </div>

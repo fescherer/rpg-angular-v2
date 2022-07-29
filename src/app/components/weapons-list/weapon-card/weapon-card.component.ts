@@ -9,8 +9,10 @@ import { UtilService } from 'src/services/util.service';
   styleUrls: ['./weapon-card.component.scss'],
 })
 export class WeaponCardComponent implements OnInit, OnDestroy {
-  @Input() data: IWeapon = {};
+  @Input() data?: IWeapon = {};
   weapons!: IWeapon[];
+
+  changeSide: boolean = false;
 
   private unsubscribe$ = new Subject<void>();
   constructor(private utilService: UtilService) {}
@@ -24,7 +26,7 @@ export class WeaponCardComponent implements OnInit, OnDestroy {
   }
 
   closeCard(): void {
-    const newArray = this.weapons.filter((val) => val.name !== this.data.name);
+    const newArray = this.weapons.filter((val) => val.name !== this.data?.name);
     this.utilService.changeWeapon(newArray);
   }
 }

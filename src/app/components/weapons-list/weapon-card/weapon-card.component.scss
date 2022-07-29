@@ -1,7 +1,9 @@
+@import '../../../../styles/theme.scss';
+
 .card {
-  border-left: 1px solid #f6d319a6;
-  border-right: 1px solid #f6d319a6;
-  border-bottom: 1px solid #f6d319a6;
+  border-left: 1px solid #000630;
+  border-right: 1px solid #000630;
+  border-bottom: 1px solid #000630;
   border-radius: 0 0 23px 23px;
   background-color: transparent;
   height: 200px;
@@ -10,7 +12,8 @@
 
 .container-title {
   border-radius: 23px 23px 0 0;
-  background-color: #f6d319a6 !important;
+  background-color: #000630 !important;
+  color: #ffffff !important;
 }
 
 .container-description {
@@ -19,10 +22,6 @@
 
 .container-damage {
   justify-self: flex-end;
-}
-
-.description {
-  font-size: 0.63rem;
 }
 
 .sm-font {
@@ -56,4 +55,9 @@
   &:hover {
     background-color: rgba(173, 0, 0, 0.836);
   }
+}
+
+.title-gray {
+  font-size: 10px;
+  color: gray;
 }

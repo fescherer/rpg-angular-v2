@@ -4,29 +4,29 @@
     <span>{{ data?.type || '' | weaponType }}</span>
     <span>{{ data?.class || '' | weaponClass }}</span>
   </div>
-  <div class="flex flex-column h-100 card p05">
-    <div class="flex align-center gap05 container-description">
-      <img [src]="data?.url" alt="weapon" appHideMissing class="img-weapon" />
-      <span class="title">{{ data?.name || '' }}</span>
+  <div (click)="changeSide = !changeSide">
+    <div class="flex flex-column h-100 card p05" *ngIf="changeSide">
+      <div class="flex align-center gap05 container-description">
+        <img [src]="data?.url" alt="weapon" appHideMissing class="img-weapon" />
+        <span class="title">{{ data?.name || '' }}</span>
+      </div>
+      <span class="description flex flex-fill mt05">{{ data?.description || '' }}</span>
     </div>
-    <span class="description flex flex-fill mt05">{{ data?.description || '' }}</span>
 
-    <div class="flex flex-column gap025 container-damage mt1">
-      <div class="flex align-center gap05">
-        <span class="material-symbols-outlined orange"> local_fire_department </span>
+    <div class="flex flex-column h-100 card gap1 p05" *ngIf="!changeSide">
+      <div class="flex flex-column align-center gap05">
+        <span class="title-gray"> Dano </span>
         <span>{{ data?.type || '' | weaponDamage: data?.class || '' }}</span>
       </div>
 
-      <div class="flex align-center gap05">
-        <span class="material-symbols-outlined"> sports_mma </span>
-        <span class="sm-font subtext-color">{{ data?.type || '' | weaponDamageAimed: data?.class || '' }}</span>
+      <div class="flex flex-column align-center gap05">
+        <span class="title-gray"> Dano mirado </span>
+        <span class="sm-font text-center">{{ data?.type || '' | weaponDamageAimed: data?.class || '' }}</span>
       </div>
 
-      <div class="flex align-center gap05">
-        <span class="material-symbols-outlined"> sports_mma </span>
-        <span class="sm-font subtext-color">{{
-          data?.type || '' | weaponDamageSpecial: data?.class || ''
-        }}</span>
+      <div class="flex flex-column align-center gap05">
+        <span class="title-gray"> Especial </span>
+        <span class="sm-font text-center">{{ data?.type || '' | weaponDamageSpecial: data?.class || '' }}</span>
       </div>
     </div>
   </div>
