@@ -46,7 +46,7 @@
   ### Esquiva:
   A esquiva é uma possibilidade que os jogadores têm de não tomar dano durante um turno. Para realiza-lá o jogador deve fazer um teste contra o teste do atacante (O mestre vai falar -> O monstro tirou extremo, tirou sucesso, tirou falha, ou tirou desastre)   
  Sucesso  | Falha | Desastre |
-| :---: | :---: | :---: | :--: |
+| :---: | :---: | :--: |
 | Não toma dano + 2 pontos de contra ataque | Toma dano normal | Toma 150% do dano |
 
 
