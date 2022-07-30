@@ -113,7 +113,7 @@ export const faDataa = [
     powers: [
       {
         title: 'Troca Equivalente',
-        cost: '2D4',
+        cost: '3D2',
         desc: 'Af te dá o que você mais quer, ela só pede uma coisa em troca... Que você mate todos.\n Durante 3 rodadas você conseguirá invocar um ser para te auxiliar no combate. Ele faz com que você fique com inciativa prioritária e pode fazer duas ações tanto normais quanto de combate.',
       },
       {

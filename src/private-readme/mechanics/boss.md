@@ -24,7 +24,7 @@ TOTAL = 24 + 14 + 14 + 10 + 10
 Exército de máquinas em High Forwib
 
 n* robos
-life: 5 + Dn*
+life: 5 + D8
 weapon attack: -1 + D4
 
 

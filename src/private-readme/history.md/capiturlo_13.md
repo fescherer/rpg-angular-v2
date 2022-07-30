@@ -52,7 +52,7 @@
 
 ### Cenário 2:
 
-- [ ] Trombetas do apocalipse:
+- [x] Trombetas do apocalipse:
       https://br.pinterest.com/pin/153615037281872879/
       https://br.pinterest.com/pin/465630048985108481/
       
@@ -64,7 +64,7 @@
       https://www.youtube.com/watch?v=8DSZmmDRQyE
       https://www.youtube.com/watch?v=uHHMV8hukBI
       
-- [ ] Arcanjo Gabriel:
+- [x] Arcanjo Gabriel:
       Imagens de seraphim
       https://br.pinterest.com/pin/4081455903428598/
 - [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos:
@@ -109,8 +109,8 @@
 - [ ] Chegam ao final e veem TUDO destruído
 - [ ] A silver Hydra não está lá, somente um homem
 - [ ] O homem se aproxima de vocês, ele parece ser oriental e diz:
-      "Filhos de Enoch, não chegamos a tempo", "Porém, não está tudo perdido, nem todas as trombetas foram tocadas", "Nos empreste suas forças"
-- [ ] Ao redor dele vocês veem aparecendo mais duas pessoas, cada uma com um anjo caído similiar ao de vocês
+      "Filhos de Enoch, não chegamos a tempo", "Porém, não está tudo perdido, nem todas as trombetas foram tocadas",
+- [ ] Bruno Blake
 
 FIM
 
