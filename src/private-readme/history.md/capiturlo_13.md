@@ -67,7 +67,7 @@
 - [x] Arcanjo Gabriel:
       Imagens de seraphim
       https://br.pinterest.com/pin/4081455903428598/
-- [ ] Mestre do oriente e seus dois discipulos com dois anjos caídos:
+- [ ] Um homem que ajuda eles a irem a Suncity
 - [ ] Protocity dfestruída- Imagem estática
 - [x] Florestas queimando
 - [x] Asteroíde;

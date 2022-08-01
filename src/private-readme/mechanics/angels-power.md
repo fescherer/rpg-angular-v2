@@ -43,5 +43,3 @@ surge do ar e se torna um tornado
 
 + Anjos- 
 
-Fogo e Gelo;
-Poder de procurar outros anjos;

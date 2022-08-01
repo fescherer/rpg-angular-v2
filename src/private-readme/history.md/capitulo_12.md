@@ -79,13 +79,16 @@
 
 - [x] Mechas Silver Hydra:
     https://br.pinterest.com/pin/565975878181039653/
+    https://br.pinterest.com/pin/116741815330870205/
+    https://br.pinterest.com/pin/790100328395229963/
+    https://br.pinterest.com/pin/106890191127014626/
+    https://br.pinterest.com/pin/Afq1QjL_DNpNghgqxbyksIlaFwSwxhSvQZi3FvZ5QarnGIM9K42e4NI/
     
 
 ---
 
 - [x] Chegam a High Forwib e tem uma nuvem gigante preta soltando raios em cima do distrito;
 - [x] Exército de máquinas da Igreja rondando o lugar;
-- [ ] Mechas Silver Hydra
 
 -----------LEVEL UP DE ANJO C PARA B----------------
 
@@ -93,6 +96,7 @@
 - [ ] São muitas máquinas, não param de vir, momento de arrependimento de todos;
 - [ ] Isaac e Leah salvam eles com o poder de Azazel e Kokabiel(Titã agil), olham para tras;
 
+- [] Mechas Silver Hydra
 - [ ] Demon Eye, Cobra Eye e Lion Eye Chegam com uma tropa de Silver Hydra atrás deles
 - [ ] "Isso é um pouco nostálgico, a gente custuma brigar todo mundo junto, lembram?" - Demon
 - [ ] "Eu nunca fui muito fã de briga, mas agradeço vocês por sempre me defenderem" - Lion

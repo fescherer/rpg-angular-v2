@@ -68,3 +68,41 @@
 7ª 3º AI – Deus aparece e abre os portões do paraíso
 
 não tocou todas para deixar um tempo para a humanidade se redimir
+
+
+Samyaza               ->     
+Azazel                ->     Isaac        (Winged man)
+Kokabiel              ->     Leah         (Titã)
+Sariel                ->     Lindsey      (Heal)
+Baraqiel              ->     Joel         (Lightining)
+Af                    ->     Elsewhere    (Anger)
+Bezaliel              ->     Kenny        (Shadows)
+Penemue               ->     Demon Eye    (Painting)
+Asbeel                ->     Zoey         (Dust)
+
+Sathariel (Deception) ->     Lion         ()
+Suphlatus (Dust)      ->     Cobra        ()
+
+[Brothers]
+Zaqiel (Purity)       -> 
+Samshiel (Eclipse)    ->
+
+
+Rahab (Deep)          ->     
+Gadreel (war)         ->
+Ananiel (Storms)      ->
+Turiel (Mountains)    ->
+Chazaqiel (mists)     ->
+Tamiel (Unseen)       ->
+Armaros (Undoing)     ->
+
+
+
+
+Fogo e Gelo;
+Poder de procurar outros anjos;
+Prever o futuro
+
+
+2 em sun citry- barman e outros 1 amigos
+3 em Graycity
