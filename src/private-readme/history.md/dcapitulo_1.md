@@ -36,7 +36,7 @@
   - [ ] High Forwib se tornou parte de Central Plaza e a Grande Catedral continua demolida desde que as trombetas foram tocadas;
   - [ ] Silver Hydra teve contato com o pessoal do oriente (As três pessoas de lá);
   - [ ] Suspeitas que a Igreja ainda esteja na ativa em algum lugar;
-  - [ ] Joel não encontrou mais sua filha;
+  - [ ] Não ouviram falar mais de Joel ou Ellie;
   - [ ] Os jogadores são super treinados e controlam muito melhor seus anjos;
   - [ ] Fome e sede afetam a cidade inteira;
   - [ ] Um grupo novo de pessoas vêm surgindo e causando um alvoraço pela cidade- Os adoradores
