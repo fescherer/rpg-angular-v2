@@ -26,7 +26,7 @@
 - [ ] Vão pedir uma bebida e o barman ouve tudo;
 (Se alguem estiver bebado pode soltar para ele isso, se não ele se intromete e ve)
 
-- [ ] O barman do pingo'd ouro é um usuário de anjo caído, eleé neto de uma das pessoas do grupo do demon eye que se separou e voltou para Suncity;
+- [ ] O barman do pingo'd ouro é um usuário de anjo caído, ele é neto de uma das pessoas do grupo do demon eye que se separou e voltou para Suncity;
 - [ ] Ele explica que tem noção que existem outros que nem ele, o anjo foi passado para seu avó e depois para seu mãe e no fim para ele por tradição e medo de que caia em maõs erradas;
 
 - [ ] Quem possui anjo caído é considerado filho de Enoch- Existem outros pelo mundo, mas como Protocity só é um bando de alienado pela Igreja, nunca ligaram para os outros reinos;
@@ -34,7 +34,7 @@
 
 
 - [ ] O barman mostra um diário do seu bisavô, um pouco diferente do do Demon e tem anotações sobre uma possível profecia, onde um dos usuários dos anjos caídos viu que se eles usassem esse poder, Deus iria destruir o mundo
-- [ ] Por isso esse pessoal decidiu passar de filho e se esconder;
+- [ ] Por isso esse pessoal decidiu passar de filho a filho seu anjo caído e se esconder;
 
 - [ ] Vão descansar na pousada do pingo'd ouro mesmo;
 

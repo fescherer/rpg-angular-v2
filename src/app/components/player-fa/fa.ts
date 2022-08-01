@@ -231,6 +231,11 @@ export const faDataa = [
       {
         title: '',
         cost: '',
+        desc: 'Troca vida por dano',
+      },
+      {
+        title: '',
+        cost: '',
         desc: 'Teleporte se transformando em areia',
       },
     ],

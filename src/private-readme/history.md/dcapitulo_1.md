@@ -83,5 +83,6 @@
 - [ ] Exploram o galpão;
 - [ ] Puzzles e perigos, sem boss;
 - [ ] Encontram umas anotações;
+- [ ] Vão para o pingo'd ouro para relaxar
 
 

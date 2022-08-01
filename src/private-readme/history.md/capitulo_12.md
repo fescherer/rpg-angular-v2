@@ -92,21 +92,21 @@
 
 -----------LEVEL UP DE ANJO C PARA B----------------
 
-- [ ] Brigam com algumas máquinas, agora mais fortes eles conseguem levar uma de cada;
-- [ ] São muitas máquinas, não param de vir, momento de arrependimento de todos;
-- [ ] Isaac e Leah salvam eles com o poder de Azazel e Kokabiel(Titã agil), olham para tras;
+- [x] Brigam com algumas máquinas, agora mais fortes eles conseguem levar uma de cada;
+- [x] São muitas máquinas, não param de vir, momento de arrependimento de todos;
+- [x] Isaac e Leah salvam eles com o poder de Azazel e Kokabiel(Titã agil), olham para tras;
 
-- [] Mechas Silver Hydra
-- [ ] Demon Eye, Cobra Eye e Lion Eye Chegam com uma tropa de Silver Hydra atrás deles
-- [ ] "Isso é um pouco nostálgico, a gente custuma brigar todo mundo junto, lembram?" - Demon
-- [ ] "Eu nunca fui muito fã de briga, mas agradeço vocês por sempre me defenderem" - Lion
-- [ ] "A gente era bem mais unido naquela época, acho que estamos trabalhando demais, quando sairmos daqui, vamo tomar uma breja" - Cobra
-- [ ] Eles ativam o poder deles
+- [x] Mechas Silver Hydra
+- [x] Demon Eye, Cobra Eye e Lion Eye Chegam com uma tropa de Silver Hydra atrás deles
+- [x] "Isso é um pouco nostálgico, a gente custuma brigar todo mundo junto, lembram?" - Demon
+- [x] "Eu nunca fui muito fã de briga, mas agradeço vocês por sempre me defenderem" - Lion
+- [x] "A gente era bem mais unido naquela época, acho que estamos trabalhando demais, quando sairmos daqui, vamo tomar uma breja" - Cobra
+- [x] Eles ativam o poder deles
 
-- [ ] Isaac e Leah dizem que eles precisam ir em frente, tem muitas máquinas, mas quando os três Eyes se juntam, ninguém os derrota
-- [ ] Leah fica para trás, o poder dela é mais útil em batalha contra essas máquinas;
-- [ ] Lindsey fica para cuidar dos feridos;
-- [ ] Patricio ta ajudando também com um mecha;
+- [x] Isaac e Leah dizem que eles precisam ir em frente, tem muitas máquinas, mas quando os três Eyes se juntam, ninguém os derrota
+- [x] Leah fica para trás, o poder dela é mais útil em batalha contra essas máquinas;
+- [x] Lindsey fica para cuidar dos feridos;
+- [x] Patricio ta ajudando também com um mecha;
 
-- [ ] Jogadores junto a Isaac vão até o olho da tempestade;
+- [x] Jogadores junto a Isaac vão até o olho da tempestade;
 

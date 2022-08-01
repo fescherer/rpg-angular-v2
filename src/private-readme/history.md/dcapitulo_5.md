@@ -12,10 +12,11 @@
 
 ---
 
-- [ ] Eles vão até onde deus supostamente estaria dormente e não encontram nada;
-- [ ] Os arcanjos que eram proibidos de irem até aquele lugar, ficam de queixo caído;
-- [ ] Onde está Deus? Quem é ele? Ele não estava dormindo?
-- [ ] A resposta tem em uma escritura antiga que pode ser refeita com magia;
+- Deus está em cada pessoa, desde que ele criou o universo, ele se dividiu e vive em todos, Deus é o prazer, a luxuria, a ambição, a bondade, a empatia, a dominação, a gula, a avareza, Deus é a alma
+- Deus é algo abstrato
+- O proposito de Deus era criar a humanidade
+- Cada um tem seu proposito;
+- Cada um tem sua participação nessa história, eles tem uma razão de estarem lá
 
 
 ### Cenário 2:

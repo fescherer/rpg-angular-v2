@@ -34,5 +34,8 @@
 --------------ANGEL B TO A ----------------------------
 
 
+No treinamento do Kenny, o elsewhere precisa ter uma fisgada - Dica que ele é uma criação de bezaliel
+
+
 
 
