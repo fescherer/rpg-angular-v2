@@ -6,3 +6,4 @@ POD - (anjo | perder ou ganhar estabilidade)
 PER - (perceber algo)  
 MED - (cura)  
 OUTROS - ()  
+    
