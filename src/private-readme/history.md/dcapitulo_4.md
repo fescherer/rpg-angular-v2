@@ -8,7 +8,8 @@
 
 ### Cenário 1:
 
-- [ ] 
+- [ ] Hayden
+- [ ] New Clinton
 
 ---
 
@@ -24,6 +25,8 @@
 - [ ] Hayden surge de traz de clinton, como um chad;
 - [ ] Começa uma batalha contra Hayden/ Clinton
 
+- [ ] Os dois possuem o samzaya- O anjo caído mais poderoso
+
 - [ ] Jogadores convencem clinton de deixar eles cuidarem da parada;
 - [ ] Clinton Trai Hayden por não estar tão confiante
 
@@ -32,7 +35,10 @@
 - [ ] Clinton explica que talvez uma coisa de certo
 - [ ] No tempo de Raziel e Enoch, uma das coisas que aconteceu naquela tarde, foi de um anjo dos ceus aparecer
 
-- [ ] Tem uma chance de salvar todo mundo, que é concordar dar os anjos caídos a Deus
+- [ ] Tem uma chance de salvar todo mundo, que é concordar em dar os anjos caídos a Deus por redenção
+
+- [ ] Clinton se mata
+
 - [ ] Para isso eles querem fazer um acordo de que todos os usuparios dariam seu anjo caído
 - [ ] Ultima trombeta é tocada;
 
