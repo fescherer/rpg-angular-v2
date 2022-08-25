@@ -90,7 +90,7 @@ Samshiel (Eclipse)    ->
 
 Rahab (Deep)          ->     
 Gadreel (war)         ->
-Ananiel (Storms)      ->
+Ananiel (Storms)      -> Nathan (Ro)
 Turiel (Mountains)    ->
 Chazaqiel (mists)     ->
 Tamiel (Unseen)       ->

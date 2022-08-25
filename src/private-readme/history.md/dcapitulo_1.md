@@ -54,16 +54,16 @@
 ---
 
 - [ ] Jogadores estão indo em busca de pistas sobre onde a Igreja está se metendo;
-- [ ] Não encontraram Ellie ainda;
+- [ ] Não encontraram Ellie ainda ou qualquer outra pessoa do incidente;
 - [ ] Silver Hydra ajudando as pessoas;
-- [ ] Encontram uma pessoa e tiram informação dela (pode ser pixando o símbolo da Igreja);
+- [ ] Encontram uma pessoa e tiram informação dela (pode ser pixando o símbolo da Igreja) o passaro do Demon aparece e conversa com eles o casaco que ele ta usando é de um agente da silver hydra que a muito tempo foi para suncity para investigar os possíveis outros usuários de anjos caídos, mas nunca mais teve retorno dele;
 - [ ] Decidem ir para o oriente no império do Sul- Suncity;
 
 
 ### Cenário 2:
 
-- [ ] Oriente- Suncity (Destruída pelas trombetas);
-- [ ] Becos de Suncity
+- [x] Oriente- Suncity (Destruída pelas trombetas);
+- [x] Becos de Suncity
 
 
 ---
@@ -76,7 +76,7 @@
 ### Cenário 3:
 
 - [ ] Galpão
-- [ ] Bar Pingo'd ouro
+- [x] Bar Pingo'd ouro
 
 ---
 
