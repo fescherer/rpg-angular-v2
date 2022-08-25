@@ -48,7 +48,7 @@
 ---
 
 - [ ] As próximas trombetas se aproximam, aparentemente alguém fez merda de novo;
-- [ ] Jogadores tentam descobrir quem fez isso e o Arcanjo Gabriel aparece de novo e agora avisando que a humanidade terá 9 dias para se lamentar e aceitar a salvação eterna- A Terra será destruída
+- [ ] Jogadores tentam descobrir quem fez isso e o Arcanjo Gabriel aparece de novo e agora avisando que a humanidade será destruída e terá 9 dias para se lamentar e aceitar a salvação eterna- A Terra será destruída
 - [ ] A cada 3 dias uma nova trombeta será tocada- A primeira é tocada e muitos gafanhotos começam a comer tudo e atacar humanos;
 - [ ] O barman diz que eles precisam achar outras pessoas com respostas, deve haver alguma forma de parar a profecia, por isso os jogadores tem que juntar todos os anjos caídos do mundo;
 - [ ] Barman entrega uma espécie de radio que funciona entre cidades e fala para eles ligarem se precisarem de alguma coisa, ele também vai investigar e trazer duas pessoas do grupo dele caso precise;
@@ -60,18 +60,21 @@
 
 ### Cenário 3:
 
-- [ ] Inicio da fazenda- placa de perigo
-- [ ] Fazenda; - inspiração- fazenda harshell's
-- [ ] Familia:
+- [ ] Inicio do circo- caindo aos pedaços
+- [ ] Circo; - inspiraçã
+- [ ] Familia circense:
     Avô
     Mãe
     Gemeos
 
+    chefe do circo
+    outras pessoas que são do circo
+
 ---
 
 - [ ] Jogadores são avisados a não irem com violência
-- [ ] Placa de perigo
-- [ ] Diversos tiros chegando a eles quando chegam a fazenda
+- [ ] Circo não está bem desde que o gabriel apareceu de novo e por isso estão fugindo de lá tentando achar alguma salvação
+- [ ] Jogadores exploram o lugar em busca de alguém com os poderes;
 - [ ] Dois usuários são irmão e irmã, mas muito novos;
 - [ ] O avô e a mãe cuidam das crianças, os antigos usuários eram a avó e o pai; 
 - [ ] Jogadores explicam a situação e eles entregam o rádio para eles, quando a hora chegar eles precisam ir junto;

@@ -39,11 +39,8 @@
   - [ ] Não ouviram falar mais de Joel ou Ellie;
   - [ ] Os jogadores são super treinados e controlam muito melhor seus anjos;
   - [ ] Fome e sede afetam a cidade inteira;
-  - [ ] Um grupo novo de pessoas vêm surgindo e causando um alvoraço pela cidade- Os adoradores
+  - [ ] E ainda por cima as pessoas estão ficando malucas, algumas estão até louvando o arcanjo gabriel, tentando trazer ele de volta a terra para acabar com o sofrimento de uma vez por todas. Com isso eles vão fazendo coisas que Deus não aprovaria, como festas com muita droga e bebida, cultos, seitas e sacrifícios;
 
-  - [ ] Adoradores são um grupo que louvam o Arcanjo Gabriel que veio no dia das trombetas. Eles acreditam que devem chamar a atenção dele novamente;
-  - [ ] Por isso vão fazendo coisas que Deus não aprovaria, como festas com muita droga e bebida, cultos, seitas e sacrifícios;
-  - [ ] Eles são pequenos, mas já se ouvem boatos deles;
 
 ### Cenário 1:
 
@@ -75,14 +72,27 @@
 
 ### Cenário 3:
 
-- [ ] Galpão
+- [x] Caverna
 - [x] Bar Pingo'd ouro
+- [ ] Carta do Nathan
+- [ ] Cartas sobre Gry e os minérios vermelhos
+- [ ] Carta sobre o barco
+- [ ] Texto sobre o God Slayer
+- [ ] Texto sobre Joel e sua esposa
 
 ---
 
-- [ ] Exploram o galpão;
-- [ ] Puzzles e perigos, sem boss;
-- [ ] Encontram umas anotações;
+- [ ] Exploram a caverna;
+- [ ] Ela é usada por nathan, mas esconde diversos puzzles;
+- [ ] A sala fluorescente verde (fazendo cultivo delas) tem uma espada meio quebrada, não serve para nada, mas lá tem um pozinho azul que é muuito semelhante a um pozinho que eles viram na fábrica de GRY
+- [ ] Encontram o barco, onde tem minérios vermelhos que são usados para armadura pois fazem uma liga muito resistente
+- [ ] Cartas nos barris falando sobre o GRY e os minérios;
+- [ ] Entram na biblioteca onde tem livros de diversos assuntos;
+- [ ] Encontram uma carta do agente nathan conversando com pessoas da Igreja, ele ta bem suspeito
 - [ ] Vão para o pingo'd ouro para relaxar
+- [ ] Aquele barco provavelmente caiu do riacho em cima que leva a superfície e quem descobriu esse lugar primeiro foram exploradores de MUUUUUUITO tempo atrás
+- [ ] Descobrem mais sobre como funciona a GOD Slayer e que ela ainda está sendo produzida aqui (Precisa ter uma pessoa muito especial que consiga aguentar a parte máquina dela- Essas pessoas são descendentes de pessoas com anjo caído)
+- [ ] Descobrem a ficha do Joel e sua história- A esposa do Joel era usuária de anjo caído- Ananiel- O anjo das Tempestades
+- [ ] Demon provavelmente seria uma boa opção para ser a God Slayer
 
 
