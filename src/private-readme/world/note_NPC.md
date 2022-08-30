@@ -41,6 +41,7 @@ Ellie Miller ----> Filha
 Hayden ----> Fundador de Protocity
 Raziel ---> Anjo que deu o conhecimento a humanidade (Hayden)
 Enoch ----> Discíplo de Deus e anjo supremo (Metatron)
+Susan Gonzales ----> Primeira usuária de Asbeel- tbm conhecida por ser uma das fundadoras de Suncity
 
 ## Não conhecidos
 

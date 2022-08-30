@@ -15,6 +15,26 @@
 
 ---
 
+- [ ] Pingo d'ouro é uma arena junto com um espetaculo-teatro;
+- [ ] Eles vão pegar informação com o dono, porem ele só concorda em liberá-las se eles ajudarem no espetácu-lo de hoje;
+
+- [ ] Espetáculo contando a história da Susan Gonzales--- Uma das fundadoras de Suncity:
+    - Susan expulsa de Protocity por causa do Hayden -- Fazer Hayden se tornar um demmônio--
+    - Ela peregrina por diversos dias até que consegue encontrar um lugar para construir seu lar
+    - Sofre muito pois não tem ajuda nenhuma de Protocity
+    - Começa com um acampamento e pessoas vão vindo e a cidade vai tomando forma
+- Nick ajuda no espetáculo
+
+- Zoey toma uma fisgada do anjo dela
+- Mais tarde o anjo reaparece e começa a conversar com eles dizendo a verdade sobre a Susan:
+    - Susan foi a primeira usuária de Asbeel, ela nasceu bem nos primeiros anos de apocalipse e a única pessoa familiar que tinha era sua irmã
+    - Isso fez com que ela aprendesse desde cedo a como sobreviver naquele mundo devastado
+    - Um dia elas chegaram em Protocity e lá estavam eles fazendo os experimentos
+- 
+
+
+- [ ] Pingo de ouro é uma arena 
+
 - [ ] Vão ao Pingo'd ouro e começam a ver os resultados que encontraram; 
 
 - [ ] Depois de muita história todo mundo fica confuso;
