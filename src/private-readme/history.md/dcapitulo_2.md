@@ -26,10 +26,27 @@
 - Nick ajuda no espetáculo
 
 - Zoey toma uma fisgada do anjo dela
-- Mais tarde o anjo reaparece e começa a conversar com eles dizendo a verdade sobre a Susan:
-    - Susan foi a primeira usuária de Asbeel, ela nasceu bem nos primeiros anos de apocalipse e a única pessoa familiar que tinha era sua irmã
+- Mais tarde o anjo reaparece e começa a conversar com eles dizendo a verdade sobre a Susan (ASBEEL lembra somente da história de sua usuária e não da sua própria):
+    - Susan Gonzales foi a primeira usuária de Asbeel, ela nasceu bem nos primeiros anos de apocalipse e a única pessoa familiar que tinha era sua irmã mais velha, Eduarda Gonzales
     - Isso fez com que ela aprendesse desde cedo a como sobreviver naquele mundo devastado
-    - Um dia elas chegaram em Protocity e lá estavam eles fazendo os experimentos
+    - Um dia elas chegaram em Protocity e lá estavam eles fazendo os experimentos de anjos caídos, forçando pessoas a serem usuárias
+    - Susan e sua irmã não tinham muitas condições sociais e financeiras naquela sociedade que estava surgindo
+    - Aparentemente, quem participava daqueles experimentos poderia ganhar muito status, e como ninguém sabia que pessoas estavam morrendo, Eduarda decidiu se alistar
+    - Susan esperou, esperou e esperou, Eduarda não voltava mais, e então ela decidiu procurar por ela, no fim, encontra os oficiais que dizem que sua irmã não quer mais saber dela e está curtindo a vida nova que ganhou;
+    - Susan não acredita... Alguns anos se passam, Susan precisou se virar sozinha, pois não tinha idade para conseguir se alistar no programa. Bem, agora ela está mais forte, mais decidida e quer entrar no programa principalmente para reencontrar sua irmã e saber o porquê do abandono;
+    - Susan é um prodígio, passa por todas as etapas facilmente, e depois descobre a última etapa- Etapa da invocação;
+    - Aqui foi quando as histórias de asbeel e Susan se juntam;
+    - Susan consegue invocar, porém, é presa pelos oficiais, e descobre que mesmo se alguem passa no teste, não ganha fama e status, mas sim é presa e usada em mais experimentos;
+    - Lá, ela descobre todos os podres de Protocity e os experimentos que a recem Igreja do Deus caído vem fazendo
+    - Durante dias, ela fica a mercê deles, aprendendo aos poucos como usar seu novo poder e conversando com asbeel
+    - Susan planeja uma fuga e ela consegue, o policial estava destraído;
+    - Susan então vai pelos corredores frios daquele laboratório, com luzes semi apagadas vermelhas;
+    - Susan encontra um semi-monstro, dava para perceber as feições humanas, porém era claramente um monstro
+    - Esse monstro não se comunica mais com ninguem e susan, percebe, aquilo era sua irmã e a única palavra entendível que ela sussurava para Susan era: 'Mate-me'
+    - Susan ficou extremamente brava, seu poder ficou muito mais forte, ela tinha uma capacidade maior que outros usuários;
+    - Destroi tudo e no fim, mata sua irmã
+    - Susan mudou e não confia em mais ninguém
+    - Criou Suncity e se tornou a primeira grande ditadora
 - 
 
 

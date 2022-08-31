@@ -42,6 +42,7 @@ Hayden ----> Fundador de Protocity
 Raziel ---> Anjo que deu o conhecimento a humanidade (Hayden)
 Enoch ----> Discíplo de Deus e anjo supremo (Metatron)
 Susan Gonzales ----> Primeira usuária de Asbeel- tbm conhecida por ser uma das fundadoras de Suncity
+    Eduarda Gonzales ---> Irmã mais velha de Susan, foi quem tentou salvar Susan
 
 ## Não conhecidos
 
