@@ -38,4 +38,12 @@ No treinamento do Kenny, o elsewhere precisa ter uma fisgada - Dica que ele é u
 
 
 
+Aqui os jogadores vão se conhecer melhor:
+zoey lembra do seu passado
+todo mundo descobre o passado do kenny
+elsewhere pode fazer a projeção de sage do jeito que o anjo quiser
+nick 
+
+
+**** História Raziel e Enoch *****
 

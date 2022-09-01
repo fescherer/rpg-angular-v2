@@ -84,14 +84,13 @@ Sathariel (Deception) ->     Lion         ()
 Suphlatus (Dust)      ->     Cobra        ()
 
 [Brothers]
-Zaqiel (Purity)       -> 
-Samshiel (Eclipse)    ->
+Rahab (Deep)    -> 
+Turiel (Mountains)    ->
 
-
-Rahab (Deep)          ->     
+Zaqiel (Purity)       ->
 Gadreel (war)         ->
 Ananiel (Storms)      -> Nathan (Ro)
-Turiel (Mountains)    ->
+Samshiel (Eclipse)    -> Barman Neil Bones (Encontrar outros poderes)
 Chazaqiel (mists)     ->
 Tamiel (Unseen)       ->
 Armaros (Undoing)     ->

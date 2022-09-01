@@ -7,6 +7,15 @@
 
 ---
 
+- [ ] Barman (Esqueleto- Neil Bones) - oraculo
+- [ ] Familia circense:
+- [ ] Avô
+- [ ] Mãe
+- [ ] Gemeos
+- [ ] outras pessoas que são do circo
+- [ ] chefe do circo
+    
+
 ### Cenário 1:
 
 - [ ] Bar pingo'd ouro
@@ -17,15 +26,28 @@
 
 - [ ] Pingo d'ouro é uma arena junto com um espetaculo-teatro;
 - [ ] Eles vão pegar informação com o dono, porem ele só concorda em liberá-las se eles ajudarem no espetácu-lo de hoje;
+- [ ] Nick ajuda no espetáculo
 
+**********(Mecanica-> Jogadores vão tirando dados para ver se vão acertando as coisas-iluminação, trilha sonora, cenário, atuação)********
 - [ ] Espetáculo contando a história da Susan Gonzales--- Uma das fundadoras de Suncity:
     - Susan expulsa de Protocity por causa do Hayden -- Fazer Hayden se tornar um demmônio--
     - Ela peregrina por diversos dias até que consegue encontrar um lugar para construir seu lar
     - Sofre muito pois não tem ajuda nenhuma de Protocity
     - Começa com um acampamento e pessoas vão vindo e a cidade vai tomando forma
-- Nick ajuda no espetáculo
 
 - Zoey toma uma fisgada do anjo dela
+
+ - [ ] O barman do pingo'd ouro é um usuário de anjo caído, ele é neto de uma das pessoas do grupo do demon eye que se separou e voltou para Suncity;
+ - [ ] Ele explica que tem noção que existem outros que nem ele, o anjo foi passado para seu avó e depois para seu mãe e no fim para ele por tradição e medo de que caia em maõs erradas;
+
+ - [ ] Quem possui anjo caído é considerado filho de Enoch- Existem outros pelo mundo, mas como Protocity só é um bando de alienado pela Igreja, nunca ligaram para os outros reinos;
+ - [ ] Eles descobrem que a escolha do anjo não é 100% aleatória, ela tem muito mais variáveis que eles sabiam, e uma delas é até genética, além disso, no ritual, para escolher um anjo específico é necessário alguns passos a mais
+
+ - [ ] Além disso, Neil sabe a localização de todos os usuários de anjo caído pelo mundo, sua política é de não interfirir nos assuntos de outros lugares e por isso fica quieto
+
+ - [ ] O barman mostra um diário do seu bisavô, um pouco diferente do do Demon e tem anotações sobre uma possível profecia, onde um dos usuários dos anjos caídos viu que se eles usassem esse poder, Deus iria destruir o mundo
+ - [ ] Por isso esse pessoal decidiu passar de filho a filho seu anjo caído e se esconder;
+
 - Mais tarde o anjo reaparece e começa a conversar com eles dizendo a verdade sobre a Susan (ASBEEL lembra somente da história de sua usuária e não da sua própria):
     - Susan Gonzales foi a primeira usuária de Asbeel, ela nasceu bem nos primeiros anos de apocalipse e a única pessoa familiar que tinha era sua irmã mais velha, Eduarda Gonzales
     - Isso fez com que ela aprendesse desde cedo a como sobreviver naquele mundo devastado
@@ -46,32 +68,7 @@
     - Susan ficou extremamente brava, seu poder ficou muito mais forte, ela tinha uma capacidade maior que outros usuários;
     - Destroi tudo e no fim, mata sua irmã
     - Susan mudou e não confia em mais ninguém
-    - Criou Suncity e se tornou a primeira grande ditadora
-- 
-
-
-- [ ] Pingo de ouro é uma arena 
-
-- [ ] Vão ao Pingo'd ouro e começam a ver os resultados que encontraram; 
-
-- [ ] Depois de muita história todo mundo fica confuso;
-
-**** História Raziel e Enoch *****
-
-
- (Jogadores precisam encontrar quem daquele bar é o usuário)
-- [ ] Vão pedir uma bebida e o barman ouve tudo;
-(Se alguem estiver bebado pode soltar para ele isso, se não ele se intromete e ve)
-
-- [ ] O barman do pingo'd ouro é um usuário de anjo caído, ele é neto de uma das pessoas do grupo do demon eye que se separou e voltou para Suncity;
-- [ ] Ele explica que tem noção que existem outros que nem ele, o anjo foi passado para seu avó e depois para seu mãe e no fim para ele por tradição e medo de que caia em maõs erradas;
-
-- [ ] Quem possui anjo caído é considerado filho de Enoch- Existem outros pelo mundo, mas como Protocity só é um bando de alienado pela Igreja, nunca ligaram para os outros reinos;
-- [ ] Eles descobrem que a escolha do anjo não é 100% aleatória, ela tem muito mais variáveis que eles sabiam, e uma delas é até genética, além disso, no ritual, para escolher um anjo específico é necessário alguns passos a mais
-
-
-- [ ] O barman mostra um diário do seu bisavô, um pouco diferente do do Demon e tem anotações sobre uma possível profecia, onde um dos usuários dos anjos caídos viu que se eles usassem esse poder, Deus iria destruir o mundo
-- [ ] Por isso esse pessoal decidiu passar de filho a filho seu anjo caído e se esconder;
+    - Criou Suncity e se tornou a primeira rainha de protocity
 
 - [ ] Vão descansar na pousada do pingo'd ouro mesmo;
 

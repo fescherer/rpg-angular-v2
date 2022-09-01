@@ -6,7 +6,6 @@
 - [ ] Igreja do Deus Caído, está em busca de uma máquina capaz de superar Deus;
 - [ ] God Slayer- Filha de Joel estava sendo usada;
 - [ ] Clinton Regan vai levar Deus até a Terra para matá-lo com a God Slayer;
-- [ ] Luta e no fim alguém tenta parar Clinton mas não consegue;
 - [ ] Arcanjo Gabriel vem a Terra para punir os humanos;
 - [ ] Todo mundo fica sem reação
 - [ ] Toca a trombeta do apocalipse- Florestas começam a queimar;
@@ -14,7 +13,7 @@
 - [ ] Ouvem uma segunda trombeta e um asteroide gigante vindo em direção à Terra;
 - [ ] Terceira trombeta- 1/3 dos rios do mundo secam;
 - [ ] Quarta- Um pedaço da lua é quebrado e fica na frente do sol, deixando uma boa parte da Terra no escuro;
-- [ ] Jogadores conseguem chegar até a frente de High Forwib, onde são recepcionados com um monge oriental e duas pessoas com anjos caídos;
+- [ ] Jogadores conseguem chegar até a frente de High Forwib, onde são recepcionados por Bruno Blake
 
 ---
 

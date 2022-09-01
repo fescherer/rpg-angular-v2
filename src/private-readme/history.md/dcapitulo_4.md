@@ -17,6 +17,9 @@
 - A igreja está com ele e foi eles que fizeram a merda que o arcanjo voltou a terra;
 
 
+
+
+
 ---------Explicação poder Bezaliel- Reviver os mortos--------------
 - [ ] Clinton quer usar o poder de Bezaliel para trazer Joel de volta a vida e acordar Ellie;
 - [ ] Elsewhere é um morto que foi revivido com Bezaliel- Sage é usuária antiga de Bezaliel
