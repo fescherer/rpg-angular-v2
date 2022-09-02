@@ -14,7 +14,7 @@
 - [ ] Cozy Cabin;
 
 ---
-
+- [ ] Segunda trombeta toca e diversos anjos com aparecencias bizarras chegam a terra matando humanos com fogo, enxofre e fumaça;
 - [ ] Pessoal vai para o último reino de Graycity- Reunem mais algumas pessoas
 - [ ] Uma cidade onde não tem técnologia e o pessoal vive uma vida mais tranquila- Aqui é onde o grupo de anjos caídos deu certo para ajudar as pessoas, eles vivem em harmonia
 - [ ] Conhecem as pessoas simples daquele lugar que vivem diante de tantas dificuldades

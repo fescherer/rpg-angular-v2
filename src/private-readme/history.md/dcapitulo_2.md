@@ -9,30 +9,23 @@ https://www.youtube.com/watch?v=2PNX8arJLoU circo
 
 ### Anteriormente:
 
-- [ ] 
+- [ ] Viram como o mundo está destuído depois dos toques das trombetas
+- [ ] Foram até sun city
+- [ ] Exploraram a caverna e descobriram alguns segredos
 
 
 ---
 
-- [ ] Barman (Esqueleto- Neil Bones) - oraculo
-- [ ] Familia circense:
-- [ ] Avô
-- [ ] Mãe
-- [ ] Gemeos
-- [ ] outras pessoas que são do circo
-- [ ] chefe do circo
-    
-
 ### Cenário 1:
 
-- [ ] Bar pingo'd ouro
-- [ ] Pessoas no bar
-- [ ] Anotações e descobertas
+- [x] Bar pingo'd ouro
+- [x] Pessoas no bar
+- [x] Anotações e descobertas
 
 ---
 
 - [ ] Pingo d'ouro é uma arena junto com um espetaculo-teatro;
-- [ ] Eles vão pegar informação com o dono, porem ele só concorda em liberá-las se eles ajudarem no espetácu-lo de hoje;
+- [ ] Eles vão pegar informação com o dono (Neil Bones), porem ele só concorda em liberá-las se eles ajudarem no espetácu-lo de hoje;
 - [ ] Nick ajuda no espetáculo
 
 **********(Mecanica-> Jogadores vão tirando dados para ver se vão acertando as coisas-iluminação, trilha sonora, cenário, atuação)********
@@ -81,9 +74,9 @@ https://www.youtube.com/watch?v=2PNX8arJLoU circo
 
 ### Cenário 2:
 
-- [ ] Arcanjo Gabriel;
+- [x] Arcanjo Gabriel;
 - [ ] Musica - Limitless (Quando forem procurar outros usuários);
-- [ ] Musica tensa;
+- [x] Musica tensa;
 
 
 ---
@@ -101,13 +94,12 @@ https://www.youtube.com/watch?v=2PNX8arJLoU circo
 
 ### Cenário 3:
 
-- [ ] Inicio do circo- caindo aos pedaços
-- [ ] Circo; - inspiraçã
-- [ ] Familia circense:
+- [x] Inicio do circo- caindo aos pedaços
+- [x] Circo; - inspiraçã
+- [x] Familia circense:
     Avô
     Mãe
     Gemeos
-
     chefe do circo
     outras pessoas que são do circo
 
@@ -122,6 +114,5 @@ https://www.youtube.com/watch?v=2PNX8arJLoU circo
 - [ ] Ir ao Pingo'd ouro porque eles sabem o que fazer;
 
 
-- [ ] Segunda trombeta toca e diversos anjos com aparecencias bizarras chegam a terra matando humanos com fogo, enxofre e fumaça;
 - [ ] Descobrem que o pessoal da Silver Hydra encontram mais 2 pessoas com anjos caídos nos aredores de Protocity;
 - [ ] Vão ao último reino- Graycity reunir os anjos que faltam;
