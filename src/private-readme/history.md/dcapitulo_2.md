@@ -1,5 +1,12 @@
 # O passado sombrio
 
+
+- Musicas
+
+https://www.youtube.com/watch?v=tNZXDUZu2To bar
+https://www.youtube.com/watch?v=Vb2svUMc8CI anjo
+https://www.youtube.com/watch?v=2PNX8arJLoU circo
+
 ### Anteriormente:
 
 - [ ] 
