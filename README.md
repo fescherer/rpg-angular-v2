@@ -161,7 +161,7 @@ And don't forget to leave a star on the project if you liked it 🤩
 
 ## ⚖️ License ⚖️
 
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
+Distributed under the MIT License. See [License](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
