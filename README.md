@@ -9,8 +9,8 @@
 [![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/rpg-whitn">
-    <img src="https://github.com/ofelipescherer/rpg-whitn/assets/62115215/453c3d2c-0337-4baf-a705-da2b3ae72bbc" alt="Logo" width="80" height="80">
+  <a href="https://github.com/fescherer/rpg-whitn">
+    <img src="https://github.com/fescherer/rpg-whitn/assets/62115215/453c3d2c-0337-4baf-a705-da2b3ae72bbc" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">What Happened In That Night? V2</h3>
@@ -19,7 +19,7 @@
 
 A RPG version 2 caracter sheet for my RPG WHITN
 <br />
-<a href="https://github.com/ofelipescherer/rpg-whitn"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/fescherer/rpg-whitn"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -52,7 +52,7 @@ A good part of WHITN is using a fallen angel as weapon, likes JOJO's Stands. The
 
 [RPG Rules](/rules/rules.pdf)
 
-[Deploy](https://ofelipescherer.github.io/rpg-angular-v2)
+[Deploy](https://fescherer.github.io/rpg-angular-v2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +92,7 @@ To get this project up and running locally on your pc, follow the steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ofelipescherer/rpg-angular-v2.git
+   git clone https://github.com/fescherer/rpg-angular-v2.git
    ```
 
 2. Install NPM packages
@@ -173,7 +173,7 @@ My name is Felipe Scherer and you can find me at:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/ofelipescherer">
+      <a href="https://github.com/fescherer">
         <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
@@ -187,22 +187,22 @@ My name is Felipe Scherer and you can find me at:
 
 <!-- Badges and Badges Link -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/rpg-angular-v2.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/rpg-angular-v2/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/rpg-angular-v2.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/rpg-angular-v2/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/rpg-angular-v2.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/rpg-angular-v2/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/rpg-angular-v2.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/rpg-angular-v2/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/rpg-angular-v2.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/rpg-angular-v2/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/fescherer/rpg-angular-v2.svg?style=for-the-badge
+[contributors-url]: https://github.com/fescherer/rpg-angular-v2/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fescherer/rpg-angular-v2.svg?style=for-the-badge
+[forks-url]: https://github.com/fescherer/rpg-angular-v2/network/members
+[stars-shield]: https://img.shields.io/github/stars/fescherer/rpg-angular-v2.svg?style=for-the-badge
+[stars-url]: https://github.com/fescherer/rpg-angular-v2/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fescherer/rpg-angular-v2.svg?style=for-the-badge
+[issues-url]: https://github.com/fescherer/rpg-angular-v2/issues
+[license-shield]: https://img.shields.io/github/license/fescherer/rpg-angular-v2.svg?style=for-the-badge
+[license-url]: https://github.com/fescherer/rpg-angular-v2/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
-[linkedin-url]: https://www.linkedin.com/in/ofelipescherer
+[linkedin-url]: https://www.linkedin.com/in/fescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/ofelipescherer
+[github-url]: https://github.com/fescherer
 [angular]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [angular-url]: https://angular.io
 [html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
@@ -214,6 +214,6 @@ My name is Felipe Scherer and you can find me at:
 [styled components]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
 [styled-components-url]: https://styled-components.com
 [info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
-[info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
+[info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
 [info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
-[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md
+[info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
