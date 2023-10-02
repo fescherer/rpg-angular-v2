@@ -208,7 +208,7 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
 [issues-shield]: https://img.shields.io/github/issues/fescherer/rpg-angular-v2.svg?style=for-the-badge
 [issues-url]: https://github.com/fescherer/rpg-angular-v2/issues
 [license-shield]: https://img.shields.io/github/license/fescherer/rpg-angular-v2.svg?style=for-the-badge
-[license-url]: https://github.com/fescherer/rpg-angular-v2/blob/master/LICENSE.md
+[license-url]: https://github.com/fescherer/rpg-angular-v2/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/fescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
